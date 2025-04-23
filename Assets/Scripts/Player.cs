@@ -50,8 +50,6 @@ public class Player : MonoBehaviour
             isGrounded = true;
             //animator.SetBool("isGrounded", true);
         }
-
-
     }
     void OnCollisionExit2D(Collision2D other)
     {
@@ -59,11 +57,6 @@ public class Player : MonoBehaviour
         {
             isGrounded = false;
         }
-
-
-
         //animator.SetBool("isGrounded", false);
     }
-
-
 }
