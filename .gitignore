@@ -31636,3 +31636,8 @@ Library/ArtifactDB-lock
 Library/ArtifactDB
 Library/APIUpdater/project-dependencies.graph
 Library/AnnotationManager
+/Library
+/Library
+/Temp
+/.vs
+/.vs
