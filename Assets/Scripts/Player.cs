@@ -7,17 +7,26 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public float speed = 5f;
     public bool isGrounded = false;
-
     public float jumpHeight = 5f;
+    public int maxHealth = 5;
+    public int currentHealth;
+    public Healthbar healthbar;
+
     // Start is called before the first frame update
     void Start()
     {
+        currentHealth = maxHealth;
+        healthbar.SetMaxHealth(maxHealth);
         rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            TakeDamage(1);
+        }
         //Movement
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
 
@@ -39,6 +48,16 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
     }
+
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        healthbar.SetHealth(currentHealth);
+    }
+
+
 
 
     //groundCheck
