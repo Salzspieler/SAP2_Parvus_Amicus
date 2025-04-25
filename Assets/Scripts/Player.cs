@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
 
         //jump
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
 
