@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -15,8 +17,8 @@ public class Player : MonoBehaviour
     public BrokenObject brokenObject;
     public int jumps = 0;
     public int maxjumps = 2;
-    public BadObject badObject = new BadObject();
-    //private GameObject badObject;
+    public bool isWater = false;
+
 
 
     // Start is called before the first frame update
@@ -25,17 +27,13 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-        //badObject = GameObject.Find("Spike");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        // damage
-        if (badObject.hit == true)
-        {
-            badObject.TakeDamage(1);
-        }
+        
         //Movement
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
 
@@ -56,10 +54,7 @@ public class Player : MonoBehaviour
             //rb.velocity = Vector2.up * speed;
         }
         //3 Jumps    
-        
-        
-        
-
+       
         //spin
         if (Input.GetAxis("Horizontal") > 0)
         {
@@ -70,16 +65,31 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
 
+        if(isWater == true)
+        {
+            WaterDamage();
+        }
+
         
     }
 
 
-    /*public void TakeDamage(int damage)
+    public void SpikeDamage(int damage)
     {
         currentHealth -= damage;
 
         healthbar.SetHealth(currentHealth);
-    }*/
+
+        if(currentHealth == 0)
+        {
+            Restart();
+        }
+    }
+
+    public void WaterDamage()
+    {
+        Restart();
+    }
 
 
 
@@ -93,6 +103,11 @@ public class Player : MonoBehaviour
             isGrounded = true;
             //animator.SetBool("isGrounded", true);
         }
+
+        if (other.gameObject.CompareTag("Water"))
+        {
+            isWater = true;
+        }
     }
     void OnCollisionExit2D(Collision2D other)
     {
@@ -101,5 +116,10 @@ public class Player : MonoBehaviour
             isGrounded = false;
         }
         //animator.SetBool("isGrounded", false);
+    }
+
+    void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

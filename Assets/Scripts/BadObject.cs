@@ -5,9 +5,8 @@ using UnityEngine;
 public class BadObject : MonoBehaviour
 {
     private GameObject player;
-    private Player _player;
-    public Healthbar healthbar;
-    public bool hit;
+    public int damage = 1;
+    
 
     private void Awake()
     {
@@ -15,23 +14,15 @@ public class BadObject : MonoBehaviour
         
     }
 
-    public void TakeDamage(int damage)
-    {
-        _player.currentHealth -= damage;
-        healthbar.SetHealth(_player.currentHealth);
-    }
 
 
-    private void OnCollisionEnter2D(Collision2D other)
+
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        //check anderes Objekt ob es Ground ist
-        if (other.gameObject.CompareTag("BadObject"))
-        {
-            hit = true;
-            //animator.SetBool("isGrounded", true);
-        }
-        
+        player.GetComponent<Player>().SpikeDamage(damage);
     }
+    
 
 
 }
