@@ -11,13 +11,17 @@ public class Player : MonoBehaviour
     public int maxHealth = 5;
     public int currentHealth;
     public Healthbar healthbar;
+    public bool CollideHalfObject = false;
+    public BrokenObject brokenObject;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-        rb = GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
@@ -47,6 +51,8 @@ public class Player : MonoBehaviour
         {
             transform.localScale = new Vector3(-1, 1, 1);
         }
+
+        
     }
 
 
