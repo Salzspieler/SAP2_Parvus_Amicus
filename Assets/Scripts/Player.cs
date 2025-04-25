@@ -13,6 +13,10 @@ public class Player : MonoBehaviour
     public Healthbar healthbar;
     public bool CollideHalfObject = false;
     public BrokenObject brokenObject;
+    public int jumps = 0;
+    public int maxjumps = 2;
+    public BadObject badObject = new BadObject();
+    //private GameObject badObject;
 
 
     // Start is called before the first frame update
@@ -21,27 +25,40 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-        
+        //badObject = GameObject.Find("Spike");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        // damage
+        if (badObject.hit == true)
         {
-            TakeDamage(1);
+            badObject.TakeDamage(1);
         }
         //Movement
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
 
         //jump
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        
+        if (isGrounded)
         {
-
+            jumps = 0;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Space) /*&& isGrounded*/ && jumps < maxjumps)
+        {
+            Debug.Log("Vor Jump: " + jumps);
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+            jumps++;
+            Debug.Log("jumpcounter: " + jumps);
             //rb.velocity = Vector2.up * speed;
         }
+        //3 Jumps    
+        
+        
+        
 
         //spin
         if (Input.GetAxis("Horizontal") > 0)
@@ -57,12 +74,12 @@ public class Player : MonoBehaviour
     }
 
 
-    public void TakeDamage(int damage)
+    /*public void TakeDamage(int damage)
     {
         currentHealth -= damage;
 
         healthbar.SetHealth(currentHealth);
-    }
+    }*/
 
 
 
