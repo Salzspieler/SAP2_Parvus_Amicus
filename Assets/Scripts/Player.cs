@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    //Test
+    
     public Rigidbody2D rb;
     public float speed = 5f;
     public bool isGrounded = false;
@@ -13,8 +13,6 @@ public class Player : MonoBehaviour
     public int maxHealth = 5;
     public int currentHealth;
     public Healthbar healthbar;
-    public bool CollideHalfObject = false;
-    public BrokenObject brokenObject;
     public int jumps = 0;
     public int maxjumps = 2;
   
@@ -26,7 +24,6 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-        
     }
 
     // Update is called once per frame

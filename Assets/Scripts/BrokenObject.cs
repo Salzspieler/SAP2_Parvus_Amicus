@@ -5,12 +5,7 @@ using UnityEngine;
 
 public class BrokenObject : MonoBehaviour
 {
-    //private Player player;
-
-    /*private void Start()
-    {
-        player = GameObject.Find("Player").GetComponent<Player>();
-    }*/
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
