@@ -2050,6 +2050,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3065666586529462264, guid: c4992dbdad1e2f04db696d0a1321cf30, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5005666886254027589, guid: c4992dbdad1e2f04db696d0a1321cf30, type: 3}
       propertyPath: m_Name
       value: Spike
@@ -2901,7 +2905,7 @@ GameObject:
   - component: {fileID: 1103210459}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3068,7 +3072,6 @@ MonoBehaviour:
   brokenObject: {fileID: 0}
   jumps: 0
   maxjumps: 2
-  badObject: {fileID: 0}
 --- !u!1 &1120590658
 GameObject:
   m_ObjectHideFlags: 0
@@ -3404,7 +3407,6 @@ GameObject:
   - component: {fileID: 1869915988}
   - component: {fileID: 1869915987}
   - component: {fileID: 1869915986}
-  - component: {fileID: 1869915991}
   m_Layer: 0
   m_Name: Platforms
   m_TagString: Ground
@@ -3772,21 +3774,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1869915991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869915984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e681d3ab3758f9348a84d305862acc03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointA: {fileID: 0}
-  pointB: {fileID: 0}
-  speed: 2
 --- !u!1 &1876349259
 GameObject:
   m_ObjectHideFlags: 0

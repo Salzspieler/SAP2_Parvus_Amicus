@@ -1,26 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class BrokenObject : MonoBehaviour
+public class Water : MonoBehaviour
 {
-    //private Player player;
+    private Player player;
 
-    /*private void Start()
+
+    private void Start()
     {
         player = GameObject.Find("Player").GetComponent<Player>();
-    }*/
-
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") == true)
         {
-            Destroy(gameObject);
+            player.Restart();
         }
-        
     }
-
-
-
 }

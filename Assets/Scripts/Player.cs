@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -16,8 +17,7 @@ public class Player : MonoBehaviour
     public BrokenObject brokenObject;
     public int jumps = 0;
     public int maxjumps = 2;
-    public BadObject badObject = new BadObject();
-    //private GameObject badObject;
+  
 
 
     // Start is called before the first frame update
@@ -26,17 +26,17 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-        //badObject = GameObject.Find("Spike");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         // damage
-        if (badObject.hit == true)
+        /*if (badObject.hit == true)
         {
-            badObject.TakeDamage(1);
-        }
+            TakeDamage(1);
+        }*/
         //Movement
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
 
@@ -75,13 +75,22 @@ public class Player : MonoBehaviour
     }
 
 
-    /*public void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
 
         healthbar.SetHealth(currentHealth);
-    }*/
 
+        if(currentHealth == 0)
+        {
+            Restart();
+        }
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
 
 
