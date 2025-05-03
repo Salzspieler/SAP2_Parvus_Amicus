@@ -15,7 +15,8 @@ public class Player : MonoBehaviour
     public Healthbar healthbar;
     public int jumps = 0;
     public int maxjumps = 2;
-  
+    public float normalyGravity = 3f;
+    public float glideGravity = 0.05f;
 
 
     // Start is called before the first frame update
@@ -24,6 +25,9 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
+
+        // Rigidbody einstellbar ist 
+        rb.gravityScale = normalyGravity;
     }
 
     // Update is called once per frame
@@ -39,12 +43,12 @@ public class Player : MonoBehaviour
 
         //jump
 
-        
+
         if (isGrounded)
         {
             jumps = 0;
         }
-        
+
         if (Input.GetKeyDown(KeyCode.Space) /*&& isGrounded*/ && jumps < maxjumps)
         {
             Debug.Log("Vor Jump: " + jumps);
@@ -54,9 +58,21 @@ public class Player : MonoBehaviour
             //rb.velocity = Vector2.up * speed;
         }
         //3 Jumps    
-        
-        
-        
+
+
+
+        // Gleiten : wenn in der luft und Leertaste gedrückt halten
+        if (!isGrounded && rb.velocity.y < 0 && Input.GetKey(KeyCode.Space))
+        {
+            rb.gravityScale = glideGravity;
+        }
+        else
+        {
+            rb.gravityScale = normalyGravity;
+        }
+
+    
+    
 
         //spin
         if (Input.GetAxis("Horizontal") > 0)
@@ -98,6 +114,7 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+            rb.gravityScale = normalyGravity; // Gravity zurücksetzen
             //animator.SetBool("isGrounded", true);
         }
     }
