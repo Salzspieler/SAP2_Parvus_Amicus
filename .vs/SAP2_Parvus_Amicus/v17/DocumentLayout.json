@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\",
+  "WorkspaceRootPath": "C:\\Unity\\SAP2_Parvus_Amicus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\assets\\scripts\\brokenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brokenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|c:\\users\\acera\\desktop\\unity programming\\unity\\sap2\\sap2_parvus_amicus\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\SAP2_Parvus_Amicus\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\assets\\scripts\\badobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\SAP2_Parvus_Amicus\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|c:\\unity\\sap2_parvus_amicus\\assets\\scripts\\brokenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brokenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\SAP2_Parvus_Amicus\\assets\\scripts\\badobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\badobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\SAP2_Parvus_Amicus\\assets\\scripts\\movingplatforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingplatforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\SAP2_Parvus_Amicus\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\assets\\scripts\\movingplatforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingplatforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\SAP2_Parvus_Amicus\\assets\\scripts\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,67 +38,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Healthbar.cs",
-              "DocumentMoniker": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Healthbar.cs",
+              "DocumentMoniker": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Healthbar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Healthbar.cs",
-              "ToolTip": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Healthbar.cs",
+              "ToolTip": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Healthbar.cs",
               "RelativeToolTip": "Assets\\Scripts\\Healthbar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T11:15:21.685Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MovingPlatforms.cs",
-              "DocumentMoniker": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\Assets\\Scripts\\MovingPlatforms.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MovingPlatforms.cs",
-              "ToolTip": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\Assets\\Scripts\\MovingPlatforms.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MovingPlatforms.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAByAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:20:36.733Z"
+              "WhenOpened": "2025-05-01T13:27:37.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Water.cs",
+              "DocumentMoniker": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Water.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Water.cs",
+              "ToolTip": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Water.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Water.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:52:20.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovingPlatforms.cs",
+              "DocumentMoniker": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\MovingPlatforms.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovingPlatforms.cs",
+              "ToolTip": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\MovingPlatforms.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovingPlatforms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:20:36.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BrokenObject.cs",
-              "DocumentMoniker": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BrokenObject.cs",
+              "DocumentMoniker": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BrokenObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BrokenObject.cs",
-              "ToolTip": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BrokenObject.cs",
+              "ToolTip": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BrokenObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\BrokenObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T03:40:51.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BadObject.cs",
-              "DocumentMoniker": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BadObject.cs",
+              "DocumentMoniker": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BadObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BadObject.cs",
-              "ToolTip": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BadObject.cs",
+              "ToolTip": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BadObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\BadObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:13:44.747Z"
+              "WhenOpened": "2025-04-25T11:13:44.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Player.cs",
+              "DocumentMoniker": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\Users\\AcerA\\Desktop\\unity programming\\Unity\\SAP2\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Unity\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowGgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T06:52:51.421Z",
               "EditorCaption": ""

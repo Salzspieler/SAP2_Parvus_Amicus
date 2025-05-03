@@ -6,4 +6,5 @@ public class Enemy : MonoBehaviour
 {
     public int currenthealth = 4;
     public int damage = 1;
+
 } 
