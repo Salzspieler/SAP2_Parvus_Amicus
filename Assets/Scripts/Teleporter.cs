@@ -1,4 +1,5 @@
-Ôªøusing System.Collections;
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,23 +10,23 @@ public class Teleporter : MonoBehaviour
     private bool canTeleport = true;
     private bool isPlayerInRange = false;
     // Zeit, die der Spieler im Bereich ist
-    private float timeInRange = 0f;  
-                                  
-    
+    private float timeInRange = 0f;
+
+
     // Zeit, die der Spieler im Bereich bleiben muss, bevor teleportiert wird
     public float waitTime = 1f;
-  
+
     // Cooldown nach dem Teleport
-    public float cooldownTime = 0.5f;  
+    public float cooldownTime = 0.5f;
 
     private void Update()
     {
-        // Wenn der Spieler im Bereich ist, z√§hle die Zeit
+        // Wenn der Spieler im Bereich ist, z‰hle die Zeit
         if (isPlayerInRange)
         {
 
-            // Zeit hochz√§hlen
-            timeInRange += Time.deltaTime; 
+            // Zeit hochz‰hlen
+            timeInRange += Time.deltaTime;
 
             // Wenn genug Zeit im Bereich war und der Spieler immer noch da ist
             if (timeInRange >= waitTime && canTeleport)
@@ -40,7 +41,7 @@ public class Teleporter : MonoBehaviour
     {
         if (other.CompareTag("Player") && canTeleport)
         {
-            // Wenn der Spieler in den Teleporterbereich geht, beginne mit der Zeitz√§hlung
+            // Wenn der Spieler in den Teleporterbereich geht, beginne mit der Zeitz‰hlung
             isPlayerInRange = true;
         }
     }
@@ -49,18 +50,18 @@ public class Teleporter : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Wenn der Spieler den Bereich verl√§sst, setze alles zur√ºck
+            // Wenn der Spieler den Bereich verl‰sst, setze alles zur¸ck
             isPlayerInRange = false;
-           
+
             // Reset der Zeit
-            timeInRange = 0f; 
+            timeInRange = 0f;
         }
     }
 
     private IEnumerator TeleportCooldown()
     {
         // Deaktiviert den Teleport
-        canTeleport = false;  
+        canTeleport = false;
 
         // Teleportiere den Spieler
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -68,11 +69,11 @@ public class Teleporter : MonoBehaviour
 
         // Warte die Cooldown-Zeit ab
         yield return new WaitForSeconds(cooldownTime);
-       
+
         // Teleport wieder aktivieren
         canTeleport = true;
-       
+
         // Reset der Zeit
-        timeInRange = 0f;  
+        timeInRange = 0f;
     }
 }
