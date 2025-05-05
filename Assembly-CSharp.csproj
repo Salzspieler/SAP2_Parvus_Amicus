@@ -63,15 +63,16 @@
     <Compile Include="Assets\Scripts\TitleScreen.cs" />
     <Compile Include="Assets\Scripts\EnemyDetection.cs" />
     <Compile Include="Assets\Scripts\Boss.cs" />
-    <Compile Include="Assets\Scripts\MovingPlatforms.cs" />
     <Compile Include="Assets\Scripts\Logic.cs" />
     <Compile Include="Assets\Scripts\BadObject.cs" />
     <Compile Include="Assets\Scripts\Healthbar.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\BrokenObject.cs" />
+    <Compile Include="Assets\Scripts\Teleporter.cs" />
     <Compile Include="Assets\Scripts\Goal.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Collectable.cs" />
+    <Compile Include="Assets\Scripts\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\NPCs.cs" />
   </ItemGroup>
   <ItemGroup>
