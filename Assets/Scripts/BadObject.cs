@@ -24,7 +24,4 @@ public class BadObject : MonoBehaviour
         }
     }
 
-
-
-
 }

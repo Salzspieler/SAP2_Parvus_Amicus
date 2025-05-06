@@ -16,6 +16,12 @@ public class Player : MonoBehaviour
     public float normalyGravity = 3f;
     public float glideGravity = 0.05f;
 
+    public float KBForce;
+    public float KBCounter;
+    public float KBTotalTime;
+
+    public bool KnockFromRight;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -27,8 +33,26 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        // Bewegung
-        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
+
+        if (KBCounter <= 0)
+        {
+            // Bewegung
+            rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
+        }
+        else
+        {
+            if(KnockFromRight == true)
+            {
+                rb.velocity = new Vector2(-KBForce, KBForce);
+            }
+            if(KnockFromRight == false)
+            {
+                rb.velocity = new Vector2(KBForce, KBForce);
+            }
+            KBCounter -= Time.deltaTime;
+        }
+        
+        
 
         // Sprung & Double Jump
         if (Input.GetKeyDown(KeyCode.Space))
