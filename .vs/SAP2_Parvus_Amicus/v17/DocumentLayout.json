@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|c:\\unity\\projects\\sap2_parvus_amicus\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\aphid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\aphid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|c:\\unity\\projects\\sap2_parvus_amicus\\assets\\scripts\\rangelaunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rangelaunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|c:\\unity\\projects\\sap2_parvus_amicus\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\aphid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\aphid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\collectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\brokenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brokenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\titlescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +27,12 @@
       "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\brokenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brokenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\collectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +42,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "RangeLaunch.cs",
+              "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\RangeLaunch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RangeLaunch.cs",
+              "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\RangeLaunch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RangeLaunch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:50:19.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T10:28:20.835Z",
               "EditorCaption": ""
@@ -61,43 +78,46 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Logic.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Logic.cs",
               "RelativeToolTip": "Assets\\Scripts\\Logic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:00:09.531Z"
+              "WhenOpened": "2025-05-09T09:00:09.531Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Collectable.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Collectable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Collectable.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Collectable.cs",
               "RelativeToolTip": "Assets\\Scripts\\Collectable.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:57:45.21Z"
+              "WhenOpened": "2025-05-09T08:57:45.21Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Aphid.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Aphid.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Aphid.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Aphid.cs",
               "RelativeToolTip": "Assets\\Scripts\\Aphid.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:54:20.657Z"
+              "WhenOpened": "2025-05-09T08:54:20.657Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T07:11:52.059Z",
               "EditorCaption": ""
@@ -112,19 +132,21 @@
               "RelativeToolTip": "Assets\\Scripts\\TitleScreen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T05:36:09.181Z"
+              "WhenOpened": "2025-05-07T05:36:09.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "BrokenObject.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BrokenObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BrokenObject.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BrokenObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\BrokenObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T18:53:06.473Z"
+              "WhenOpened": "2025-05-06T18:53:06.473Z",
+              "EditorCaption": ""
             }
           ]
         }

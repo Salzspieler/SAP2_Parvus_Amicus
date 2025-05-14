@@ -15,14 +15,14 @@ public class Collectable : MonoBehaviour
         logic = GameObject.Find("Logic").GetComponent<Logic>();
 
     }
-    void OnCollosionEnter2D(Collider2D other)
+    /*void OnCollosionEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             Collect();
         }
         
-    }
+    }*/
 
     void Collect()
     {

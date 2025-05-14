@@ -13547,7 +13547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1031831781
 Transform:
   m_ObjectHideFlags: 0
@@ -19067,7 +19067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1464344772}
   m_Layer: 0
-  m_Name: "Nicht-betretbare Bl\xF6cke"
+  m_Name: Nicht-betretbare Bloecke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

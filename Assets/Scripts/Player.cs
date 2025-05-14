@@ -11,7 +11,9 @@ public class Player : MonoBehaviour
     public int currentHealth;
     public Healthbar healthbar;
 
+
     private bool canDoubleJump = false;
+    public bool facingRight;
 
     public float normalyGravity = 3f;
     public float glideGravity = 0.05f;
@@ -22,11 +24,14 @@ public class Player : MonoBehaviour
 
     public bool KnockFromRight;
 
+    
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
+
 
         rb.gravityScale = normalyGravity;
     }
@@ -82,12 +87,16 @@ public class Player : MonoBehaviour
         // Drehrichtung
         if (Input.GetAxis("Horizontal") > 0)
         {
+            facingRight = true;
             transform.localScale = new Vector3(1, 1, 1);
         }
         else if (Input.GetAxis("Horizontal") < 0)
         {
+            facingRight = false;
             transform.localScale = new Vector3(-1, 1, 1);
         }
+
+        
     }
 
     public void TakeDamage(int damage)
@@ -113,10 +122,10 @@ public class Player : MonoBehaviour
             isGrounded = true;
             rb.gravityScale = normalyGravity;
         }
-        if (other.gameObject.CompareTag("Aphid"))
+        /*if (other.gameObject.CompareTag("Aphid"))
         {
             other.gameObject.transform.parent = transform;
-        }
+        }*/
     }
 
     void OnCollisionExit2D(Collision2D other)
