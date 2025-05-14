@@ -113,6 +113,10 @@ public class Player : MonoBehaviour
             isGrounded = true;
             rb.gravityScale = normalyGravity;
         }
+        if (other.gameObject.CompareTag("Aphid"))
+        {
+            other.gameObject.transform.parent = transform;
+        }
     }
 
     void OnCollisionExit2D(Collision2D other)

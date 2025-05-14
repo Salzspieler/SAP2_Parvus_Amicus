@@ -9,6 +9,7 @@ TagManager:
   - HalfBrokenObject
   - BadObject
   - Water
+  - Aphid
   layers:
   - Default
   - TransparentFX
