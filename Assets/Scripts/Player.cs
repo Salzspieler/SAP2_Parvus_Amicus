@@ -18,11 +18,13 @@ public class Player : MonoBehaviour
     public float normalyGravity = 3f;
     public float glideGravity = 0.05f;
 
-    public float KBForce;
-    public float KBCounter;
-    public float KBTotalTime;
+    public float KBForce; //wie viel Kraft auf den Spieler gewirkt wird
+    public float KBCounter; //
+    public float KBTotalTime; //wie lange die Kraft auf den Spieler wirkt
 
     public bool KnockFromRight;
+
+    public Sprite currentSprite;
 
     
 
@@ -31,7 +33,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-
+        currentSprite = GetComponent<SpriteRenderer>().sprite;
 
         rb.gravityScale = normalyGravity;
     }

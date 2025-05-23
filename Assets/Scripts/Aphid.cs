@@ -11,15 +11,16 @@ public class Aphid : MonoBehaviour
     public float aphidLife;
     public float aphidCount;
     public float speed;
-    private Logic logic;
+    //private Logic logic;
     public bool facingRight;
-    public bool aphidCollect = false;
+    [SerializeReference]private Sprite newSprite;
+
 
 
     private void Start()
     {
         player = GameObject.Find("Player").GetComponent<Player>();
-        logic = GameObject.Find("Logic").GetComponent<Logic>();
+        //logic = GameObject.Find("Logic").GetComponent<Logic>();
         aphidRB = GetComponent<Rigidbody2D>();
         facingRight = player.facingRight;
         if (!facingRight)
@@ -59,7 +60,7 @@ public class Aphid : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player")){
-            
+
             Collect();
         }
     }
@@ -70,9 +71,12 @@ public class Aphid : MonoBehaviour
     void Collect()
     {
         aphidCount = 1f;
+        
+        //transform.SetParent(transform, true);
         // optisch ausschalten
         GetComponent<Renderer>().enabled = false;
         gameObject.SetActive(false);
+        player.GetComponent<SpriteRenderer>().sprite = newSprite;
         //Destroy(gameObject);
 
 

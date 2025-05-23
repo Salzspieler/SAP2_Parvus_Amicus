@@ -6,6 +6,7 @@ public class BadObject : MonoBehaviour
 {
     
     private Player player;
+    private int damage = 1;
    
 
 
@@ -20,7 +21,17 @@ public class BadObject : MonoBehaviour
     {
         if(other.CompareTag("Player") == true)
         {
-            player.TakeDamage(1);
+            player.KBCounter = player.KBTotalTime;
+            if (other.transform.position.x <= transform.position.x)
+            {
+                player.KnockFromRight = true;
+            }
+
+            if (other.transform.position.x >= transform.position.x)
+            {
+                player.KnockFromRight = false;
+            }
+            player.TakeDamage(damage);
         }
     }
 
