@@ -146,7 +146,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 556812493
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0.8679245, g: 0.37992162, b: 0.37992162, a: 1}
@@ -178,4 +178,4 @@ MonoBehaviour:
   aphidCount: 0
   speed: 1
   facingRight: 0
-  aphidCollect: 0
+  newSprite: {fileID: 21300000, guid: 638a27f384d0d5d40a94ab46d4ecd6a3, type: 3}

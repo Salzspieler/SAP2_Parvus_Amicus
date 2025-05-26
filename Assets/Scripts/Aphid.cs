@@ -10,9 +10,6 @@ public class Aphid : MonoBehaviour
     public Player player;
     public float aphidLife;
     public float aphidCount;
-    public float speed;
-    //private Logic logic;
-    public bool facingRight;
     [SerializeReference]private Sprite newSprite;
 
 
@@ -20,41 +17,7 @@ public class Aphid : MonoBehaviour
     private void Start()
     {
         player = GameObject.Find("Player").GetComponent<Player>();
-        //logic = GameObject.Find("Logic").GetComponent<Logic>();
         aphidRB = GetComponent<Rigidbody2D>();
-        facingRight = player.facingRight;
-        if (!facingRight)
-        {
-            transform.rotation = Quaternion.Euler(0,180,0);
-        }
-        
-    }
-
-    private void Update()
-    {
-        /*aphidCount -= Time.deltaTime;
-
-        if(aphidCount == 1)
-        {
-            Debug.Log("Counter: "+aphidCount);
-            Destroy(gameObject);
-        }*/
-    }
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        if(aphidCount == 1)
-        {
-            if (facingRight)
-            {
-                aphidRB.velocity = new Vector2(speed, aphidRB.velocity.y);
-            }
-            else
-            {
-                aphidRB.velocity = new Vector2(-speed, aphidRB.velocity.y);
-            }
-        }
-        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -63,7 +26,13 @@ public class Aphid : MonoBehaviour
 
             Collect();
         }
+        /*
+         * if(collision.gameObject.){
+         * }
+         */
     }
+
+
 
 
 
