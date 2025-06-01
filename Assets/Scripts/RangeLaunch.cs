@@ -16,14 +16,28 @@ public class RangeLaunch : MonoBehaviour
 
     private float currentForce;
     private bool isCharging = false;
+    public float shootTime;
+    public float shootCounter;
+
+    //public Slider coolDownSlider;
+
+    public Image cooldownOverlay;
+    public Image blackOverlay;
+
+    public float cooldownTime = 3f;
+    private float cooldownCount = 0f;
+
 
     // UI PowerBar
     public Image powerBarImage;
 
     void Start()
     {
+        shootCounter = shootTime;
         aphidObject = GameObject.Find("Aphid");
-        player = GameObject.Find("Player").GetComponent<Player>();
+        player = GameObject.Find("Player").GetComponent<Player>(); 
+        cooldownOverlay.fillAmount = 0f;
+        blackOverlay.enabled = false;
         if (powerBarImage != null)
         {
             powerBarImage.fillAmount = 0f;
@@ -33,6 +47,7 @@ public class RangeLaunch : MonoBehaviour
 
     void Update()
     {
+        //jetzige Kraft auf min. Kraft setzen und isCharging auf true setzen
         if (Input.GetKeyDown(KeyCode.Mouse1) && aphidObject.GetComponent<Aphid>().aphidCount == 1)
         {
             currentForce = minForce;
@@ -42,6 +57,7 @@ public class RangeLaunch : MonoBehaviour
         //Wurf aufladen
         if (Input.GetKey(KeyCode.Mouse1) && isCharging)
         {
+            Debug.Log("In Wurf aufladen");
             currentForce += chargeSpeed * Time.deltaTime;
             currentForce = Mathf.Clamp(currentForce, minForce, maxForce);
 
@@ -53,26 +69,59 @@ public class RangeLaunch : MonoBehaviour
                 
         }
 
-        if (Input.GetKeyUp(KeyCode.Mouse1) && isCharging)
+        
+
+        //werfen der Blattlaus
+        else if (Input.GetMouseButtonUp(1) && cooldownCount <= 0f && isCharging)
+        {
+            Debug.Log("In werfen der Blattlaus");
+            cooldownCount = cooldownTime;
+            ThrowAphid();
+            cooldownOverlay.fillAmount = 0f;
+            blackOverlay.enabled = false;
+            isCharging = false;
+            if (powerBarImage != null)
+            {
+                powerBarImage.fillAmount = 0f;
+            }
+            
+            //cooldownOverlay.fillAmount = cooldownTimer / cooldownTime;
+
+            //blackOverlay.enabled = true;
+        }
+
+        if (Input.GetMouseButton(1) && cooldownCount > 0)
+        {
+            Debug.Log("CoolDown wird auf 0 gezählt");
+            cooldownCount -= Time.deltaTime;
+            //cooldownOverlay.fillAmount = cooldownCount / cooldownTime;
+            isCharging = false;
+
+            blackOverlay.enabled = true;
+        }
+
+
+        //Blattlaus wird geworfen
+        /*if (Input.GetKeyUp(KeyCode.Mouse1) && isCharging)
         {
             ThrowAphid();
             isCharging = false;
             //aphidObject.GetComponent<Aphid>().aphidLife -= Time.deltaTime;
-            /*if (aphidObject.GetComponent<Aphid>().aphidLife == 0)
+            if (aphidObject.GetComponent<Aphid>().aphidLife == 0)
             {
                 GetComponent<Renderer>().enabled = false;
                 gameObject.SetActive(false);
-            }*/
+            }
             // PowerBar leeren
             if (powerBarImage != null)
             {
                 powerBarImage.fillAmount = 0f;
             }
                 
-        }
+        }*/
     }
 
-    void ThrowAphid()
+    public void ThrowAphid()
     {
         aphidObject.transform.position = launchPoint.position;
         aphidObject.SetActive(true);

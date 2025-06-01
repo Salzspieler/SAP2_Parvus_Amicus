@@ -13612,53 +13612,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &1333233805
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1333233806}
-  - component: {fileID: 1333233807}
-  m_Layer: 0
-  m_Name: CooldownManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1333233806
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333233805}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 946.015, y: 569.85565, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1333233807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333233805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27644907d3d17124da96462f5361a165, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cooldownOverlay: {fileID: 1233570273}
-  blackOverlay: {fileID: 1261240145}
-  cooldownTime: 3
 --- !u!1 &1341007611
 GameObject:
   m_ObjectHideFlags: 0
@@ -15251,9 +15204,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aphidObject: {fileID: 0}
   launchPoint: {fileID: 549204024}
-  minForce: 6
-  maxForce: 8
-  chargeSpeed: 4
+  minForce: 2
+  maxForce: 4
+  chargeSpeed: 2
+  shootTime: 0
+  shootCounter: 0
+  cooldownOverlay: {fileID: 1233570273}
+  blackOverlay: {fileID: 1261240145}
+  cooldownTime: 3
   powerBarImage: {fileID: 309301290}
 --- !u!1 &1510319761
 GameObject:
@@ -24308,4 +24266,3 @@ SceneRoots:
   - {fileID: 8782737533932885000}
   - {fileID: 880029519}
   - {fileID: 1937516842}
-  - {fileID: 1333233806}
