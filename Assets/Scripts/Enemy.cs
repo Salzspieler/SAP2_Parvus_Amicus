@@ -12,8 +12,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int currentWaypointIndex = 0;
     public float speed = 3f;
     public GameObject player;
-    private float distance;
-    public int attackDamage;
+    public int attackDamage = 1;
+    private EnemyDetection enemyDetected; 
     //public CircleCollider2D DetectionRadius;
     //public GameObject player;
     //public bool isPlayerDetected = false;
@@ -21,16 +21,13 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
-        
-
+        player = GameObject.Find("Player");
+        enemyDetected = GameObject.Find("DetectionZone").GetComponent<EnemyDetection>();
     }
 
     private void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-
-        if (distance < 6) 
+        if (enemyDetected.isPlayerDetected == true) 
         {
             //Debug.Log("Spieler gefunden");
             MoveToPlayer();

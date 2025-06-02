@@ -50,6 +50,7 @@ public class RangeLaunch : MonoBehaviour
         //jetzige Kraft auf min. Kraft setzen und isCharging auf true setzen
         if (Input.GetKeyDown(KeyCode.Mouse1) && aphidObject.GetComponent<Aphid>().aphidCount == 1)
         {
+            cooldownCount = cooldownTime;
             currentForce = minForce;
             isCharging = true;
         }
@@ -68,17 +69,22 @@ public class RangeLaunch : MonoBehaviour
             }
                 
         }
-
+        
         if (Input.GetMouseButton(1) && cooldownCount > 0)
         {
             Debug.Log("CoolDown wird auf 0 gezählt");
-            cooldownCount -= Time.deltaTime;
-            //cooldownOverlay.fillAmount = cooldownCount / cooldownTime;
-            isCharging = false;
-
             blackOverlay.enabled = true;
+            cooldownCount -= Time.deltaTime;
+            cooldownOverlay.fillAmount = cooldownCount / cooldownTime;
+            isCharging = false;
+            if(cooldownCount == 0)
+            {
+                Debug.Log("BlackOverlay auf false setzen");
+                blackOverlay.enabled = false;
+            }
+            
         }
-
+        
 
 
         //werfen der Blattlaus

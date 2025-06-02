@@ -8,23 +8,18 @@ public class EnemyDetection : MonoBehaviour
     public GameObject player;
     public bool isPlayerDetected = false;
 
-    private void Update()
+    private void Start()
     {
-        if(isPlayerDetected == true)
-        {
-            enemy.MoveToPlayer();
-        }
-        else
-        {
-            enemy.WayPointMove();
-        }
+        //enemy = GameObject.Find("Enemy").GetComponent<Enemy>();
+        player = GameObject.Find("Player");
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") == true)
+        if(other.CompareTag("Player"))
         {
             Debug.Log("Spieler gefunden");
+            enemy.MoveToPlayer();
             isPlayerDetected = true;
         }
     }
@@ -33,8 +28,8 @@ public class EnemyDetection : MonoBehaviour
     {
         if (other.CompareTag("Player") == false)
         {
-            Debug.Log("OnTriggerExit2D");
             Debug.Log("Spieler verloren");
+            enemy.WayPointMove();
             isPlayerDetected = false;
         }
     }
