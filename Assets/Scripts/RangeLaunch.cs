@@ -69,7 +69,17 @@ public class RangeLaunch : MonoBehaviour
                 
         }
 
-        
+        if (Input.GetMouseButton(1) && cooldownCount > 0)
+        {
+            Debug.Log("CoolDown wird auf 0 gezählt");
+            cooldownCount -= Time.deltaTime;
+            //cooldownOverlay.fillAmount = cooldownCount / cooldownTime;
+            isCharging = false;
+
+            blackOverlay.enabled = true;
+        }
+
+
 
         //werfen der Blattlaus
         else if (Input.GetMouseButtonUp(1) && cooldownCount <= 0f && isCharging)
@@ -90,15 +100,7 @@ public class RangeLaunch : MonoBehaviour
             //blackOverlay.enabled = true;
         }
 
-        if (Input.GetMouseButton(1) && cooldownCount > 0)
-        {
-            Debug.Log("CoolDown wird auf 0 gezählt");
-            cooldownCount -= Time.deltaTime;
-            //cooldownOverlay.fillAmount = cooldownCount / cooldownTime;
-            isCharging = false;
-
-            blackOverlay.enabled = true;
-        }
+        
 
 
         //Blattlaus wird geworfen
