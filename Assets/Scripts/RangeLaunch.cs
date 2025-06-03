@@ -7,160 +7,39 @@ using UnityEngine.UI;  // Für UI-Komponenten
 public class RangeLaunch : MonoBehaviour
 {
     [SerializeField] private GameObject aphidObject;
-    private Player player;
     public Transform launchPoint;
+    private Player player;
+    [SerializeField] Sprite newSprite;
 
-    public float minForce;
-    public float maxForce;
-    public float chargeSpeed;
+    public float shootTime; // Cooldown zwischen den werfen
+    public float shootCounter; // Cooldown Zeit
 
-    private float currentForce;
-    private bool isCharging = false;
-    public float shootTime;
-    public float shootCounter;
-
-    //public Slider coolDownSlider;
-
-    public Image cooldownOverlay;
-    public Image blackOverlay;
-
-    public float cooldownTime = 3f;
-    private float cooldownCount = 0f;
-
-
-    // UI PowerBar
-    public Image powerBarImage;
-
+    // Start is called before the first frame update
     void Start()
     {
         shootCounter = shootTime;
-        aphidObject = GameObject.Find("Aphid");
-        player = GameObject.Find("Player").GetComponent<Player>(); 
-        cooldownOverlay.fillAmount = 0f;
-        blackOverlay.enabled = false;
-        if (powerBarImage != null)
-        {
-            powerBarImage.fillAmount = 0f;
-        }
-            
+        player = GameObject.Find("Player").GetComponent<Player>();
+
     }
 
+    // Update is called once per frame
     void Update()
     {
-        //jetzige Kraft auf min. Kraft setzen und isCharging auf true setzen
-        if (Input.GetKeyDown(KeyCode.Mouse1) && aphidObject.GetComponent<Aphid>().aphidCount == 1)
+        if (Input.GetKeyDown(KeyCode.Mouse1) && shootCounter < 0)
         {
-            cooldownCount = cooldownTime;
-            currentForce = minForce;
-            isCharging = true;
-        }
-
-        //Wurf aufladen
-        if (Input.GetKey(KeyCode.Mouse1) && isCharging)
-        {
-            Debug.Log("In Wurf aufladen");
-            currentForce += chargeSpeed * Time.deltaTime;
-            currentForce = Mathf.Clamp(currentForce, minForce, maxForce);
-
-            // PowerBar füllen
-            if (powerBarImage != null)
-            {
-                powerBarImage.fillAmount = (currentForce - minForce) / (maxForce - minForce);
-            }
-                
+            Instantiate(aphidObject, launchPoint.position, Quaternion.identity);
+            shootCounter = shootTime;
         }
         
-        if (Input.GetMouseButton(1) && cooldownCount > 0)
+        //player.currentSprite = newSprite;
+        //Debug.Log("Sprite ändern");
+        shootCounter -= Time.deltaTime;
+
+        if(shootCounter < shootTime)
         {
-            Debug.Log("CoolDown wird auf 0 gezählt");
-            blackOverlay.enabled = true;
-            cooldownCount -= Time.deltaTime;
-            cooldownOverlay.fillAmount = cooldownCount / cooldownTime;
-            isCharging = false;
-            if(cooldownCount == 0)
-            {
-                Debug.Log("BlackOverlay auf false setzen");
-                blackOverlay.enabled = false;
-            }
-            
+            player.currentSprite = newSprite;
         }
         
-
-
-        //werfen der Blattlaus
-        else if (Input.GetMouseButtonUp(1) && cooldownCount <= 0f && isCharging)
-        {
-            Debug.Log("In werfen der Blattlaus");
-            cooldownCount = cooldownTime;
-            ThrowAphid();
-            cooldownOverlay.fillAmount = 0f;
-            blackOverlay.enabled = false;
-            isCharging = false;
-            if (powerBarImage != null)
-            {
-                powerBarImage.fillAmount = 0f;
-            }
-            
-            //cooldownOverlay.fillAmount = cooldownTimer / cooldownTime;
-
-            //blackOverlay.enabled = true;
-        }
-
-        
-
-
-        //Blattlaus wird geworfen
-        /*if (Input.GetKeyUp(KeyCode.Mouse1) && isCharging)
-        {
-            ThrowAphid();
-            isCharging = false;
-            //aphidObject.GetComponent<Aphid>().aphidLife -= Time.deltaTime;
-            if (aphidObject.GetComponent<Aphid>().aphidLife == 0)
-            {
-                GetComponent<Renderer>().enabled = false;
-                gameObject.SetActive(false);
-            }
-            // PowerBar leeren
-            if (powerBarImage != null)
-            {
-                powerBarImage.fillAmount = 0f;
-            }
-                
-        }*/
-    }
-
-    public void ThrowAphid()
-    {
-        aphidObject.transform.position = launchPoint.position;
-        aphidObject.SetActive(true);
-        aphidObject.GetComponent<Renderer>().enabled = true;
-        player.GetComponent<SpriteRenderer>().sprite = player.currentSprite;
-
-        Rigidbody2D rb = aphidObject.GetComponent<Rigidbody2D>();
-        rb.velocity = Vector2.zero;
-
-        float facingDir = transform.localScale.x > 0 ? 1f : -1f;
-
-        Vector2 direction;
-        //Nach oben werfen
-        if (Input.GetKey(KeyCode.W))
-        {
-            direction = Vector2.up;
-        }
-        
-        /*
-        else if (Input.GetKey(KeyCode.S))
-        {
-            direction = Vector2.right * facingDir;
-        }
-        */
-        else
-        {
-            direction = (Vector2.right * facingDir + Vector2.up * 0.5f).normalized;
-        }
-        rb.AddForce(direction * currentForce, ForceMode2D.Impulse);
-
-        aphidObject.GetComponent<Aphid>().aphidCount = 0;
     }
 
 

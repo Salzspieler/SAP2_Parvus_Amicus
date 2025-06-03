@@ -1,33 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
 
-    public int maxHealth = 10;
-    int currentHealth;
+    public int maxHealth;
+    private int currentHealth;
     //SerializeField macht das "privat" Variablen angzeigt werden, bei anderen Scripten oder Unity
     [SerializeField] private GameObject[] wayPoints;
     [SerializeField] private int currentWaypointIndex = 0;
     public float speed = 3f;
-    public GameObject player;
-    public int attackDamage = 1;
-    private EnemyDetection enemyDetected; 
+    private GameObject player;
+    public int attackDamage;
+    private float distance;
+    //private EnemyMovement enemyMovement;
+    //private GameObject[] enemies;
     //public CircleCollider2D DetectionRadius;
     //public GameObject player;
     //public bool isPlayerDetected = false;
 
     private void Start()
     {
-        currentHealth = maxHealth;
+        //enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        //currentHealth = maxHealth;
         player = GameObject.Find("Player");
-        enemyDetected = GameObject.Find("DetectionZone").GetComponent<EnemyDetection>();
+        //enemyMovement = gameObject.GetComponent<EnemyMovement>();
     }
 
     private void Update()
     {
-        if (enemyDetected.isPlayerDetected == true) 
+        distance = Vector2.Distance(transform.position, player.transform.position);
+        Vector2 direction = player.transform.position - transform.position;
+
+        if (distance < 6)
         {
             //Debug.Log("Spieler gefunden");
             MoveToPlayer();
@@ -38,7 +45,7 @@ public class Enemy : MonoBehaviour
             WayPointMove();
         }
     }
-
+    
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -48,6 +55,7 @@ public class Enemy : MonoBehaviour
             Die();
         }
     }
+    
 
     void Die()
     {
@@ -64,7 +72,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-
+    
     public void WayPointMove()
     {
         //next Waypoint logic
@@ -80,11 +88,14 @@ public class Enemy : MonoBehaviour
         //moveLogic
         transform.position = Vector2.MoveTowards(transform.position, wayPoints[currentWaypointIndex].transform.position, Time.deltaTime * speed);
     }
+    
 
+    
     public void MoveToPlayer()
     {
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
     }
+    
 
 
     
