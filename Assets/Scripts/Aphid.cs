@@ -11,13 +11,13 @@ public class Aphid : MonoBehaviour
     public Player player;
     public float aphidLife; // wie lange die Blattlaus lebt
     public float aphidCount; //zählt runter wann die Blattlaus zerstört wird
-    [SerializeReference]private Sprite newSprite;
     public bool facingRight;
 
 
 
     private void Start()
     {
+        aphidCount = aphidLife;
         player = GameObject.Find("Player").GetComponent<Player>();
         aphidRB = GetComponent<Rigidbody2D>();
         facingRight = player.facingRight;
@@ -27,7 +27,17 @@ public class Aphid : MonoBehaviour
         }
     }
 
-    
+    private void Update()
+    {
+        aphidCount -= Time.deltaTime;
+
+        if (aphidCount <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
 
     private void FixedUpdate()
     {
@@ -53,6 +63,6 @@ public class Aphid : MonoBehaviour
 
 
 
-
+    
 
 }

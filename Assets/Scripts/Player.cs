@@ -98,7 +98,16 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
 
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Healing();
+        }
         
+    }
+
+    public void Healing()
+    {
+        Debug.Log("Healing");
     }
 
     public void TakeDamage(int damage)
@@ -124,10 +133,6 @@ public class Player : MonoBehaviour
             isGrounded = true;
             rb.gravityScale = normalyGravity;
         }
-        /*if (other.gameObject.CompareTag("Aphid"))
-        {
-            other.gameObject.transform.parent = transform;
-        }*/
     }
 
     void OnCollisionExit2D(Collision2D other)
@@ -137,4 +142,10 @@ public class Player : MonoBehaviour
             isGrounded = false;
         }
     }
+
+    /*
+     * Input mit Shift-Taste
+     * Dash mit Rigidbody, Multiplizieren mit dashspeed und deltaTime
+     * Dashspeed muss höher sein als Speed
+     */
 }

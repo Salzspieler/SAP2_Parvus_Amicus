@@ -11,6 +11,7 @@ TagManager:
   - Water
   - Aphid
   - Enemy
+  - Leaf
   layers:
   - Default
   - TransparentFX

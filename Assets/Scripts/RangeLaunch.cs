@@ -8,8 +8,10 @@ public class RangeLaunch : MonoBehaviour
 {
     [SerializeField] private GameObject aphidObject;
     public Transform launchPoint;
-    private Player player;
+    private GameObject player;
     [SerializeField] Sprite newSprite;
+
+    //public bool throwready; 
 
     public float shootTime; // Cooldown zwischen den werfen
     public float shootCounter; // Cooldown Zeit
@@ -18,7 +20,8 @@ public class RangeLaunch : MonoBehaviour
     void Start()
     {
         shootCounter = shootTime;
-        player = GameObject.Find("Player").GetComponent<Player>();
+        player = GameObject.Find("Player");
+        //throwready = true;
 
     }
 
@@ -29,16 +32,24 @@ public class RangeLaunch : MonoBehaviour
         {
             Instantiate(aphidObject, launchPoint.position, Quaternion.identity);
             shootCounter = shootTime;
+            //player.GetComponent<Renderer>().sp = newSprite;
+            if(shootCounter >= 0)
+            {
+                player.GetComponent<SpriteRenderer>().sprite = newSprite;
+            }
+            
         }
         
         //player.currentSprite = newSprite;
         //Debug.Log("Sprite ändern");
         shootCounter -= Time.deltaTime;
 
-        if(shootCounter < shootTime)
+        if (shootCounter < 0)
         {
-            player.currentSprite = newSprite;
+            //Debug.Log("Sprite Changer");
+            player.GetComponent<SpriteRenderer>().sprite = player.GetComponent<Player>().currentSprite;
         }
+        //Sprite Change´mit Aphid Counter
         
     }
 
