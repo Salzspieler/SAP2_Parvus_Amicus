@@ -67,7 +67,16 @@ public class Enemy : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player") == true)
         {
-            //player.GetComponent<Player>().KBCounter = 
+            player.GetComponent<Player>().KBCounter = player.GetComponent<Player>().KBTotalTime;
+            if (collision.transform.position.x <= transform.position.x)
+            {
+                player.GetComponent<Player>().KnockFromRight = true;
+            }
+
+            if (collision.transform.position.x >= transform.position.x)
+            {
+                player.GetComponent<Player>().KnockFromRight = false;
+            }
             player.GetComponent<Player>().TakeDamage(attackDamage);
         }
     }

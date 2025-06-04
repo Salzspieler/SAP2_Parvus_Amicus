@@ -25,8 +25,11 @@ public class Player : MonoBehaviour
     public bool KnockFromRight;
 
     public Sprite currentSprite;
+    private CollectableLogic logic;
+    [SerializeField] private float dashspeed;
+    public bool isDashButtonDown = false;
 
-    
+
 
     void Start()
     {
@@ -34,6 +37,7 @@ public class Player : MonoBehaviour
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
         currentSprite = GetComponent<SpriteRenderer>().sprite;
+        logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
 
         rb.gravityScale = normalyGravity;
     }
@@ -98,16 +102,47 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        //Dash
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            Healing();
+            //Debug.Log("Dash");
+            isDashButtonDown =  true;
+            //Debug.Log(isDashButtonDown);
+        }
+
+        //heilen
+        if (Input.GetKeyDown(KeyCode.Q) && logic.leavesCount > 0)
+        {
+            if (currentHealth < maxHealth)
+            {
+                Healing();
+            }
+            
         }
         
     }
 
+    private void FixedUpdate()
+    {
+        if (isDashButtonDown)
+        {
+            //Debug.Log("Dash Fixed");
+            rb.velocity = new Vector2(transform.localScale.x * dashspeed * Time.deltaTime,0f);
+            isDashButtonDown = false;
+        }
+    }
+
+    //heilen Funktion
     public void Healing()
     {
-        Debug.Log("Healing");
+        //Debug.Log("Healing");
+       
+        //Debug.Log("If Healing");
+        logic.leavesCount--;
+        currentHealth++;
+        healthbar.SetHealth(currentHealth);
+        //Debug.Log("Leaves: " + logic.leavesCount);
+   
     }
 
     public void TakeDamage(int damage)

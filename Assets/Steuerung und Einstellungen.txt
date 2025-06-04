@@ -1,0 +1,8 @@
+Achtet das ihr die Sorting Layer richtig macht!!!
+
+WASD oder Pfeiltasten = bewegen
+Space = springen
+rechte Maustaste = Blautlaus werfen
+links shift = Dash
+Q = heilen
+In der Luft Space = gleiten

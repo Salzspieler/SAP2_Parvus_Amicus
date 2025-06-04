@@ -12,7 +12,7 @@ public class Leaves : MonoBehaviour
 
     private void Awake()
     {
-        logic = GameObject.Find("ColletableLogic").GetComponent<CollectableLogic>();
+        logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
     }
     void OnTriggerEnter2D(Collider2D other)
     {
