@@ -6530,8 +6530,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
-  m_LookaheadTime: 0
-  m_LookaheadSmoothing: 0
+  m_LookaheadTime: 0.35
+  m_LookaheadSmoothing: 6
   m_LookaheadIgnoreY: 0
   m_XDamping: 1
   m_YDamping: 1
@@ -10047,7 +10047,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0526315, y: 1.0526315}
     newSize: {x: 11.25, y: 11.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10097,7 +10097,7 @@ SpriteRenderer:
   m_SortingLayerID: 603279121
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 638a27f384d0d5d40a94ab46d4ecd6a3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40aa963463d66dd4ea0b5d92a0d80e4b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -10135,7 +10135,6 @@ MonoBehaviour:
   KBCounter: 0
   KBTotalTime: 0.2
   KnockFromRight: 0
-  currentSprite: {fileID: 0}
   dashspeed: 5000
   isDashButtonDown: 0
 --- !u!50 &1500609073
@@ -10179,7 +10178,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aphidObject: {fileID: 1345262064829956407, guid: af74ef6dc7ccf44469b8eea750664220, type: 3}
   launchPoint: {fileID: 549204024}
-  newSprite: {fileID: 21300000, guid: 67f31df699476bd4791ea8e3363ff0dd, type: 3}
   shootTime: 1.5
   shootCounter: 0
 --- !u!95 &1500609075

@@ -121,9 +121,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\RangeLaunch.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\RangeLaunch.cs",
               "RelativeToolTip": "Assets\\Scripts\\RangeLaunch.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwDMAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:50:19.788Z"
+              "WhenOpened": "2025-05-14T12:50:19.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -145,7 +146,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHUAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAawCoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T07:11:52.059Z",
               "EditorCaption": ""

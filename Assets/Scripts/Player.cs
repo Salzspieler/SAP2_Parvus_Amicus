@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 
     public bool KnockFromRight;
 
-    public Sprite currentSprite;
+    //public Sprite currentSprite;
     private CollectableLogic logic;
     [SerializeField] private float dashspeed;
     public bool isDashButtonDown = false;
@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
         animator = GetComponent<Animator>();
-        currentSprite = GetComponent<SpriteRenderer>().sprite;
+        //currentSprite = GetComponent<SpriteRenderer>().sprite;
         logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
         //dashCounter = dashTime;
 

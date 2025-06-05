@@ -9,7 +9,7 @@ public class RangeLaunch : MonoBehaviour
     [SerializeField] private GameObject aphidObject;
     public Transform launchPoint;
     private GameObject player;
-    [SerializeField] Sprite newSprite;
+    //[SerializeField] Sprite newSprite;
 
     //public bool throwready; 
 
@@ -33,10 +33,10 @@ public class RangeLaunch : MonoBehaviour
             Instantiate(aphidObject, launchPoint.position, Quaternion.identity);
             shootCounter = shootTime;
             //player.GetComponent<Renderer>().sp = newSprite;
-            if(shootCounter >= 0)
+            /*if(shootCounter >= 0)
             {
                 player.GetComponent<SpriteRenderer>().sprite = newSprite;
-            }
+            }*/
             
         }
         
@@ -44,11 +44,11 @@ public class RangeLaunch : MonoBehaviour
         //Debug.Log("Sprite ändern");
         shootCounter -= Time.deltaTime;
 
-        if (shootCounter < 0)
+        /*if (shootCounter < 0)
         {
             //Debug.Log("Sprite Changer");
             player.GetComponent<SpriteRenderer>().sprite = player.GetComponent<Player>().currentSprite;
-        }
+        }*/
         //Sprite Change´mit Aphid Counter
         
     }
