@@ -64,9 +64,12 @@ TagManager:
   - name: Enemy
     uniqueID: 2316864801
     locked: 0
-  - name: Frontground
-    uniqueID: 2676287319
+  - name: Tree
+    uniqueID: 1812371483
     locked: 0
   - name: Aphid
     uniqueID: 556812493
+    locked: 0
+  - name: Frontground
+    uniqueID: 2676287319
     locked: 0
