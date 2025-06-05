@@ -11,6 +11,11 @@ public class TitleScreen : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void Option()
+    {
+
+    }
     //Spiel wird beendet
     public void Exit()
     {

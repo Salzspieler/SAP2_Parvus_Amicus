@@ -28,7 +28,7 @@ public class RangeLaunch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1) && shootCounter < 0)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && shootCounter < 0)
         {
             Instantiate(aphidObject, launchPoint.position, Quaternion.identity);
             shootCounter = shootTime;

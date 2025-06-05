@@ -66,12 +66,12 @@
     <Compile Include="Assets\Scripts\Boss.cs" />
     <Compile Include="Assets\Scripts\BadObject.cs" />
     <Compile Include="Assets\Scripts\Aphid.cs" />
-    <Compile Include="Assets\Scripts\ThrowWithCooldown.cs" />
     <Compile Include="Assets\Scripts\Healthbar.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\BrokenObject.cs" />
     <Compile Include="Assets\Scripts\Teleporter.cs" />
     <Compile Include="Assets\Scripts\RangeLaunch.cs" />
+    <Compile Include="Assets\Scripts\CameraControll.cs" />
     <Compile Include="Assets\Scripts\Goal.cs" />
     <Compile Include="Assets\Scripts\End Screen.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />

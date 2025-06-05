@@ -1,0 +1,14 @@
+using Cinemachine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraControll : MonoBehaviour
+{
+    public GameObject virtualCamera;
+
+    void Camera()
+    {
+        
+    }
+}

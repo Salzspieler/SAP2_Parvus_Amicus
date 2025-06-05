@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public int maxHealth = 5;
     public int currentHealth;
     public Healthbar healthbar;
+    public Animator animator;
 
 
     private bool canDoubleJump = false;
@@ -28,6 +29,8 @@ public class Player : MonoBehaviour
     private CollectableLogic logic;
     [SerializeField] private float dashspeed;
     public bool isDashButtonDown = false;
+    //public float dashTime;
+    //public float dashCounter;
 
 
 
@@ -36,8 +39,10 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
+        animator = GetComponent<Animator>();
         currentSprite = GetComponent<SpriteRenderer>().sprite;
         logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
+        //dashCounter = dashTime;
 
         rb.gravityScale = normalyGravity;
     }
@@ -103,12 +108,14 @@ public class Player : MonoBehaviour
         }
 
         //Dash
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift) /*&& dashCounter < 0*/)
         {
             //Debug.Log("Dash");
+            //dashCounter = dashTime;
             isDashButtonDown =  true;
             //Debug.Log(isDashButtonDown);
         }
+        //dashCounter -= Time.deltaTime;
 
         //heilen
         if (Input.GetKeyDown(KeyCode.Q) && logic.leavesCount > 0)
@@ -127,7 +134,7 @@ public class Player : MonoBehaviour
         if (isDashButtonDown)
         {
             //Debug.Log("Dash Fixed");
-            rb.velocity = new Vector2(transform.localScale.x * dashspeed * Time.deltaTime,0f);
+            rb.velocity = new Vector2(transform.localScale.x * dashspeed * Time.fixedDeltaTime, 0f);
             isDashButtonDown = false;
         }
     }
@@ -149,6 +156,7 @@ public class Player : MonoBehaviour
     {
         currentHealth -= damage;
         healthbar.SetHealth(currentHealth);
+        animator.SetTrigger("Hit");
         if (currentHealth <= 0)
         {
             Restart();
