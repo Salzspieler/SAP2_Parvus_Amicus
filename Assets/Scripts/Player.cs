@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
     public int currentHealth;
     public Healthbar healthbar;
     public Animator animator;
+    private enum animState {idle,jump,fall,hover}
+    private animState state;
 
 
     private bool canDoubleJump = false;
@@ -126,6 +128,33 @@ public class Player : MonoBehaviour
             }
             
         }
+
+        //Animations Logic
+
+        //idle
+        if(isGrounded && Input.GetAxis("Horizontal") == 0)
+        {
+            state = animState.idle;
+        }
+
+        //jump
+        if(!isGrounded && rb.velocity.y > 0)
+        {
+            state = animState.jump;
+        }
+
+        //fall
+        if(!isGrounded && rb.velocity.y <= 0)
+        {
+            state = animState.fall;
+        }
+
+        //hover
+        if(!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.Space))
+        {
+            state = animState.hover;
+        }
+        animator.SetInteger("state", (int)state);
         
     }
 
