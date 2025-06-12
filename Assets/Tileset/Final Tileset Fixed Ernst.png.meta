@@ -1,0 +1,5583 @@
+fileFormatVersion: 2
+guid: 243af8d58ad4391478dbdc228a8ee41d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_0
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06d7cd8a3d6f4149bff1623518946c0
+      internalID: 574949364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672e888713c9a9049bf46bf0d6556d8a
+      internalID: -1257668833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bea0698679be840beafac3648a56af
+      internalID: -1223742157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_3
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7724d2dad1272b45bfb7c03be0cc38a
+      internalID: -1239173887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_4
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33331f5be275d044a8cd45c0e1d8c455
+      internalID: -634230083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_5
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d8f3b6a73a23e47aebb7311dcc57d7
+      internalID: -1656627685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_6
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ff4e5c494566c4ebf8b792d91db3eb
+      internalID: 1110451309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ae0f738cd64d0429ce987bb84773dd
+      internalID: -1796578940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a5d5d15a9226146a89484f95d1c189
+      internalID: 110738262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_9
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f72fbdd676fa74e9e36c1ff74f49bc
+      internalID: -15925041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_10
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f34d073ee140947b1e674585a49b7e
+      internalID: 1710076200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c539bb3bfedf140a36b48620fe998f
+      internalID: 689987733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_12
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dca3a5d98431214e8e8369d75001248
+      internalID: -1998318423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_13
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57239def096f514ca8867d9edf3dd9e
+      internalID: -2144099532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2480cadc4bc0a4197143db11ae7125
+      internalID: -9348994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_15
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fc44873e2effe4cb5f09096034de88
+      internalID: -1845514264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_16
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60429b1322686e74cbca75cee2afefbc
+      internalID: -283938322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_17
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b03ad5e662abf443b877e96d1637ce6
+      internalID: -1119863121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_18
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a0e41a697ba58469a850742dab5a25
+      internalID: -1445963986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_19
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a1325519188464f98c2f9d385ebf32
+      internalID: 844021687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_20
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49fe75db24a0354fa4fe1d7b0556be9
+      internalID: -1437863915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47ab529ad0702142891a5cacb3120eb
+      internalID: -1869223705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_22
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa5d5456508932458d21d0b226c9916
+      internalID: -2060612795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_23
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1be26340eda564db513e413827a495
+      internalID: 1934523125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_24
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a94ee7b71e2df4bb7d1274ec3a0ffa
+      internalID: -1244733982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_25
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c4843d9be982e46b2957eb97d02928
+      internalID: 2045102411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_26
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f0df406676a2c4089075aee8da2ca5
+      internalID: 767393052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_27
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11af5757f9ae89c4da222ef57a1bb87d
+      internalID: -1755176660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_28
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ba15f568e6c7d42827106deb2a1c7b
+      internalID: -1676929877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_29
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4822c3af991ea614ea93fb465fb55011
+      internalID: -1131651250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_30
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7aab580c1936941a071862a4483217
+      internalID: -1940857706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_31
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630a69576a83fd74ab831e00503fbd97
+      internalID: -1413130593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_32
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f2b2f1f1648d04ab588df1e393c4e7
+      internalID: -1423806624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_33
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576bd88292f80e044b69fc728921f02a
+      internalID: 427852996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_34
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a382db39865b10146942aaf262144e4d
+      internalID: -1309260206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_35
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2ca323a06b9964c890b3e01bd7b76f
+      internalID: 211368903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_36
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590bf059bb01d244c9d947305d106464
+      internalID: 1518211827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_37
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d285a1f4aa777e646964c97bc9f055b3
+      internalID: -138634047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_38
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0769bdf444058d4f8099a7be876ebf6
+      internalID: 936092238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_39
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c65bdde683eeb14da699097b3f622f1
+      internalID: 2041093558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_40
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fa4b0b422b4ef489187a1b8a9c3ec4
+      internalID: -1577327983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_41
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b095624512aa17240bcae245f91c374d
+      internalID: -185100751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_42
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673f7c4f7408ac64da83389ba046390f
+      internalID: 405669538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_43
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f95ca9695cefe4e87764d07b06334e
+      internalID: 101286669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_44
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13806be6267cd08429b88ff90c9ac2e9
+      internalID: 82065229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_45
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597caed3670dc7648a65f5b4575fd318
+      internalID: -607238910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_46
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85688d0d4e97ca145b05c4dd9cfa9553
+      internalID: 1383305676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_47
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1e5540b9a075c439bb68ee4266d1b9
+      internalID: -898622641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_48
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81c4a158d64bbd45821f0d97dc7b92b
+      internalID: 138456975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_49
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d14c721297e4b148abe831eb6c5cf7f
+      internalID: -945211941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_50
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b213a7d4b4a65448757e5f36ec70fd
+      internalID: -1492857124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_51
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905cc9bae4ac84d4b93bd580b48e3fcc
+      internalID: -845520545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_52
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad3678f08058ac429200b0bf6a4a3f2
+      internalID: -111347351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_53
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a936de72425886459a9eaf48f2f3b47
+      internalID: -288295533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_54
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8deaea44ac03fc429d36b99d8cefc79
+      internalID: -327397518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_55
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63b136d1d18e0b43ad44bbcba9da808
+      internalID: -347111949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_56
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da27c8abb7938a47af237b18e1d9852
+      internalID: -576316544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_57
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e40d45f360715a44a68c3cd6f20fb00
+      internalID: -1553115492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_58
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d353330ba3b650b4e854c1bc5f4d1e4f
+      internalID: -1111157056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_59
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4194d0a578826e6488331887f3aeadac
+      internalID: 344852828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_60
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838f30a4e89209b4d821af311db7e13f
+      internalID: -1675711770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_61
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f30b9c41a0c3c643824055305d8b037
+      internalID: -2096133465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_62
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e660fc801d55eca40a4d6d2206f561a6
+      internalID: 52230047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_63
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7623dc943ae59174192c401a86264361
+      internalID: 1862775421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_64
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0a2df832fb2b443a391cd7ff2731b9
+      internalID: -676611634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_65
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b07961af0f166479e92f1d6c08d3ec
+      internalID: -1713010037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_66
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9280fc59234c1eb419677000013e20bc
+      internalID: 274068594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_67
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1825870b507ee4640bccd25c0d21682b
+      internalID: -85919448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_68
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242792b08a12f6b479efaf13e678a506
+      internalID: -1386283049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_69
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56ddf90ee4ac6c4186112a23ff246e7
+      internalID: 2085299308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_70
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdbc46c7a276ed409c2f05ca71c1791
+      internalID: -528787208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_71
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b774249f4224c8f4ca57fe3c635c807b
+      internalID: -128602143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_72
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9e2b5466a4046428a2c950df6735b8
+      internalID: 965514758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_73
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749c16b61be58b24b9d6a7a2a21c00db
+      internalID: -2044149681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_74
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bf28208c8b60840a9fe9609780c612
+      internalID: 973519674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_75
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541fa374431736a45bdb721cfddc7a8d
+      internalID: -1934204053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_76
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00efb9cf3b870674497edeeb1cb90d11
+      internalID: -565359770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_77
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67146dd864dbcb84285ee957a7cb2f9d
+      internalID: 1228307560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_78
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1c1e1c13f6392459728c0db97ee2b7
+      internalID: -546274243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_79
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062338f09c9eedf4495aabd5d1bae272
+      internalID: 89657232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_80
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1369158ef53f89944ad5edea7abcd337
+      internalID: -1076359519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_81
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81aa2fe7370c924485235e0538fd89c
+      internalID: -1160572992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_82
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b413736af5cc62342b85781227a93e84
+      internalID: 216528520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_83
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7441337d2075ce4e8d4c7331e97e92c
+      internalID: -520624267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_84
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e0d67d06527c842a26ed9dc9b63365
+      internalID: 1583416720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_85
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5164d696c3988e42b29c49c0a3bded3
+      internalID: -1366986259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_86
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef11ed9a6f150d4890983b6caec252d
+      internalID: 1029364649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_87
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e6d57d1fa555049b6e144741ea1e0b
+      internalID: -1533676046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_88
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0a1305541b231478f50dc39ef21ff1
+      internalID: 2057053179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_89
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefe3618d6b7ce948b5b1cc45c986001
+      internalID: -838121628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_90
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f389da9d15bd454b9e162f35f83282e
+      internalID: -641649197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_91
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96b212a7b4946c48a9b334bad452c14
+      internalID: 554533526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_92
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923d76e098dbc094baa5713cd93aba15
+      internalID: -341838074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_93
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be419bb8d712368498a74b82a94c2236
+      internalID: 644003613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_94
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738af8fd9f7a7b24faffb99dfaf2e739
+      internalID: -1167144114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_95
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c0d5e74166857499b3641b3c146228
+      internalID: -335573890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_96
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e052318c4961545b8f204c6c9b4f0c
+      internalID: 1409979591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_97
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34037e4be86fc854eb00a41b6b19e8b8
+      internalID: 850737497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_98
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3496c8d83e89d142912f5562490c5d5
+      internalID: -884123950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_99
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549910b515eb1bf43acb2b05efa4c9d4
+      internalID: 1247019369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_100
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60744546330ba064589ac403b2908e9d
+      internalID: 1641055111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_101
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c2b1ef73a406a41b50c047a421e4de
+      internalID: -1522804204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_102
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e99749f1986154abefc87d0bfae014
+      internalID: 1957570126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_103
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d472cb970f947e941933c0652b4387e6
+      internalID: -232247434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_104
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b482bb31a215f1347a141a87a14a73e0
+      internalID: -1563199148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_105
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1ab19213f1b0f4c854e2fb7f7b2e84
+      internalID: 392676651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_106
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71a98efad36d224e90cf214af383d5c
+      internalID: 212151824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_107
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84c1def48d57ef4388d1fe209be91a3
+      internalID: 128879087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_108
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d95fc77eec38143a0741a929e9e19c
+      internalID: 1172768046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_109
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d0c6ebf3175b741a3d4bcc0465ce28
+      internalID: 1579656721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_110
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016bfaa51931536419f04f5bff55ae05
+      internalID: -1288329901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_111
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9f406406e21c14389831ffda1b5e86
+      internalID: -494175933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_112
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dcedbc51df77347ae43310de24df57
+      internalID: -1101157343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_113
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ef066e95b650348928ce005683693e
+      internalID: 56964046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_114
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3586d8e657fc11c4a8e8896d3b95fe81
+      internalID: 1585752227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_115
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bde9ae895100d41935e929303e3535
+      internalID: 328562462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_116
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff84ac535209ce14a91e5581cbd797a9
+      internalID: -1112079032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_117
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76e49e7a58464f489ea5f3bf4187c80
+      internalID: 1613648351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_118
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b91e5892405714bb9dcfb4e57b8750
+      internalID: 80201770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_119
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0115ca8d1a36c7d498db28526006ebfd
+      internalID: -2081364190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_120
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4e92b9a3c12c140a7cbdc96cbccbd4
+      internalID: 1999324687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_121
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5a07aafd353cb4a8e8248dfb6d6fe5
+      internalID: 1267293645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_122
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b5b8f9cd69b334ba4f6b5d5ab914c5
+      internalID: -1283187481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_123
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a919daa2a79f4db41a8c2677e940e04c
+      internalID: 516213003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_124
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738398e6bc967294e82dd6ac83d1c4e7
+      internalID: -1010319218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_125
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055da9adbeef73e41a53a81606ef7846
+      internalID: -838863770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_126
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69eb61bde1374114ab71c21ce507f9ce
+      internalID: 638693804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_127
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ac6f695f6ceb541ad78f7b1920fa4e
+      internalID: 441955817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_128
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0805a17eeab924db34d8a74c0ec309
+      internalID: -1567253115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_129
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee7a4ccee553564ca0b66621f0e381b
+      internalID: 1378707602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_130
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c569f91c9b6774e8b5d3b607458c37
+      internalID: 1296585694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_131
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d810ed381ad2b4c4ebcd3357657a9feb
+      internalID: -1463381368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_132
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816a3b71e674ff944bd6af1f32c17d77
+      internalID: -708304191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_133
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39cc890faf429640ab62c07fc184cfc
+      internalID: 1101967807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_134
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149c1aa0bac151547853f30b8d2af09c
+      internalID: 697289421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_135
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccdb470370b8d54d8218af548576bab
+      internalID: 1085672363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_136
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4849236102b814cbd3e18a866e75be
+      internalID: 775544016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_137
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf21287738f1444458c85dc4f83d155f
+      internalID: -1289112127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_138
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4246e2edc611109448ac8955edc533d4
+      internalID: -1673352462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_139
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51beb5bf6786cf6428994d6f0d452778
+      internalID: 1714922037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_140
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290bc9929d4b7fb4794b72808617c39e
+      internalID: -135169432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_141
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76455cff461b2b4994ee31468a58a79
+      internalID: 1750588051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_142
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81efe59e241bcd14c80ecd7c29fdf586
+      internalID: 242284084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_143
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7984ba687dc063c49986be9d617f6709
+      internalID: 531947719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_144
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b9f9254789ada4a87fffa6dbde79f0
+      internalID: -879457984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_145
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e507f44f7cbaeab40bc1675a02aad20e
+      internalID: -13141063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_146
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421a2c0dba3754f4a8193477e94622fe
+      internalID: 1085359419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_147
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7457ee35a410345a59631eadaef00b
+      internalID: -1696236973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_148
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97080aa65f9149a488100b304c258397
+      internalID: 324691068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_149
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbb4fd5c9eac9e4e8d6c8b1dfea5c8e
+      internalID: -1117868081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_150
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1767204b9d1c1544b6d8c5cb44abc7c
+      internalID: 1728710027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_151
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2a9f929a86a6c42b8d0ef827e4c864
+      internalID: 74424981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_152
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97624e9910afed64485632b2c571d530
+      internalID: 633456076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_153
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633778ff8aaec55479d1cdd4a8398446
+      internalID: 146363647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_154
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b898236c40b88b942bbe01abd37ce48e
+      internalID: 126051492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_155
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b16066bef30974582542633ece9730
+      internalID: -1518352330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_156
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d4b5d06103e7d47b0a8d8800712d3a
+      internalID: 1095894527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_157
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279d01587f7fba04facf9ec11998857a
+      internalID: 1902562863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_158
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e79f4fe9ec48342af7a16ed588a02a
+      internalID: -913382841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_159
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d97dd13752d1a543a203ab8884d5679
+      internalID: 1722394938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_160
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd8536855743a64cb30846ec5dc2c0e
+      internalID: -364528950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_161
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4c1b3e9f279564d924372fb577f203
+      internalID: -720591419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_162
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c624061bf4693945bafe2b7df1d6f67
+      internalID: -742765798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_163
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b412407df1bd0f1489572659d46d9cf6
+      internalID: -1247828059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_164
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e68793997fbaa479d7cb364c222bb5
+      internalID: -1971094273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_165
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7131eaaef8d81a4e85e20bda57cc7d4
+      internalID: 2106050977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_166
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635de347086cf8e4b8a8e4be2285261a
+      internalID: -1121532821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_167
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d34b13808597c44b018b77a06d8d86
+      internalID: -1501721013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_168
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea24b178093b1c24b93c285b31150ba2
+      internalID: 517383810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_169
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68d6d19fd96459469e46bfb63b08ae7
+      internalID: 953798552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_170
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9bb47be0da89846bf6cd88e1c780d8
+      internalID: -606392209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_171
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685b0f5e96025d84aa28706d1cafe205
+      internalID: 626812764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_172
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b624b9afb957694b8ec857b61123fa8
+      internalID: 1615770067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_173
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671a97d5b212d9547b519406dafd26c9
+      internalID: -1302774269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_174
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90c66241ae92bf4b9a16c3b352aecdc
+      internalID: 1930016271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_175
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d441c9c533b5144a33cf83a0379602
+      internalID: -56150407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_176
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36efaa9e6790f0049852d84f184f155d
+      internalID: -1944167899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_177
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e9941525f9e5341879cc455c2d5e92
+      internalID: -219189573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_178
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4de66095f1c6949b4bd74d63bbe922
+      internalID: -490825153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_179
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698ca5118c8ade94e9d6aaeb47414595
+      internalID: 1701121460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_180
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784ceb0fa0bc1d544873cb8a723b1234
+      internalID: 1615784418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_181
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2639becaac9811b4bab8b1b0c3a6d322
+      internalID: -1857535069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_182
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76612ede1dd79e945aad26cb32675af5
+      internalID: -1393972040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_183
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3a0d9649d02104b9ddcec9bb67e0eb
+      internalID: -1632927517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_184
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f951217c4be7f4e9752213944a7acd
+      internalID: -443496115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_185
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ec5fb00ef0d474f8f83d97b3c622e4
+      internalID: -479761025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_186
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d042b35ca71d64fbbd4ba819dd9d3e
+      internalID: -1571897549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_187
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f172e5c4a62d07d4ba023b58f833df37
+      internalID: 1483302457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_188
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b1c1cd5677635419d7908a3c85cd20
+      internalID: 1148949198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_189
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d773b1f6f43341bddc8e66a1d5ed3
+      internalID: -877099179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_190
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5272bcbbac11d4da94d088122788cf
+      internalID: -1796481947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_191
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1b7807d2cabe64da37abd7e8a8ad5d
+      internalID: -789846452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_192
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b504955d00fb37b4aa68cfaad6c35d6e
+      internalID: -1513269624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_193
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0084293dd627dfe4ab719ba73f1fc620
+      internalID: -1074651036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_194
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca577685a00bd4c4684555d479a27fe9
+      internalID: 1592204495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_195
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04165c34964228428b2817e49e5e481
+      internalID: -440447924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_196
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deb2bd0be61b554693cbe4cfb3ec522
+      internalID: 209133518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_197
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2becc5ed2c8da7949b872d04bbe1b1fe
+      internalID: -1567029658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_198
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7477056f1fd74c143ba0012782d46cff
+      internalID: 1654115509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_199
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6230a03a97577234ab7323a912da4c18
+      internalID: 1458784508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_200
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8340150e3f4f53b418420d099d93f674
+      internalID: -113681777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_201
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442e18566e42d1440a140d99211750eb
+      internalID: 895497296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_202
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bada8280abbb304eafe65f738890992
+      internalID: -1875009781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_203
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa299caa3fc2fe44b819824fcd5e337
+      internalID: 995231666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_204
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16877df5ea2a3547a9567a08d5fdb4a
+      internalID: -1239531241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_205
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd66351cf2e81547a4d670414449812
+      internalID: 714573863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_206
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565e4871a4f1b304c8473d94a2ba502f
+      internalID: -2035048147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_207
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b164d36ce69652478c6ee5b34d2f5bc
+      internalID: 438501787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_208
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7232953de1848e945a7a6a7a42ef38bb
+      internalID: -830235632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_209
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faba3706e1e6cf940b5a49e03495a3c3
+      internalID: -1709449322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_210
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d869794d71976488bc4bc1dd99de48
+      internalID: -1873379015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_211
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ad5087473a9bd4b940531b1ea944a7
+      internalID: -962165487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_212
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458f2fc04c2e82a41927410d068ce809
+      internalID: 1841208893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_213
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7178400a1268ff2479a39cd322e9f55d
+      internalID: -1234520781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_214
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2911875c4d6b53a479c66d2a04c90c4f
+      internalID: 1789971133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_215
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc1064bab4419e4d8669e21d9a1b7f3
+      internalID: 422651568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_216
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c22f397ba4ebc34eb75fade75c85259
+      internalID: -483173008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_217
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b262aca7adfe4a4ead6436530ee591e
+      internalID: -236809403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_218
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdce8bea05d93445a64a39581a2cb93
+      internalID: 410157528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_219
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4096168143d80b4cad024fe0c849238
+      internalID: -1842296258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_220
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 458
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ced271ec6412f04790393e430a23ab0
+      internalID: -1910798615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_221
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 458
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d147b4b5691f9145ac0dec07e8d88f2
+      internalID: -1982302839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_222
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 458
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d2a748e5c9e014d9ab34c90fc81443
+      internalID: -62088049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_223
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46f6ed7123818745849d60d7825f755
+      internalID: -613989461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_224
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08833f502e08ba49abab547b451b34b
+      internalID: 657543143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_225
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74681dafbb502634bb7a3831a7d0e71f
+      internalID: 359247653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_226
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc86336d73bc1a418192b4680c3a4a8
+      internalID: -57011515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_227
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85aa75f6bf634374c97cdaf25b98af79
+      internalID: -1741825974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_228
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fe87a308f036144b0eeaf17670a23f
+      internalID: 503360053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_229
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab056d66a63aca4cb68b65dc2dc2fd5
+      internalID: -127470020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_230
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a99dbba7eb0f3f40b2386ec4fbe3360
+      internalID: -260936232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_231
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77415104b034f474c8900888dcfd4b9e
+      internalID: 1636392273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_232
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff41fcb5e4e006a4bab3ccd95270dd94
+      internalID: 215898799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_233
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c1842c5427c534a8fc8946f7d98a9a
+      internalID: -1295895277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_234
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4b9b441c0bd1a468cf793bd1eabc9e
+      internalID: 1940354750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_235
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9408eb8121aa2d43a7fd2207897626a
+      internalID: -1889455214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_236
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f245207b3d473d44a8091491dfab2ff
+      internalID: -1387277482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_237
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4af676783b6a54abb78f4750da6818
+      internalID: -929138757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_238
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed6c74399a82c84da11bdb0d9a1fb5d
+      internalID: 1348037427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_239
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e60ad183122f34997041886f10befb
+      internalID: -673170079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_240
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c563a79299985941b32fd754d0fac6c
+      internalID: 925361556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_241
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec56fad31141f8498224bbbc5a561ba
+      internalID: -511035683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_242
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8039135df6ebc6a4d890c291cfec0a3c
+      internalID: 1914399138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_243
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7c8930d9f53dd4e88b357b0cdad193
+      internalID: 1955623539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_244
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6362e84929db81547b349975439d8098
+      internalID: -720742469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_245
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c525ae0d5abd0d145b7eff100c5faa65
+      internalID: 1219317632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_246
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7679dcfd6f3be734b9cec48ecd121843
+      internalID: 1898677910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Tileset Fixed Ernst_247
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0331438ffd67dbe4bb12f00ed08dc2d2
+      internalID: -1989323275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Final Tileset Fixed Ernst_0: 574949364
+      Final Tileset Fixed Ernst_1: -1257668833
+      Final Tileset Fixed Ernst_10: 1710076200
+      Final Tileset Fixed Ernst_100: 1641055111
+      Final Tileset Fixed Ernst_101: -1522804204
+      Final Tileset Fixed Ernst_102: 1957570126
+      Final Tileset Fixed Ernst_103: -232247434
+      Final Tileset Fixed Ernst_104: -1563199148
+      Final Tileset Fixed Ernst_105: 392676651
+      Final Tileset Fixed Ernst_106: 212151824
+      Final Tileset Fixed Ernst_107: 128879087
+      Final Tileset Fixed Ernst_108: 1172768046
+      Final Tileset Fixed Ernst_109: 1579656721
+      Final Tileset Fixed Ernst_11: 689987733
+      Final Tileset Fixed Ernst_110: -1288329901
+      Final Tileset Fixed Ernst_111: -494175933
+      Final Tileset Fixed Ernst_112: -1101157343
+      Final Tileset Fixed Ernst_113: 56964046
+      Final Tileset Fixed Ernst_114: 1585752227
+      Final Tileset Fixed Ernst_115: 328562462
+      Final Tileset Fixed Ernst_116: -1112079032
+      Final Tileset Fixed Ernst_117: 1613648351
+      Final Tileset Fixed Ernst_118: 80201770
+      Final Tileset Fixed Ernst_119: -2081364190
+      Final Tileset Fixed Ernst_12: -1998318423
+      Final Tileset Fixed Ernst_120: 1999324687
+      Final Tileset Fixed Ernst_121: 1267293645
+      Final Tileset Fixed Ernst_122: -1283187481
+      Final Tileset Fixed Ernst_123: 516213003
+      Final Tileset Fixed Ernst_124: -1010319218
+      Final Tileset Fixed Ernst_125: -838863770
+      Final Tileset Fixed Ernst_126: 638693804
+      Final Tileset Fixed Ernst_127: 441955817
+      Final Tileset Fixed Ernst_128: -1567253115
+      Final Tileset Fixed Ernst_129: 1378707602
+      Final Tileset Fixed Ernst_13: -2144099532
+      Final Tileset Fixed Ernst_130: 1296585694
+      Final Tileset Fixed Ernst_131: -1463381368
+      Final Tileset Fixed Ernst_132: -708304191
+      Final Tileset Fixed Ernst_133: 1101967807
+      Final Tileset Fixed Ernst_134: 697289421
+      Final Tileset Fixed Ernst_135: 1085672363
+      Final Tileset Fixed Ernst_136: 775544016
+      Final Tileset Fixed Ernst_137: -1289112127
+      Final Tileset Fixed Ernst_138: -1673352462
+      Final Tileset Fixed Ernst_139: 1714922037
+      Final Tileset Fixed Ernst_14: -9348994
+      Final Tileset Fixed Ernst_140: -135169432
+      Final Tileset Fixed Ernst_141: 1750588051
+      Final Tileset Fixed Ernst_142: 242284084
+      Final Tileset Fixed Ernst_143: 531947719
+      Final Tileset Fixed Ernst_144: -879457984
+      Final Tileset Fixed Ernst_145: -13141063
+      Final Tileset Fixed Ernst_146: 1085359419
+      Final Tileset Fixed Ernst_147: -1696236973
+      Final Tileset Fixed Ernst_148: 324691068
+      Final Tileset Fixed Ernst_149: -1117868081
+      Final Tileset Fixed Ernst_15: -1845514264
+      Final Tileset Fixed Ernst_150: 1728710027
+      Final Tileset Fixed Ernst_151: 74424981
+      Final Tileset Fixed Ernst_152: 633456076
+      Final Tileset Fixed Ernst_153: 146363647
+      Final Tileset Fixed Ernst_154: 126051492
+      Final Tileset Fixed Ernst_155: -1518352330
+      Final Tileset Fixed Ernst_156: 1095894527
+      Final Tileset Fixed Ernst_157: 1902562863
+      Final Tileset Fixed Ernst_158: -913382841
+      Final Tileset Fixed Ernst_159: 1722394938
+      Final Tileset Fixed Ernst_16: -283938322
+      Final Tileset Fixed Ernst_160: -364528950
+      Final Tileset Fixed Ernst_161: -720591419
+      Final Tileset Fixed Ernst_162: -742765798
+      Final Tileset Fixed Ernst_163: -1247828059
+      Final Tileset Fixed Ernst_164: -1971094273
+      Final Tileset Fixed Ernst_165: 2106050977
+      Final Tileset Fixed Ernst_166: -1121532821
+      Final Tileset Fixed Ernst_167: -1501721013
+      Final Tileset Fixed Ernst_168: 517383810
+      Final Tileset Fixed Ernst_169: 953798552
+      Final Tileset Fixed Ernst_17: -1119863121
+      Final Tileset Fixed Ernst_170: -606392209
+      Final Tileset Fixed Ernst_171: 626812764
+      Final Tileset Fixed Ernst_172: 1615770067
+      Final Tileset Fixed Ernst_173: -1302774269
+      Final Tileset Fixed Ernst_174: 1930016271
+      Final Tileset Fixed Ernst_175: -56150407
+      Final Tileset Fixed Ernst_176: -1944167899
+      Final Tileset Fixed Ernst_177: -219189573
+      Final Tileset Fixed Ernst_178: -490825153
+      Final Tileset Fixed Ernst_179: 1701121460
+      Final Tileset Fixed Ernst_18: -1445963986
+      Final Tileset Fixed Ernst_180: 1615784418
+      Final Tileset Fixed Ernst_181: -1857535069
+      Final Tileset Fixed Ernst_182: -1393972040
+      Final Tileset Fixed Ernst_183: -1632927517
+      Final Tileset Fixed Ernst_184: -443496115
+      Final Tileset Fixed Ernst_185: -479761025
+      Final Tileset Fixed Ernst_186: -1571897549
+      Final Tileset Fixed Ernst_187: 1483302457
+      Final Tileset Fixed Ernst_188: 1148949198
+      Final Tileset Fixed Ernst_189: -877099179
+      Final Tileset Fixed Ernst_19: 844021687
+      Final Tileset Fixed Ernst_190: -1796481947
+      Final Tileset Fixed Ernst_191: -789846452
+      Final Tileset Fixed Ernst_192: -1513269624
+      Final Tileset Fixed Ernst_193: -1074651036
+      Final Tileset Fixed Ernst_194: 1592204495
+      Final Tileset Fixed Ernst_195: -440447924
+      Final Tileset Fixed Ernst_196: 209133518
+      Final Tileset Fixed Ernst_197: -1567029658
+      Final Tileset Fixed Ernst_198: 1654115509
+      Final Tileset Fixed Ernst_199: 1458784508
+      Final Tileset Fixed Ernst_2: -1223742157
+      Final Tileset Fixed Ernst_20: -1437863915
+      Final Tileset Fixed Ernst_200: -113681777
+      Final Tileset Fixed Ernst_201: 895497296
+      Final Tileset Fixed Ernst_202: -1875009781
+      Final Tileset Fixed Ernst_203: 995231666
+      Final Tileset Fixed Ernst_204: -1239531241
+      Final Tileset Fixed Ernst_205: 714573863
+      Final Tileset Fixed Ernst_206: -2035048147
+      Final Tileset Fixed Ernst_207: 438501787
+      Final Tileset Fixed Ernst_208: -830235632
+      Final Tileset Fixed Ernst_209: -1709449322
+      Final Tileset Fixed Ernst_21: -1869223705
+      Final Tileset Fixed Ernst_210: -1873379015
+      Final Tileset Fixed Ernst_211: -962165487
+      Final Tileset Fixed Ernst_212: 1841208893
+      Final Tileset Fixed Ernst_213: -1234520781
+      Final Tileset Fixed Ernst_214: 1789971133
+      Final Tileset Fixed Ernst_215: 422651568
+      Final Tileset Fixed Ernst_216: -483173008
+      Final Tileset Fixed Ernst_217: -236809403
+      Final Tileset Fixed Ernst_218: 410157528
+      Final Tileset Fixed Ernst_219: -1842296258
+      Final Tileset Fixed Ernst_22: -2060612795
+      Final Tileset Fixed Ernst_220: -1910798615
+      Final Tileset Fixed Ernst_221: -1982302839
+      Final Tileset Fixed Ernst_222: -62088049
+      Final Tileset Fixed Ernst_223: -613989461
+      Final Tileset Fixed Ernst_224: 657543143
+      Final Tileset Fixed Ernst_225: 359247653
+      Final Tileset Fixed Ernst_226: -57011515
+      Final Tileset Fixed Ernst_227: -1741825974
+      Final Tileset Fixed Ernst_228: 503360053
+      Final Tileset Fixed Ernst_229: -127470020
+      Final Tileset Fixed Ernst_23: 1934523125
+      Final Tileset Fixed Ernst_230: -260936232
+      Final Tileset Fixed Ernst_231: 1636392273
+      Final Tileset Fixed Ernst_232: 215898799
+      Final Tileset Fixed Ernst_233: -1295895277
+      Final Tileset Fixed Ernst_234: 1940354750
+      Final Tileset Fixed Ernst_235: -1889455214
+      Final Tileset Fixed Ernst_236: -1387277482
+      Final Tileset Fixed Ernst_237: -929138757
+      Final Tileset Fixed Ernst_238: 1348037427
+      Final Tileset Fixed Ernst_239: -673170079
+      Final Tileset Fixed Ernst_24: -1244733982
+      Final Tileset Fixed Ernst_240: 925361556
+      Final Tileset Fixed Ernst_241: -511035683
+      Final Tileset Fixed Ernst_242: 1914399138
+      Final Tileset Fixed Ernst_243: 1955623539
+      Final Tileset Fixed Ernst_244: -720742469
+      Final Tileset Fixed Ernst_245: 1219317632
+      Final Tileset Fixed Ernst_246: 1898677910
+      Final Tileset Fixed Ernst_247: -1989323275
+      Final Tileset Fixed Ernst_25: 2045102411
+      Final Tileset Fixed Ernst_26: 767393052
+      Final Tileset Fixed Ernst_27: -1755176660
+      Final Tileset Fixed Ernst_28: -1676929877
+      Final Tileset Fixed Ernst_29: -1131651250
+      Final Tileset Fixed Ernst_3: -1239173887
+      Final Tileset Fixed Ernst_30: -1940857706
+      Final Tileset Fixed Ernst_31: -1413130593
+      Final Tileset Fixed Ernst_32: -1423806624
+      Final Tileset Fixed Ernst_33: 427852996
+      Final Tileset Fixed Ernst_34: -1309260206
+      Final Tileset Fixed Ernst_35: 211368903
+      Final Tileset Fixed Ernst_36: 1518211827
+      Final Tileset Fixed Ernst_37: -138634047
+      Final Tileset Fixed Ernst_38: 936092238
+      Final Tileset Fixed Ernst_39: 2041093558
+      Final Tileset Fixed Ernst_4: -634230083
+      Final Tileset Fixed Ernst_40: -1577327983
+      Final Tileset Fixed Ernst_41: -185100751
+      Final Tileset Fixed Ernst_42: 405669538
+      Final Tileset Fixed Ernst_43: 101286669
+      Final Tileset Fixed Ernst_44: 82065229
+      Final Tileset Fixed Ernst_45: -607238910
+      Final Tileset Fixed Ernst_46: 1383305676
+      Final Tileset Fixed Ernst_47: -898622641
+      Final Tileset Fixed Ernst_48: 138456975
+      Final Tileset Fixed Ernst_49: -945211941
+      Final Tileset Fixed Ernst_5: -1656627685
+      Final Tileset Fixed Ernst_50: -1492857124
+      Final Tileset Fixed Ernst_51: -845520545
+      Final Tileset Fixed Ernst_52: -111347351
+      Final Tileset Fixed Ernst_53: -288295533
+      Final Tileset Fixed Ernst_54: -327397518
+      Final Tileset Fixed Ernst_55: -347111949
+      Final Tileset Fixed Ernst_56: -576316544
+      Final Tileset Fixed Ernst_57: -1553115492
+      Final Tileset Fixed Ernst_58: -1111157056
+      Final Tileset Fixed Ernst_59: 344852828
+      Final Tileset Fixed Ernst_6: 1110451309
+      Final Tileset Fixed Ernst_60: -1675711770
+      Final Tileset Fixed Ernst_61: -2096133465
+      Final Tileset Fixed Ernst_62: 52230047
+      Final Tileset Fixed Ernst_63: 1862775421
+      Final Tileset Fixed Ernst_64: -676611634
+      Final Tileset Fixed Ernst_65: -1713010037
+      Final Tileset Fixed Ernst_66: 274068594
+      Final Tileset Fixed Ernst_67: -85919448
+      Final Tileset Fixed Ernst_68: -1386283049
+      Final Tileset Fixed Ernst_69: 2085299308
+      Final Tileset Fixed Ernst_7: -1796578940
+      Final Tileset Fixed Ernst_70: -528787208
+      Final Tileset Fixed Ernst_71: -128602143
+      Final Tileset Fixed Ernst_72: 965514758
+      Final Tileset Fixed Ernst_73: -2044149681
+      Final Tileset Fixed Ernst_74: 973519674
+      Final Tileset Fixed Ernst_75: -1934204053
+      Final Tileset Fixed Ernst_76: -565359770
+      Final Tileset Fixed Ernst_77: 1228307560
+      Final Tileset Fixed Ernst_78: -546274243
+      Final Tileset Fixed Ernst_79: 89657232
+      Final Tileset Fixed Ernst_8: 110738262
+      Final Tileset Fixed Ernst_80: -1076359519
+      Final Tileset Fixed Ernst_81: -1160572992
+      Final Tileset Fixed Ernst_82: 216528520
+      Final Tileset Fixed Ernst_83: -520624267
+      Final Tileset Fixed Ernst_84: 1583416720
+      Final Tileset Fixed Ernst_85: -1366986259
+      Final Tileset Fixed Ernst_86: 1029364649
+      Final Tileset Fixed Ernst_87: -1533676046
+      Final Tileset Fixed Ernst_88: 2057053179
+      Final Tileset Fixed Ernst_89: -838121628
+      Final Tileset Fixed Ernst_9: -15925041
+      Final Tileset Fixed Ernst_90: -641649197
+      Final Tileset Fixed Ernst_91: 554533526
+      Final Tileset Fixed Ernst_92: -341838074
+      Final Tileset Fixed Ernst_93: 644003613
+      Final Tileset Fixed Ernst_94: -1167144114
+      Final Tileset Fixed Ernst_95: -335573890
+      Final Tileset Fixed Ernst_96: 1409979591
+      Final Tileset Fixed Ernst_97: 850737497
+      Final Tileset Fixed Ernst_98: -884123950
+      Final Tileset Fixed Ernst_99: 1247019369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

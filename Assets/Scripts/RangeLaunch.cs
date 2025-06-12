@@ -30,8 +30,11 @@ public class RangeLaunch : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && shootCounter < 0)
         {
+            player.GetComponent<Animator>().SetFloat("state2",2);
             Instantiate(aphidObject, launchPoint.position, Quaternion.identity);
             shootCounter = shootTime;
+
+            
             //player.GetComponent<Renderer>().sp = newSprite;
             /*if(shootCounter >= 0)
             {

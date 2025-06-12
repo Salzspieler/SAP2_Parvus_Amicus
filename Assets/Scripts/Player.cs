@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
         }
 
         // Gleiten (nur beim Fallen)
-        if (!isGrounded && rb.velocity.y < 0 && Input.GetKey(KeyCode.Space))
+        if (!isGrounded && rb.velocity.y < 0 && Input.GetKey(KeyCode.LeftControl) /*Input.GetKey(KeyCode.E)*/)
         {
             rb.gravityScale = glideGravity;
         }
@@ -110,7 +110,7 @@ public class Player : MonoBehaviour
         }
 
         //Dash
-        if (Input.GetKeyDown(KeyCode.LeftShift) /*&& dashCounter < 0*/)
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             //Debug.Log("Dash");
             //dashCounter = dashTime;
@@ -132,27 +132,43 @@ public class Player : MonoBehaviour
         //Animations Logic
 
         //idle
-        if(isGrounded && Input.GetAxis("Horizontal") == 0)
+        if(isGrounded && Input.GetAxis("Horizontal") == 0 && !animator.GetBool("HasAphid"))
         {
             state = animState.idle;
         }
+        else
+        {
+            animator.SetFloat("state2", 0);
+        }
 
         //jump
-        if(!isGrounded && rb.velocity.y > 0)
+        if (!isGrounded && rb.velocity.y > 0 && !animator.GetBool("HasAphid"))
         {
             state = animState.jump;
         }
+        else
+        {
+            animator.SetFloat("state2", 1);
+        }
 
         //fall
-        if(!isGrounded && rb.velocity.y <= 0)
+        if (!isGrounded && rb.velocity.y <= 0 && !animator.GetBool("HasAphid"))
         {
             state = animState.fall;
         }
+        else
+        {
+            animator.SetFloat("state2", 4);
+        }
 
         //hover
-        if(!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.Space))
+        if(!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.LeftControl) /*Input.GetKey(KeyCode.E)*/ && !animator.GetBool("HasAphid"))
         {
             state = animState.hover;
+        }
+        else
+        {
+            animator.SetFloat("state2", 3);
         }
         animator.SetInteger("state", (int)state);
         

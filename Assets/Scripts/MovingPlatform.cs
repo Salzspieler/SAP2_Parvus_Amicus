@@ -12,12 +12,28 @@ public class MovingPlatform : MonoBehaviour
     void Update()
     {
         if (goingToB)
+        {
             transform.position = Vector3.MoveTowards(transform.position, pointB.position, speed * Time.deltaTime);
-        else
-            transform.position = Vector3.MoveTowards(transform.position, pointA.position, speed * Time.deltaTime);
+            //print("gointToB");
+        }
 
-        if (transform.position == pointB.position) goingToB = false;
-        if (transform.position == pointA.position) goingToB = true;
+        else
+        {
+            transform.position = Vector3.MoveTowards(transform.position, pointA.position, speed * Time.deltaTime);
+            //print("gointToA");
+        }
+            
+
+        if (transform.position == pointB.position)
+        {
+            goingToB = false;
+        }
+            
+        if (transform.position == pointA.position)
+        {
+            goingToB = true;
+        }
+            
     }
 
     // Wenn der Spieler auf die Plattform springt

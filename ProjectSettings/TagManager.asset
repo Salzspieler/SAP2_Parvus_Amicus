@@ -19,8 +19,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - OldMan
   - 
   - 
   - 
@@ -60,6 +60,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 603279121
+    locked: 0
+  - name: Old Man
+    uniqueID: 56332535
     locked: 0
   - name: Enemy
     uniqueID: 2316864801

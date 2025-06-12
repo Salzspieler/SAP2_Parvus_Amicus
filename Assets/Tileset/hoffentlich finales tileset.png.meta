@@ -1,0 +1,5583 @@
+fileFormatVersion: 2
+guid: 2b921bd55784a4d659dc7dc96a8475c4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_0
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657767f28f59945f9ba237542b853fcc
+      internalID: 927190489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbb115f32c474dda9224222d792ba6b
+      internalID: 963758192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc42d7faca49b4845abb7030435e17c7
+      internalID: -188167366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_3
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d15e70423470419fb614f44f2a461b3
+      internalID: -656147509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_4
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a81d04b66cf34a9f852d6ead3d37545
+      internalID: 1519832184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_5
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97b1a9d1b5394f6f95b7da11d037eea
+      internalID: -772174172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_6
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2378
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35a6cb615f524313999ce2c390a2e69
+      internalID: 771036887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f362980df644a6ca62611c31a5a2ea
+      internalID: 350640145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2781b526485284cda87ea16552aec3cb
+      internalID: -2102631319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_9
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affd8451672f840569c8988bafcce870
+      internalID: -1472457216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_10
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476ec5e518a6f4d59b79e1bd6a5f0e1a
+      internalID: 1458750622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bd744dabfe24404a4dc1d3ef71dc95
+      internalID: 1430602512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_12
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9523580a5b34517898105956b998e5
+      internalID: 1525553821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_13
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e2883198c604ca1bfe85a24e2d031d
+      internalID: -1424411009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dad64ecdb7be4ad982671e06b560d0f
+      internalID: 276011819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_15
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39248878735674ea18a0f355ea838f44
+      internalID: -2121815197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_16
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a201716550aa34b57818e4ae59efd0f2
+      internalID: 691340889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_17
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd259a8bbbc324da9b80d35c34bdb9df
+      internalID: -1947038588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_18
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c86442efd84470093741c0e14d40ec
+      internalID: -481056009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_19
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2258
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513de661922e548a2aaeb7cb4aed81be
+      internalID: -1010595562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_20
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b91d2b231df46c4ae1af519a432e3e
+      internalID: -380382898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898d7395feb904e45accea96d4fb8afe
+      internalID: 1976638907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_22
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e1b7705d7ee4a2fb4f61aa5a1ab388
+      internalID: 1678448325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_23
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8f2b55a749747a9ac2302d894815a2
+      internalID: 389177922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_24
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20efc5610c7a04afc9eea7f3f58cf3a0
+      internalID: -438271383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_25
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7519c5c18827b45648e38b58f8057a81
+      internalID: 1948351528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_26
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788535ab3dbb64217bf7fbf78127553c
+      internalID: 1735026763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_27
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20f9c8eeb3c24d568c72370562888c8
+      internalID: -146244266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_28
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a83f16605e0d4092a27e6b3f1bd30cf
+      internalID: -236784651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_29
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f06d3642223461daeda5fe1d4ebbd6
+      internalID: -554609878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_30
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3af7eaa65a074e74af6c8f5cd6667bf
+      internalID: 1094487965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_31
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef61250807895459b99e8dbf40c53219
+      internalID: -1128690235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_32
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ef813c5a75d4d29a221b6fdbd08af7
+      internalID: 279995558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_33
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe154738fc3944179bf2b4fe2d1b5ec
+      internalID: -1547840845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_34
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c58cac64d3f49659f1c636536c435c
+      internalID: 1335073115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_35
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2138
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793e12acef79d422e99c32ad340b0075
+      internalID: -1302393280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_36
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700d47346b29843528f0855cd16e894d
+      internalID: 435600274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_37
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b378f5f5ed6d4abd91b87b0dd680528
+      internalID: -1297013706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_38
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4565e9f807bf9429f9016e8e7911cff5
+      internalID: 102768616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_39
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465ebffc795194964a007669bf040cdf
+      internalID: -1048155172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_40
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb870604024db44ae9e0a0650db37b77
+      internalID: 592614592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_41
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc571f606c4849898e78abc940313b5
+      internalID: 1391014858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_42
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287f8942a00b6411e908f9693f8c0eb5
+      internalID: -668049787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_43
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aef62a9492b448db9f40fdf9d3cb540
+      internalID: 2089916394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_44
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc1c12f1477f4de3b274cd65b0d5194
+      internalID: -1661039047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_45
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a749c738fa14c75982be1fdb2b859f
+      internalID: 1593680592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_46
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ece5fe8ce1674271aa77861860c657f
+      internalID: -499552172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_47
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936456a4c516d459caa1bf32bf56861b
+      internalID: 495003982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_48
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e0fd8f3293847538184540985f3333
+      internalID: -752325029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_49
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f350002fb6041bc9442c88ef41ea1b
+      internalID: 1795459357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_50
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2018
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2fb29d8cfb24796b9a14e7988289b8
+      internalID: -1658385859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_51
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c4262ec23d74ca0811d1b220ad1fe5
+      internalID: -1874071313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_52
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b90c349a3c3142e4902ef20f4547c0b
+      internalID: 280351855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_53
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a762c4020054842bde2cab0a55494a
+      internalID: 1284328357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_54
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03622d47969c4738a3efbdf2906bd70
+      internalID: 1156493604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_55
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661d86bcb2d314c91b69ee69f1d01101
+      internalID: 852990383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_56
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520e7a613e18a4a6f89a66510eaeb819
+      internalID: 417546865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_57
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269c9bb8078854619884afc50cc211a7
+      internalID: 1944411471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_58
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923d20764b12c4824aacf379b0123b07
+      internalID: 736082302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_59
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9d7cb6944f64099aea67e86e9e917f
+      internalID: 864587097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_60
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bb12b35e2d54cb6a5f11e6a58ab169
+      internalID: -376325056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_61
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f8a76adb76d4d638f0912f8102159b
+      internalID: -1978940406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_62
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1898
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e45730284404b83be6c2b84a650349
+      internalID: 688554607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_63
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec729578f7b7f4052818111eaa4eeba3
+      internalID: -571755743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_64
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f8f24021c4346e98c602e8b4374dfa
+      internalID: -1767596297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_65
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f58ed7dc2e6480288e3c4beaef54e0
+      internalID: 1561919894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_66
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bcbdfa0ff8d4673916cef2f71eb67d
+      internalID: 1023335450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_67
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcf3aeff367042c891f0fc5d380c814
+      internalID: 321219236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_68
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef1c42dd647642ec8c6572fb7de201a
+      internalID: 1632615444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_69
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ee12199855847449b87e73eed90cf1
+      internalID: 1483640726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_70
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27aea925faed0477fa6e4fba62c9735d
+      internalID: -675051632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_71
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7ccc7ea77e546ad8f6578fe8a4b253
+      internalID: 176784396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_72
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe983e10084e4734a33047737631f3a
+      internalID: 1998131505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_73
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b25a0220de7f4c3588264901595c6b3
+      internalID: -1612970630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_74
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e221239e0577d406b95d1a7160b1db26
+      internalID: 941932375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_75
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99da77dba96de47e0b4ca39085bcc8f0
+      internalID: -2075215393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_76
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c6e7eb9aba8497e8264920be81eabb
+      internalID: -2054156679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_77
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdd030f518d44d60b31b7dcf2dc408a
+      internalID: -1593853340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_78
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4e73d37f5a147aaa08368d0c195d01
+      internalID: -1685358165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_79
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1778
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb93101a36b2d4ea48d04981c1a5043e
+      internalID: -361383321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_80
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecee462914a44b9baa4e5d3b1c91b79
+      internalID: 1603288208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_81
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb60f391dd4440c59b0026f42dd9eff
+      internalID: -715475446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_82
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa04ea6a68c924688b2621141fd1265f
+      internalID: 455710900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_83
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7349d2ff33443eaaffe5d1ce45e9b2
+      internalID: -2145053007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_84
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430ea8ecd4ca94aa1a60cc330648f260
+      internalID: 1530606852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_85
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1b8c457410a479da8c4ed0fc4ae090
+      internalID: -1083933321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_86
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ff54f39e5874827bb25a7dee395d51
+      internalID: 2043068457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_87
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a9d42673c86487d9fae60b81576153
+      internalID: -2132882574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_88
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dc47f4f1abd4be9a833f8422c68d38
+      internalID: 2034929547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_89
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174860bcf43ee4280959bd12701dcbfe
+      internalID: -312754795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_90
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e543ff457c0440cae376fe39996219
+      internalID: -847462328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_91
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8fa3256481a48eeb9ecb49a7c82975
+      internalID: 1576506286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_92
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09100401892d141d08c9551490f5cfe2
+      internalID: 943659905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_93
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5521f60f38d0b4165b1ee9d37295fb85
+      internalID: -807549516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_94
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac10f25259cb4bb58da610a0b1ae1bf
+      internalID: -1968640423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_95
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2503f1e7c9d4551b4a16907ebb757f
+      internalID: 419365170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_96
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1658
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffcc3f1fd0a340a6a18f11d1eba05a4
+      internalID: -1267727644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_97
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d7d074bd3a54640be8d1553042e2f4
+      internalID: 125938036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_98
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b24318ff3a0f44fe81315ad22dd9a41
+      internalID: 927881747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_99
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a452db7a6524422891efa31a07b3dd
+      internalID: -2042840612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_100
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c65b2d1710914fa6a7acf985ef0a89c
+      internalID: -1595824780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_101
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafb6cda644fe45e9a63724384aa5e1b
+      internalID: -1631577747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_102
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f8a1ba813e2428caf39919bd24a6f0
+      internalID: 1781631731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_103
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e5d0fa614d2448aba3ebc9f086a2d0
+      internalID: 2127024330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_104
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985485706a6f547c8b0c02941b7d187e
+      internalID: -583334798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_105
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdeed2c68cb849ecb8ae1bbd32c739c
+      internalID: 1444389611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_106
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a057f694f2347f99bdd483ecb1d5bb
+      internalID: -111198475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_107
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f1c2d78983241debc8673272ac6be2
+      internalID: -635873318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_108
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e7a64ac52ac4f2e8d157d60f5790ca
+      internalID: -720873861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_109
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0cb992c79944e07bfd34dc538b31ba
+      internalID: 508830561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_110
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1feaa09ca1f45447aac42a728b3285aa
+      internalID: -1211462619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_111
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cfa48005bc54dee863c8b4a5ac7d2e
+      internalID: 1968731251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_112
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cc3524d915e42dabf81b11dd844978
+      internalID: 533756520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_113
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1538
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db4b51b53b0f4bc099f8513a7dd7446
+      internalID: -254846172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_114
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6d91e147ff0408c86a9af0a37c7a06
+      internalID: -516858912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_115
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54b38ca1f75140b29a0c7174e8094ef
+      internalID: 1368037237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_116
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c279cef5e9c4d27ad0ef480cf60ff4
+      internalID: 1355355543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_117
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a496a6423bfcf4239a033b298983cf26
+      internalID: 688773148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_118
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f12ea124845b4aa19d0962565d72502
+      internalID: -1983236335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_119
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283770c2930234add8355cc3fc1d04ba
+      internalID: -334822387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_120
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd978d20dd0a422c9057b6d677c7ced
+      internalID: 615896148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_121
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a7eabdc31a64468be62286d1c591dc
+      internalID: -2062540722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_122
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc4c221090c64cc79e5af404bd3041b
+      internalID: 1614447932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_123
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6309af3c102a04eb5b83cb3e66fc9656
+      internalID: 516667304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_124
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942a988b5ff4949adb9cfb3d63fd8136
+      internalID: 1674869487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_125
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e23f44c4c4941bfa5c6fe3c4286ea2
+      internalID: 159011146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_126
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ad73a49dc554cc88bf69599f8dd038
+      internalID: 2026367107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_127
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c3b9be5ac784570b894816556538f9
+      internalID: 900308026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_128
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1418
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe30d42f619d24b68b083bf931605776
+      internalID: -1984068634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_129
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821e6736ec9cc46ac863dfc71f82adb6
+      internalID: -165281685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_130
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65b15aaf422d4202a2265f659415928
+      internalID: -1710568668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_131
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa18e16b8766446fadf6c378c10600f
+      internalID: -1073495699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_132
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49d103b3ad654c838a26fbc04acd561
+      internalID: -209191667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_133
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50afc6a64fb2b4de39ef0552646efe81
+      internalID: -1691700356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_134
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2466db0eca25e4f078523493b6ef0352
+      internalID: -1873697202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_135
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1298
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3f585db23524aa59dbd4030797cb31
+      internalID: 858663154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_136
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4868742c46f446ba0873656ad0d50d
+      internalID: -1170813900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_137
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f0f6970470e4c6284bd32d82f70eea
+      internalID: -1862893782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_138
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ce2b77a55de454994556ee6af1e301
+      internalID: 859177380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_139
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5252a38db9caf49f6b89403c46dc4364
+      internalID: -647150000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_140
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2198c2f8e28c8497eac9118b08e54c49
+      internalID: -337095662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_141
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0482fd48320474a98685a83a432358
+      internalID: 1835997735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_142
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9942117325d2641f2821cd899b879888
+      internalID: 1999638572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_143
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5125ce52860384974a77ae61debe3e04
+      internalID: -2130590496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_144
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1178
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc82aff7ea714531ac7f9a2ed3dedec
+      internalID: -1372867897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_145
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b9fc5cd0ef24d1ba61453eacba5d40
+      internalID: 1581544431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_146
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1958c3aadd7114c8f9270de552a6f461
+      internalID: -1553909578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_147
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a8aed478991419f94ff76def401b52
+      internalID: -176095815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_148
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2d9d5dac81142e69b3d204e8dd2637
+      internalID: -1740621592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_149
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5239daefcae02496c982a5ee78b58fab
+      internalID: 306405366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_150
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7d422058e2b4c5c891ef993d1884c5
+      internalID: -931274848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_151
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cab1267009d4b5587fc3fd6fa540d1
+      internalID: 986227431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_152
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1058
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7b4595ff42d4ce1afd03f79f05ac45
+      internalID: 775429617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_153
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74221ce511ec4d9ebff25485140711a
+      internalID: -807710230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_154
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c1dc621ffb94ef3b3dd045f21ad411
+      internalID: 1261884985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_155
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5eac24b198274a5c95af07f1b026ba8
+      internalID: -2029249261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_156
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f148098260c7c4cb3a14dd27901bfb3f
+      internalID: -1234951293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_157
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8d60e62a4af42c6b7909148073f927
+      internalID: 1312756023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_158
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde2ab73a1059484f92cd93416219f96
+      internalID: -1548204249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_159
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2b84e8601a342a4a28758746be91ca
+      internalID: -1788784364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_160
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d98549edc2b4d0d91f2c570186f5ef
+      internalID: 1633175000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_161
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bd261b61e494d89b1be2f221ca8802
+      internalID: 609043321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_162
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b4d15deb423404c80e0d735f301048
+      internalID: 427445389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_163
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8e1292da4d743ae928c38460213d00
+      internalID: 270982817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_164
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a94d1807492471f8b1362fb2f7ac66
+      internalID: 1733459573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_165
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158b3a3e74926498281a906eb551a4ad
+      internalID: -122550517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_166
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7767af4b502458c98451d7bc46e066
+      internalID: 720336144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_167
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54db5ade40fa6415ca8c47c88c90b835
+      internalID: -406255935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_168
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 938
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e26532ae2e5d41b7bf1e9e5988dda38
+      internalID: 1434190530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_169
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1314eff43b07b477cb5576e5cc48b03c
+      internalID: 1828587278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_170
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3928375b74dee496893259893acea3d9
+      internalID: 1111254251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_171
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769cf2e83418f46f5961265533cf8ead
+      internalID: -296398054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_172
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de8ac0f3f7064309a49d67e7cfbe2ee
+      internalID: -1988346114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_173
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8110837d471e345648b1c1e0ceecaba5
+      internalID: -1184752236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_174
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c4963a8fd45493291e069172fe40b7
+      internalID: -1959484999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_175
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02b72b38d06c42f5b37fab27a5ab61b
+      internalID: 852701647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_176
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ac537fc276041a0a765cc25bc66435
+      internalID: -1037640454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_177
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6852805b26149c78cc8686204dcaa8
+      internalID: -1710176363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_178
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db14e2ed0b994ebb9655ac8e45d4f2e
+      internalID: -1279877068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_179
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ebbc738202246dc8569732bec79c41
+      internalID: -1863048472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_180
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb09b97b1cf14d32b4dd25503e37c66
+      internalID: 153921067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_181
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb0c9bccaee84eb0af525914d9fa80d
+      internalID: -658399496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_182
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cec02cc975f242b9b9fd101a38150c7
+      internalID: -1533858922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_183
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179151f6a111d4c078eb999ef142966a
+      internalID: -1678366253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_184
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cca563bac7d24c94ace7baaf5e0f169
+      internalID: -1779115476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_185
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4f00a9633fd4836936fb6abf864a91
+      internalID: -870578526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_186
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 818
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1d3f422f2c84e5284e668acdb4260e
+      internalID: -495205471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_187
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4c6a4a42bc94c3081b41696ce1aa44
+      internalID: -948481190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_188
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4d149a3c745441c8f1f694426a5343
+      internalID: -1419466434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_189
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767f1964ab8a045149fe975bddd32771
+      internalID: -538265832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_190
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55bf5e01c4644c39b0ef236a1c43b03
+      internalID: -862092320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_191
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9775fef0c2e2a48498107cdc9ddc28ab
+      internalID: 1233670677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_192
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e10156edb4140959223f1e3526e0dd
+      internalID: 248720985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_193
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d7ef76ece09485b807a4eb4ca4cf60
+      internalID: 1165448404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_194
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e7ef8208f174de3840eeff52f4aef0
+      internalID: 558070288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_195
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320a4174f3d464d3db67817a789ce18e
+      internalID: -1841730714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_196
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22de9e2c499c44337998faca9894c659
+      internalID: 1110912196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_197
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b15d6f4f34545b49d6859c14e35cc3
+      internalID: 688021359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_198
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac074a784cb54c5084573e6d0885f8a
+      internalID: 931283826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_199
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bce2c4e234f47b99edb407c317db5c
+      internalID: -704412241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_200
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f9135e2c82a48579d7914dbc294f2b
+      internalID: 1702505776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_201
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8851e58c7088148cabb2ff63ee13a715
+      internalID: 2138528043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_202
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da65004115d7f409587ecf6fbc61281a
+      internalID: 11036370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_203
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969435f2407d0497ba5d054dd57b2a1e
+      internalID: -66830237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_204
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 698
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fa15b16c2124b699bbccb61b0d3ef2
+      internalID: 1652787433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_205
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c6847f60e64330b08331837252021
+      internalID: 855705297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_206
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e503333c2267e4361979e9c325d576ff
+      internalID: 1154128787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_207
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2e9e75557164514bfd827fbae7d62b
+      internalID: 753518536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_208
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b236f6f32ee4d9f9c9aafd848f7f1b
+      internalID: 1384967164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_209
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40a27ae0ba574829a636b688ba3b6c9
+      internalID: 1668919582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_210
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec8554f029434a10aa9abcb92a8e0ad
+      internalID: 1116100681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_211
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f881867a38f24adc804ad01dad70e9a
+      internalID: -1824733387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_212
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70803334c9a1f40a4ab7c7f665979763
+      internalID: 450193509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_213
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca289683f4ef4f93a3de7fc4d1b793a
+      internalID: -1902505443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_214
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196eb7b83d00047ebb7c868d460a79ce
+      internalID: -955871155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_215
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dab65ee9c1f4f6a8d93dd8ecad4260
+      internalID: 60752222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_216
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3897078a5997e4c7ba24f1e942d9b29a
+      internalID: 1031329161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_217
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed365ad74b3b443fab414f4ed55e73a
+      internalID: 230557602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_218
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0107097f5a34bfd8f1411fb972c208
+      internalID: -1805652053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_219
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 578
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0509aec1065bf475da8ac68ad52fe7d0
+      internalID: 1475816612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_220
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 458
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e84c9d2f5dc44ed0a816ad7dd0eb9c4
+      internalID: 1946141823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_221
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 458
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83aaa8c08aa414fe0b6942ffea62d44a
+      internalID: 379980718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_222
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 458
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87bad4db7cc5469389dfb6f7a61f07e
+      internalID: -587068004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_223
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0487b7f7b70d4343bd4802329a8e837
+      internalID: 1473286142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_224
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ef3bfcba01540e2a2a8ba7055c5f3f
+      internalID: 1138758391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_225
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a9e7b67ffa54095a40936fbccd11c1
+      internalID: -2095574305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_226
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddf44717ff194c48878740cb8a02aef
+      internalID: -1784714003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_227
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2292228c4ed4473ea1c678d9ac39367
+      internalID: -1989622976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_228
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41e66f9366d24889b4ab0d3ad36736c
+      internalID: -1205035365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_229
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c81f28e44ba9406e807c7407fec9fd2
+      internalID: 779944235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_230
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 338
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a274053df23445ebc385d85d771388
+      internalID: 1735571154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_231
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c39ec032c05b467e83a50b6ecac5817
+      internalID: -813176305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_232
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8c0624fc8964cfb80a7005bc2f5108
+      internalID: 977567413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_233
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0232140dac14a45168616225727ebd50
+      internalID: 778212275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_234
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52a682976e7d46d79effb01829736f6
+      internalID: 1446753717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_235
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6df65d86df2d45d08b9c2ce1deabad1
+      internalID: 400749329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_236
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e153a7b73a86648748253f923af6bbe4
+      internalID: -1329451390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_237
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 218
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f823c5b0e1f4ebfbf882320f8fc854
+      internalID: 835046705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_238
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4166aca848d434223a735cb030785938
+      internalID: -988122044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_239
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddae568bf3779471d8100454a790bc1b
+      internalID: 925833117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_240
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b53895e91d74a92a44956b2c62e085
+      internalID: -2114126883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_241
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162dc108a4c434c73aa8681d7b229b17
+      internalID: 1141660239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_242
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de0d487e22024f568750bd2e70a4dd1
+      internalID: -555475980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_243
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24b199de2a4a4ed995170642b4d8591
+      internalID: 1599051318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_244
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafe580b7ba0944609501c021cc7fd52
+      internalID: -1345598056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_245
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152b0fb12324f405fb46912399078ed7
+      internalID: 270256565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_246
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f976d705f9b41c882dfcba80d49649
+      internalID: -751401666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoffentlich finales tileset_247
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 98
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4182e2de031d46fb8f1f7209f9c61f6
+      internalID: -1781151677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hoffentlich finales tileset_0: 927190489
+      hoffentlich finales tileset_1: 963758192
+      hoffentlich finales tileset_10: 1458750622
+      hoffentlich finales tileset_100: -1595824780
+      hoffentlich finales tileset_101: -1631577747
+      hoffentlich finales tileset_102: 1781631731
+      hoffentlich finales tileset_103: 2127024330
+      hoffentlich finales tileset_104: -583334798
+      hoffentlich finales tileset_105: 1444389611
+      hoffentlich finales tileset_106: -111198475
+      hoffentlich finales tileset_107: -635873318
+      hoffentlich finales tileset_108: -720873861
+      hoffentlich finales tileset_109: 508830561
+      hoffentlich finales tileset_11: 1430602512
+      hoffentlich finales tileset_110: -1211462619
+      hoffentlich finales tileset_111: 1968731251
+      hoffentlich finales tileset_112: 533756520
+      hoffentlich finales tileset_113: -254846172
+      hoffentlich finales tileset_114: -516858912
+      hoffentlich finales tileset_115: 1368037237
+      hoffentlich finales tileset_116: 1355355543
+      hoffentlich finales tileset_117: 688773148
+      hoffentlich finales tileset_118: -1983236335
+      hoffentlich finales tileset_119: -334822387
+      hoffentlich finales tileset_12: 1525553821
+      hoffentlich finales tileset_120: 615896148
+      hoffentlich finales tileset_121: -2062540722
+      hoffentlich finales tileset_122: 1614447932
+      hoffentlich finales tileset_123: 516667304
+      hoffentlich finales tileset_124: 1674869487
+      hoffentlich finales tileset_125: 159011146
+      hoffentlich finales tileset_126: 2026367107
+      hoffentlich finales tileset_127: 900308026
+      hoffentlich finales tileset_128: -1984068634
+      hoffentlich finales tileset_129: -165281685
+      hoffentlich finales tileset_13: -1424411009
+      hoffentlich finales tileset_130: -1710568668
+      hoffentlich finales tileset_131: -1073495699
+      hoffentlich finales tileset_132: -209191667
+      hoffentlich finales tileset_133: -1691700356
+      hoffentlich finales tileset_134: -1873697202
+      hoffentlich finales tileset_135: 858663154
+      hoffentlich finales tileset_136: -1170813900
+      hoffentlich finales tileset_137: -1862893782
+      hoffentlich finales tileset_138: 859177380
+      hoffentlich finales tileset_139: -647150000
+      hoffentlich finales tileset_14: 276011819
+      hoffentlich finales tileset_140: -337095662
+      hoffentlich finales tileset_141: 1835997735
+      hoffentlich finales tileset_142: 1999638572
+      hoffentlich finales tileset_143: -2130590496
+      hoffentlich finales tileset_144: -1372867897
+      hoffentlich finales tileset_145: 1581544431
+      hoffentlich finales tileset_146: -1553909578
+      hoffentlich finales tileset_147: -176095815
+      hoffentlich finales tileset_148: -1740621592
+      hoffentlich finales tileset_149: 306405366
+      hoffentlich finales tileset_15: -2121815197
+      hoffentlich finales tileset_150: -931274848
+      hoffentlich finales tileset_151: 986227431
+      hoffentlich finales tileset_152: 775429617
+      hoffentlich finales tileset_153: -807710230
+      hoffentlich finales tileset_154: 1261884985
+      hoffentlich finales tileset_155: -2029249261
+      hoffentlich finales tileset_156: -1234951293
+      hoffentlich finales tileset_157: 1312756023
+      hoffentlich finales tileset_158: -1548204249
+      hoffentlich finales tileset_159: -1788784364
+      hoffentlich finales tileset_16: 691340889
+      hoffentlich finales tileset_160: 1633175000
+      hoffentlich finales tileset_161: 609043321
+      hoffentlich finales tileset_162: 427445389
+      hoffentlich finales tileset_163: 270982817
+      hoffentlich finales tileset_164: 1733459573
+      hoffentlich finales tileset_165: -122550517
+      hoffentlich finales tileset_166: 720336144
+      hoffentlich finales tileset_167: -406255935
+      hoffentlich finales tileset_168: 1434190530
+      hoffentlich finales tileset_169: 1828587278
+      hoffentlich finales tileset_17: -1947038588
+      hoffentlich finales tileset_170: 1111254251
+      hoffentlich finales tileset_171: -296398054
+      hoffentlich finales tileset_172: -1988346114
+      hoffentlich finales tileset_173: -1184752236
+      hoffentlich finales tileset_174: -1959484999
+      hoffentlich finales tileset_175: 852701647
+      hoffentlich finales tileset_176: -1037640454
+      hoffentlich finales tileset_177: -1710176363
+      hoffentlich finales tileset_178: -1279877068
+      hoffentlich finales tileset_179: -1863048472
+      hoffentlich finales tileset_18: -481056009
+      hoffentlich finales tileset_180: 153921067
+      hoffentlich finales tileset_181: -658399496
+      hoffentlich finales tileset_182: -1533858922
+      hoffentlich finales tileset_183: -1678366253
+      hoffentlich finales tileset_184: -1779115476
+      hoffentlich finales tileset_185: -870578526
+      hoffentlich finales tileset_186: -495205471
+      hoffentlich finales tileset_187: -948481190
+      hoffentlich finales tileset_188: -1419466434
+      hoffentlich finales tileset_189: -538265832
+      hoffentlich finales tileset_19: -1010595562
+      hoffentlich finales tileset_190: -862092320
+      hoffentlich finales tileset_191: 1233670677
+      hoffentlich finales tileset_192: 248720985
+      hoffentlich finales tileset_193: 1165448404
+      hoffentlich finales tileset_194: 558070288
+      hoffentlich finales tileset_195: -1841730714
+      hoffentlich finales tileset_196: 1110912196
+      hoffentlich finales tileset_197: 688021359
+      hoffentlich finales tileset_198: 931283826
+      hoffentlich finales tileset_199: -704412241
+      hoffentlich finales tileset_2: -188167366
+      hoffentlich finales tileset_20: -380382898
+      hoffentlich finales tileset_200: 1702505776
+      hoffentlich finales tileset_201: 2138528043
+      hoffentlich finales tileset_202: 11036370
+      hoffentlich finales tileset_203: -66830237
+      hoffentlich finales tileset_204: 1652787433
+      hoffentlich finales tileset_205: 855705297
+      hoffentlich finales tileset_206: 1154128787
+      hoffentlich finales tileset_207: 753518536
+      hoffentlich finales tileset_208: 1384967164
+      hoffentlich finales tileset_209: 1668919582
+      hoffentlich finales tileset_21: 1976638907
+      hoffentlich finales tileset_210: 1116100681
+      hoffentlich finales tileset_211: -1824733387
+      hoffentlich finales tileset_212: 450193509
+      hoffentlich finales tileset_213: -1902505443
+      hoffentlich finales tileset_214: -955871155
+      hoffentlich finales tileset_215: 60752222
+      hoffentlich finales tileset_216: 1031329161
+      hoffentlich finales tileset_217: 230557602
+      hoffentlich finales tileset_218: -1805652053
+      hoffentlich finales tileset_219: 1475816612
+      hoffentlich finales tileset_22: 1678448325
+      hoffentlich finales tileset_220: 1946141823
+      hoffentlich finales tileset_221: 379980718
+      hoffentlich finales tileset_222: -587068004
+      hoffentlich finales tileset_223: 1473286142
+      hoffentlich finales tileset_224: 1138758391
+      hoffentlich finales tileset_225: -2095574305
+      hoffentlich finales tileset_226: -1784714003
+      hoffentlich finales tileset_227: -1989622976
+      hoffentlich finales tileset_228: -1205035365
+      hoffentlich finales tileset_229: 779944235
+      hoffentlich finales tileset_23: 389177922
+      hoffentlich finales tileset_230: 1735571154
+      hoffentlich finales tileset_231: -813176305
+      hoffentlich finales tileset_232: 977567413
+      hoffentlich finales tileset_233: 778212275
+      hoffentlich finales tileset_234: 1446753717
+      hoffentlich finales tileset_235: 400749329
+      hoffentlich finales tileset_236: -1329451390
+      hoffentlich finales tileset_237: 835046705
+      hoffentlich finales tileset_238: -988122044
+      hoffentlich finales tileset_239: 925833117
+      hoffentlich finales tileset_24: -438271383
+      hoffentlich finales tileset_240: -2114126883
+      hoffentlich finales tileset_241: 1141660239
+      hoffentlich finales tileset_242: -555475980
+      hoffentlich finales tileset_243: 1599051318
+      hoffentlich finales tileset_244: -1345598056
+      hoffentlich finales tileset_245: 270256565
+      hoffentlich finales tileset_246: -751401666
+      hoffentlich finales tileset_247: -1781151677
+      hoffentlich finales tileset_25: 1948351528
+      hoffentlich finales tileset_26: 1735026763
+      hoffentlich finales tileset_27: -146244266
+      hoffentlich finales tileset_28: -236784651
+      hoffentlich finales tileset_29: -554609878
+      hoffentlich finales tileset_3: -656147509
+      hoffentlich finales tileset_30: 1094487965
+      hoffentlich finales tileset_31: -1128690235
+      hoffentlich finales tileset_32: 279995558
+      hoffentlich finales tileset_33: -1547840845
+      hoffentlich finales tileset_34: 1335073115
+      hoffentlich finales tileset_35: -1302393280
+      hoffentlich finales tileset_36: 435600274
+      hoffentlich finales tileset_37: -1297013706
+      hoffentlich finales tileset_38: 102768616
+      hoffentlich finales tileset_39: -1048155172
+      hoffentlich finales tileset_4: 1519832184
+      hoffentlich finales tileset_40: 592614592
+      hoffentlich finales tileset_41: 1391014858
+      hoffentlich finales tileset_42: -668049787
+      hoffentlich finales tileset_43: 2089916394
+      hoffentlich finales tileset_44: -1661039047
+      hoffentlich finales tileset_45: 1593680592
+      hoffentlich finales tileset_46: -499552172
+      hoffentlich finales tileset_47: 495003982
+      hoffentlich finales tileset_48: -752325029
+      hoffentlich finales tileset_49: 1795459357
+      hoffentlich finales tileset_5: -772174172
+      hoffentlich finales tileset_50: -1658385859
+      hoffentlich finales tileset_51: -1874071313
+      hoffentlich finales tileset_52: 280351855
+      hoffentlich finales tileset_53: 1284328357
+      hoffentlich finales tileset_54: 1156493604
+      hoffentlich finales tileset_55: 852990383
+      hoffentlich finales tileset_56: 417546865
+      hoffentlich finales tileset_57: 1944411471
+      hoffentlich finales tileset_58: 736082302
+      hoffentlich finales tileset_59: 864587097
+      hoffentlich finales tileset_6: 771036887
+      hoffentlich finales tileset_60: -376325056
+      hoffentlich finales tileset_61: -1978940406
+      hoffentlich finales tileset_62: 688554607
+      hoffentlich finales tileset_63: -571755743
+      hoffentlich finales tileset_64: -1767596297
+      hoffentlich finales tileset_65: 1561919894
+      hoffentlich finales tileset_66: 1023335450
+      hoffentlich finales tileset_67: 321219236
+      hoffentlich finales tileset_68: 1632615444
+      hoffentlich finales tileset_69: 1483640726
+      hoffentlich finales tileset_7: 350640145
+      hoffentlich finales tileset_70: -675051632
+      hoffentlich finales tileset_71: 176784396
+      hoffentlich finales tileset_72: 1998131505
+      hoffentlich finales tileset_73: -1612970630
+      hoffentlich finales tileset_74: 941932375
+      hoffentlich finales tileset_75: -2075215393
+      hoffentlich finales tileset_76: -2054156679
+      hoffentlich finales tileset_77: -1593853340
+      hoffentlich finales tileset_78: -1685358165
+      hoffentlich finales tileset_79: -361383321
+      hoffentlich finales tileset_8: -2102631319
+      hoffentlich finales tileset_80: 1603288208
+      hoffentlich finales tileset_81: -715475446
+      hoffentlich finales tileset_82: 455710900
+      hoffentlich finales tileset_83: -2145053007
+      hoffentlich finales tileset_84: 1530606852
+      hoffentlich finales tileset_85: -1083933321
+      hoffentlich finales tileset_86: 2043068457
+      hoffentlich finales tileset_87: -2132882574
+      hoffentlich finales tileset_88: 2034929547
+      hoffentlich finales tileset_89: -312754795
+      hoffentlich finales tileset_9: -1472457216
+      hoffentlich finales tileset_90: -847462328
+      hoffentlich finales tileset_91: 1576506286
+      hoffentlich finales tileset_92: 943659905
+      hoffentlich finales tileset_93: -807549516
+      hoffentlich finales tileset_94: -1968640423
+      hoffentlich finales tileset_95: 419365170
+      hoffentlich finales tileset_96: -1267727644
+      hoffentlich finales tileset_97: 125938036
+      hoffentlich finales tileset_98: 927881747
+      hoffentlich finales tileset_99: -2042840612
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

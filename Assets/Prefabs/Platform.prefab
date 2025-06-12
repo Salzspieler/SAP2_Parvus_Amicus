@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1336579336272197732}
   - component: {fileID: 2364958956681545836}
-  - component: {fileID: 7512701751154544004}
   - component: {fileID: 9064161264594312152}
   - component: {fileID: 1231097938568903430}
+  - component: {fileID: 8277706498370102993}
   m_Layer: 0
   m_Name: SpritePlatform
   m_TagString: Ground
@@ -87,21 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7512701751154544004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3974421822938733313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ee093a7cb8024c46afeac0e716d0ee1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointA: {fileID: 8645007325224484073}
-  pointB: {fileID: 7999310732968786759}
-  speed: 2
 --- !u!61 &9064161264594312152
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -134,7 +119,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.18480468, y: -0.02331686}
+  m_Offset: {x: -0.18550873, y: -0.023764372}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -145,7 +130,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1405454, y: 0.4487877}
+  m_Size: {x: 1.1426878, y: 0.4496827}
   m_EdgeRadius: 0
 --- !u!50 &1231097938568903430
 Rigidbody2D:
@@ -174,6 +159,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8277706498370102993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3974421822938733313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a1677138bb0ad47ba0e323a0d3bb88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wayPoints:
+  - {fileID: 6849197501538897396}
+  - {fileID: 6519741284895598385}
+  currentWaypointIndex: 0
+  speed: 3
 --- !u!1 &4895300787455136553
 GameObject:
   m_ObjectHideFlags: 0

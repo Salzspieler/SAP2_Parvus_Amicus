@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 5052471393579682436}
   - component: {fileID: 3903993512802260512}
   - component: {fileID: 4381107813960524277}
-  - component: {fileID: 8772919104512656712}
+  - component: {fileID: 9073453714224149952}
   m_Layer: 0
   m_Name: SpriteEnemy
   m_TagString: Enemy
@@ -194,7 +194,7 @@ MonoBehaviour:
   - {fileID: 4224864580885352355}
   - {fileID: 2619806821425405779}
   currentWaypointIndex: 0
-  speed: 3
+  speed: 2.5
   attackDamage: 1
 --- !u!61 &4381107813960524277
 BoxCollider2D:
@@ -241,7 +241,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0225868, y: 0.6576934}
   m_EdgeRadius: 0
---- !u!95 &8772919104512656712
+--- !u!95 &9073453714224149952
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0

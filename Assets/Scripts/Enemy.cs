@@ -15,11 +15,7 @@ public class Enemy : MonoBehaviour
     private GameObject player;
     public int attackDamage;
     private float distance;
-    //private EnemyMovement enemyMovement;
-    //private GameObject[] enemies;
-    //public CircleCollider2D DetectionRadius;
-    //public GameObject player;
-    //public bool isPlayerDetected = false;
+
 
     private void Start()
     {
