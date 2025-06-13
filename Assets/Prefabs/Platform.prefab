@@ -175,7 +175,7 @@ MonoBehaviour:
   - {fileID: 6849197501538897396}
   - {fileID: 6519741284895598385}
   currentWaypointIndex: 0
-  speed: 3
+  speed: 2
 --- !u!1 &4895300787455136553
 GameObject:
   m_ObjectHideFlags: 0

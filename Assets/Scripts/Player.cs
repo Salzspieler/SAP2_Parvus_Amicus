@@ -11,8 +11,12 @@ public class Player : MonoBehaviour
     public int currentHealth;
     public Healthbar healthbar;
     public Animator animator;
-    private enum animState {idle,jump,fall,hover}
+    private RangeLaunch rangeLaunch;
+    private enum animState { idle, jump, fall, hover }
+    private enum animState2 { idle, jump, throwAphid, hover, fall, heal }
     private animState state;
+    private animState2 state2;
+
 
 
     private bool canDoubleJump = false;
@@ -45,6 +49,7 @@ public class Player : MonoBehaviour
         //currentSprite = GetComponent<SpriteRenderer>().sprite;
         logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
         //dashCounter = dashTime;
+        rangeLaunch = GetComponent<RangeLaunch>();
 
         rb.gravityScale = normalyGravity;
     }
@@ -59,18 +64,18 @@ public class Player : MonoBehaviour
         }
         else
         {
-            if(KnockFromRight == true)
+            if (KnockFromRight == true)
             {
                 rb.velocity = new Vector2(-KBForce, KBForce);
             }
-            if(KnockFromRight == false)
+            if (KnockFromRight == false)
             {
                 rb.velocity = new Vector2(KBForce, KBForce);
             }
             KBCounter -= Time.deltaTime;
         }
-        
-        
+
+
 
         // Sprung & Double Jump
         if (Input.GetKeyDown(KeyCode.Space))
@@ -114,7 +119,7 @@ public class Player : MonoBehaviour
         {
             //Debug.Log("Dash");
             //dashCounter = dashTime;
-            isDashButtonDown =  true;
+            isDashButtonDown = true;
             //Debug.Log(isDashButtonDown);
         }
         //dashCounter -= Time.deltaTime;
@@ -126,29 +131,30 @@ public class Player : MonoBehaviour
             {
                 Healing();
             }
-            
+
         }
 
-        //Animations Logic
+        //Animations Logic ohne Fifi
 
-        //idle
-        if(isGrounded && Input.GetAxis("Horizontal") == 0 && !animator.GetBool("HasAphid"))
+        //run
+        if (isGrounded && Input.GetAxis("Horizontal") == 0 && !animator.GetBool("HasAphid"))
         {
             state = animState.idle;
         }
         else
         {
-            animator.SetFloat("state2", 0);
+            state2 = animState2.idle;
         }
 
         //jump
         if (!isGrounded && rb.velocity.y > 0 && !animator.GetBool("HasAphid"))
         {
             state = animState.jump;
+            Debug.Log("Jump Animation");
         }
         else
         {
-            animator.SetFloat("state2", 1);
+            state2 = animState2.jump;
         }
 
         //fall
@@ -158,20 +164,27 @@ public class Player : MonoBehaviour
         }
         else
         {
-            animator.SetFloat("state2", 4);
+            state2 = animState2.fall;
         }
 
         //hover
-        if(!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.LeftControl) /*Input.GetKey(KeyCode.E)*/ && !animator.GetBool("HasAphid"))
+        if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.LeftControl) /*Input.GetKey(KeyCode.E)*/ && !animator.GetBool("HasAphid"))
         {
             state = animState.hover;
         }
         else
         {
-            animator.SetFloat("state2", 3);
+            state2 = animState2.hover;
+        }
+
+        //throw
+        if (rangeLaunch.GetLaunch())
+        {
+            state2 = animState2.throwAphid;
         }
         animator.SetInteger("state", (int)state);
-        
+        animator.SetInteger("state2", (int)state2);
+
     }
 
     private void FixedUpdate()
@@ -188,13 +201,15 @@ public class Player : MonoBehaviour
     public void Healing()
     {
         //Debug.Log("Healing");
-       
+
         //Debug.Log("If Healing");
         logic.leavesCount--;
+        state2 = animState2.heal;
         currentHealth++;
         healthbar.SetHealth(currentHealth);
+        animator.SetFloat("state2", (float)state2);
         //Debug.Log("Leaves: " + logic.leavesCount);
-   
+
     }
 
     public void TakeDamage(int damage)
@@ -230,6 +245,7 @@ public class Player : MonoBehaviour
             isGrounded = false;
         }
     }
+
 
     /*
      * Input mit Shift-Taste

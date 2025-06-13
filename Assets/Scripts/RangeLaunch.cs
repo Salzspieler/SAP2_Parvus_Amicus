@@ -8,8 +8,9 @@ public class RangeLaunch : MonoBehaviour
 {
     [SerializeField] private GameObject aphidObject;
     public Transform launchPoint;
-    private GameObject player;
+    //private GameObject player;
     //[SerializeField] Sprite newSprite;
+    private bool launchInProgress = false;
 
     //public bool throwready; 
 
@@ -20,7 +21,7 @@ public class RangeLaunch : MonoBehaviour
     void Start()
     {
         shootCounter = shootTime;
-        player = GameObject.Find("Player");
+        //player = GameObject.Find("Player");
         //throwready = true;
 
     }
@@ -30,7 +31,7 @@ public class RangeLaunch : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && shootCounter < 0)
         {
-            player.GetComponent<Animator>().SetFloat("state2",2);
+            launchInProgress = true;
             Instantiate(aphidObject, launchPoint.position, Quaternion.identity);
             shootCounter = shootTime;
 
@@ -42,7 +43,7 @@ public class RangeLaunch : MonoBehaviour
             }*/
             
         }
-        
+        launchInProgress = false;
         //player.currentSprite = newSprite;
         //Debug.Log("Sprite ändern");
         shootCounter -= Time.deltaTime;
@@ -54,6 +55,12 @@ public class RangeLaunch : MonoBehaviour
         }*/
         //Sprite Change´mit Aphid Counter
         
+    }
+
+
+    public bool GetLaunch()
+    {
+        return launchInProgress;
     }
 
 

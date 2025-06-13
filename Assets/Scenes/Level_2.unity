@@ -9153,7 +9153,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.25384903}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9164,7 +9164,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.507698}
   m_EdgeRadius: 0
 --- !u!4 &426876402
 Transform:
@@ -23355,6 +23355,79 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1254620146
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1478075176197999387, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478075176197999387, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478075176197999387, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.9076376
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478075176197999387, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478075176197999387, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478075176197999387, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478075176197999387, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478075176197999387, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478075176197999387, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478075176197999387, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894008186028001969, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_Name
+      value: FlyingEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329174439488972857, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_Size.x
+      value: 4.989849
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329174439488972857, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_Size.y
+      value: 3.0437133
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329174439488972857, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.88869
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329174439488972857, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.089520335
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
 --- !u!1 &1273522603
 GameObject:
   m_ObjectHideFlags: 0
@@ -39585,3 +39658,4 @@ SceneRoots:
   - {fileID: 1050942462}
   - {fileID: 497566518}
   - {fileID: 487290}
+  - {fileID: 1254620146}
