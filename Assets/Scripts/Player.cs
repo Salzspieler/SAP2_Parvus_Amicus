@@ -9,13 +9,15 @@ public class Player : MonoBehaviour
     public float jumpHeight = 5f;
     public int maxHealth = 5;
     public int currentHealth;
-    public Healthbar healthbar;
+    //public Healthbar healthbar;
     public Animator animator;
     private RangeLaunch rangeLaunch;
-    private enum animState { idle, jump, fall, hover }
-    private enum animState2 { idle, jump, throwAphid, hover, fall, heal }
+    private enum animState {idlewalk,jump, fall, hover }
+    private enum animState2 {idlewalk,jump, hover, fall, heal}
     private animState state;
     private animState2 state2;
+    public int aphidCounter = 1;
+    
 
 
 
@@ -44,8 +46,8 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
-        healthbar.SetMaxHealth(maxHealth);
-        animator = GetComponent<Animator>();
+        //healthbar.SetMaxHealth(maxHealth);
+        animator = gameObject.GetComponent<Animator>();
         //currentSprite = GetComponent<SpriteRenderer>().sprite;
         logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
         //dashCounter = dashTime;
@@ -139,49 +141,52 @@ public class Player : MonoBehaviour
         //run
         if (isGrounded && Input.GetAxis("Horizontal") == 0 && !animator.GetBool("HasAphid"))
         {
-            state = animState.idle;
+            state = animState.idlewalk;
+            animator.SetFloat("xVelocity", rb.velocity.x);
         }
-        else
+        
+        else 
         {
-            state2 = animState2.idle;
+            state2 = animState2.idlewalk;
+            animator.SetFloat("xVelocity", rb.velocity.x);
         }
+        
 
         //jump
-        if (!isGrounded && rb.velocity.y > 0 && !animator.GetBool("HasAphid"))
+        if (!isGrounded && rb.velocity.y > 0 /*&& !animator.GetBool("HasAphid")*/)
         {
             state = animState.jump;
-            Debug.Log("Jump Animation");
+            //Debug.Log("Jump Animation");
         }
-        else
+        if(!isGrounded && rb.velocity.y > 0)
         {
             state2 = animState2.jump;
         }
+        //else
+        //{
+        //    state2 = animState2.jump;
+        //}
 
         //fall
-        if (!isGrounded && rb.velocity.y <= 0 && !animator.GetBool("HasAphid"))
+        if (!isGrounded && rb.velocity.y <= 0 /*&& !animator.GetBool("HasAphid")*/)
         {
             state = animState.fall;
         }
-        else
+        if(!isGrounded && rb.velocity.y <= 0)
         {
-            state2 = animState2.fall;
+           state2 = animState2.fall;
         }
 
         //hover
-        if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.LeftControl) /*Input.GetKey(KeyCode.E)*/ && !animator.GetBool("HasAphid"))
+        if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.LeftControl) /*Input.GetKey(KeyCode.E)*/ /*&& !animator.GetBool("HasAphid")*/)
         {
             state = animState.hover;
         }
-        else
+        if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.LeftControl))
         {
             state2 = animState2.hover;
         }
 
-        //throw
-        if (rangeLaunch.GetLaunch())
-        {
-            state2 = animState2.throwAphid;
-        }
         animator.SetInteger("state", (int)state);
         animator.SetInteger("state2", (int)state2);
 
@@ -204,10 +209,11 @@ public class Player : MonoBehaviour
 
         //Debug.Log("If Healing");
         logic.leavesCount--;
+        logic.leavesText.text = logic.leavesCount.ToString();
         state2 = animState2.heal;
         currentHealth++;
-        healthbar.SetHealth(currentHealth);
-        animator.SetFloat("state2", (float)state2);
+        //healthbar.SetHealth(currentHealth);
+        animator.SetFloat("state2", (int)state2);
         //Debug.Log("Leaves: " + logic.leavesCount);
 
     }
@@ -215,13 +221,14 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        healthbar.SetHealth(currentHealth);
+        //healthbar.SetHealth(currentHealth);
         animator.SetTrigger("Hit");
         if (currentHealth <= 0)
         {
             Restart();
         }
     }
+
 
     public void Restart()
     {

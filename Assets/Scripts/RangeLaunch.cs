@@ -10,7 +10,9 @@ public class RangeLaunch : MonoBehaviour
     public Transform launchPoint;
     //private GameObject player;
     //[SerializeField] Sprite newSprite;
-    private bool launchInProgress = false;
+    private Animator playeranimator;
+    private bool ReadytoLaunch = false;
+    private Player player;
 
     //public bool throwready; 
 
@@ -21,6 +23,8 @@ public class RangeLaunch : MonoBehaviour
     void Start()
     {
         shootCounter = shootTime;
+        playeranimator = GameObject.Find("Player").GetComponent<Animator>();
+        player = GameObject.Find("Player").GetComponent<Player>(); 
         //player = GameObject.Find("Player");
         //throwready = true;
 
@@ -29,39 +33,48 @@ public class RangeLaunch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && shootCounter < 0)
+        if (player.aphidCounter == 1)
         {
-            launchInProgress = true;
+            ReadytoLaunch = true;
+            playeranimator.SetBool("Launch", ReadytoLaunch);
+            playeranimator.SetBool("HasAphid", true);
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Mouse0) && shootCounter < 0 && ReadytoLaunch)
+        {
+            //ReadytoLaunch = true;
+            //Debug.Log("RangeLaunch");
+            player.aphidCounter--;
+            Debug.Log("Counter" + player.aphidCounter);
+            ReadytoLaunch = false;
+            playeranimator.SetBool("Launch", ReadytoLaunch);
             Instantiate(aphidObject, launchPoint.position, Quaternion.identity);
             shootCounter = shootTime;
-
-            
-            //player.GetComponent<Renderer>().sp = newSprite;
-            /*if(shootCounter >= 0)
-            {
-                player.GetComponent<SpriteRenderer>().sprite = newSprite;
-            }*/
-            
+            playeranimator.SetBool("HasAphid", false);
         }
-        launchInProgress = false;
+
+        
+
+        
+        //Debug.Log("Nach Update RangeLaunch");
+        
         //player.currentSprite = newSprite;
         //Debug.Log("Sprite ändern");
         shootCounter -= Time.deltaTime;
-
-        /*if (shootCounter < 0)
+        if (shootCounter < 0)
         {
-            //Debug.Log("Sprite Changer");
-            player.GetComponent<SpriteRenderer>().sprite = player.GetComponent<Player>().currentSprite;
-        }*/
-        //Sprite Change´mit Aphid Counter
-        
+            player.aphidCounter = 1;
+
+            
+        }
+
+        //if(aphidCounter == 0){
+        //playeranimator.SetBool("HasAphid", false);
+        //}
+
     }
 
 
-    public bool GetLaunch()
-    {
-        return launchInProgress;
-    }
 
 
 
