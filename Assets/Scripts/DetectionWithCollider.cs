@@ -6,10 +6,13 @@ public class DetectionWithCollider : MonoBehaviour
 {
     [SerializeField]private GameObject flyingEnemy;
 
-    /*private void Awake()
+    private void Awake()
     {
-        flyingEnemy = GameObject.Find("FlyingEnemySprite");
-    }*/
+        if(flyingEnemy == null)
+        {
+            return;
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

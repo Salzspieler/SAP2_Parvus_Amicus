@@ -12,6 +12,8 @@ TagManager:
   - Aphid
   - Enemy
   - Leaf
+  - FlyingEnemy
+  - HardEnemy
   layers:
   - Default
   - TransparentFX

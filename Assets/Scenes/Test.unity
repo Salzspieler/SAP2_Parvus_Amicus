@@ -4177,7 +4177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aphidObject: {fileID: 1345262064829956407, guid: af74ef6dc7ccf44469b8eea750664220, type: 3}
   launchPoint: {fileID: 596119625}
-  shootTime: 0
+  shootTime: 1.5
   shootCounter: 0
 --- !u!114 &1103210462
 MonoBehaviour:
@@ -5168,6 +5168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlyingEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2894008186028001969, guid: 46b6d8344ce58904fa4978b6c1fd5c12, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5224,6 +5228,10 @@ PrefabInstance:
     - target: {fileID: 2844842809039068175, guid: 8d52f36a5721d7b43a0c608c3f69b878, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2869012518835641361, guid: 8d52f36a5721d7b43a0c608c3f69b878, type: 3}
+      propertyPath: maxHealth
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -17,6 +17,7 @@ public class HeavyEnemy : MonoBehaviour
 
     private void Start()
     {
+        currentHealth = maxHealth;
         player = GameObject.Find("Player");
     }
 
@@ -46,6 +47,23 @@ public class HeavyEnemy : MonoBehaviour
         }
         //moveLogic
         transform.position = Vector2.MoveTowards(transform.position, wayPoints[currentWaypointIndex].transform.position, Time.deltaTime * speed);
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+
+    void Die()
+    {
+        //Debug.Log("Gegner ist Tot");
+        Destroy(transform.parent.gameObject);
     }
 
 

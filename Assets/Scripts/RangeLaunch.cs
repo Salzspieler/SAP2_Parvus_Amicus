@@ -33,26 +33,28 @@ public class RangeLaunch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.aphidCounter == 1)
-        {
-            ReadytoLaunch = true;
-            playeranimator.SetBool("Launch", ReadytoLaunch);
-            playeranimator.SetBool("HasAphid", true);
-        }
-        
-        if (Input.GetKeyDown(KeyCode.Mouse0) && shootCounter < 0 && ReadytoLaunch)
+        if (playeranimator.GetBool("HasAphid"))
         {
             //ReadytoLaunch = true;
-            //Debug.Log("RangeLaunch");
-            player.aphidCounter--;
-            Debug.Log("Counter" + player.aphidCounter);
-            ReadytoLaunch = false;
-            playeranimator.SetBool("Launch", ReadytoLaunch);
-            Instantiate(aphidObject, launchPoint.position, Quaternion.identity);
-            shootCounter = shootTime;
-            playeranimator.SetBool("HasAphid", false);
+            //playeranimator.SetBool("HasAphid", true);
+            //playeranimator.SetBool("Launch", ReadytoLaunch);
         }
-
+        
+        if (Input.GetKeyDown(KeyCode.Mouse0) && shootCounter < 0 /*&& ReadytoLaunch*/)
+        {
+            //Debug.Log("ReadytoLaunch bevor Animation: " + ReadytoLaunch);
+            playeranimator.SetBool("Launch", true);
+            //ReadytoLaunch = true;
+            //Debug.Log("RangeLaunch");
+            //player.aphidCounter--;
+            //Debug.Log("Counter" + player.aphidCounter);
+            //ReadytoLaunch = false;
+            //playeranimator.SetBool("Launch", false);
+            //Debug.Log("ReadytoLaunch: " + ReadytoLaunch);
+            Instantiate(aphidObject, launchPoint.position, Quaternion.identity);
+            //shootCounter = shootTime;
+            
+        }
         
 
         
@@ -61,11 +63,19 @@ public class RangeLaunch : MonoBehaviour
         //player.currentSprite = newSprite;
         //Debug.Log("Sprite ändern");
         shootCounter -= Time.deltaTime;
+
+        if(shootCounter > 0)
+        {
+            print("Set HasAphid False");
+            playeranimator.SetBool("Launch", false);
+            playeranimator.SetBool("HasAphid", false);
+        }
         if (shootCounter < 0)
         {
-            player.aphidCounter = 1;
+            //player.aphidCounter = 1;
+            playeranimator.SetBool("HasAphid", true);
+            //Debug.Log("Blattlaus ist wieder da");
 
-            
         }
 
         //if(aphidCounter == 0){
@@ -74,7 +84,10 @@ public class RangeLaunch : MonoBehaviour
 
     }
 
-
+    public void SetShootCounter()
+    {
+        shootCounter = shootTime;
+    }
 
 
 

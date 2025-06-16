@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         //enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        //currentHealth = maxHealth;
+        currentHealth = maxHealth;
         player = GameObject.Find("Player");
         //enemyMovement = gameObject.GetComponent<EnemyMovement>();
     }

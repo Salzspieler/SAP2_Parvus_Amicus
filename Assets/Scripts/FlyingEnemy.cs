@@ -20,6 +20,7 @@ public class FlyingEnemy : MonoBehaviour
 
     private void Start()
     {
+        currentHealth = maxHealth;
         player = GameObject.Find("Player");
         //projectile = GameObject.Find("EnemyProjectile");
     }
@@ -67,6 +68,23 @@ public class FlyingEnemy : MonoBehaviour
     public void MoveToStartPoint()
     {
         transform.position = Vector2.MoveTowards(transform.position, startPoint.position, speed * Time.deltaTime);
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+
+    void Die()
+    {
+        //Debug.Log("Gegner ist Tot");
+        Destroy(transform.parent.gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
