@@ -359,7 +359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f46e1c819c7a72a4283d0ef7e3f5d4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 5
   wayPoints:
   - {fileID: 2278817047351627157}
   - {fileID: 6981214512727358256}

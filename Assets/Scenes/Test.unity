@@ -3933,8 +3933,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leavesCount: 0
+  croutonsCount: 0
   leaves: []
   leavesText: {fileID: 394220791}
+  croutons: []
 --- !u!4 &1076531982
 Transform:
   m_ObjectHideFlags: 0

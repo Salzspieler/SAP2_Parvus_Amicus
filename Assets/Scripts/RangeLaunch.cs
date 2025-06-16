@@ -11,7 +11,7 @@ public class RangeLaunch : MonoBehaviour
     //private GameObject player;
     //[SerializeField] Sprite newSprite;
     private Animator playeranimator;
-    private bool ReadytoLaunch = false;
+    //private bool ReadytoLaunch = false;
     private Player player;
 
     //public bool throwready; 

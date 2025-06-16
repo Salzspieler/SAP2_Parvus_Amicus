@@ -18,12 +18,12 @@ public class Leaves : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Collect();
+            CollectLeaves();
         }
         
     }
 
-    void Collect()
+    void CollectLeaves()
     {
         if(logic.leavesCount < 4)
         {

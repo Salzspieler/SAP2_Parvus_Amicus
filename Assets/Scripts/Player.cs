@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     public float jumpHeight = 5f;
     public int maxHealth = 5;
     public int currentHealth;
-    //public Healthbar healthbar;
     public Animator animator;
     private RangeLaunch rangeLaunch;
     private enum animState {idlewalk,jump, fall, hover }
@@ -33,12 +32,10 @@ public class Player : MonoBehaviour
 
     public bool KnockFromRight;
 
-    //public Sprite currentSprite;
     private CollectableLogic logic;
     [SerializeField] private float dashspeed;
     public bool isDashButtonDown = false;
-    //public float dashTime;
-    //public float dashCounter;
+
 
 
 
@@ -46,11 +43,8 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
-        //healthbar.SetMaxHealth(maxHealth);
         animator = gameObject.GetComponent<Animator>();
-        //currentSprite = GetComponent<SpriteRenderer>().sprite;
         logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
-        //dashCounter = dashTime;
         rangeLaunch = GetComponent<RangeLaunch>();
 
         rb.gravityScale = normalyGravity;
@@ -153,22 +147,18 @@ public class Player : MonoBehaviour
         
 
         //jump
-        if (!isGrounded && rb.velocity.y > 0 /*&& !animator.GetBool("HasAphid")*/)
+        if (!isGrounded && rb.velocity.y > 0 && !animator.GetBool("HasAphid"))
         {
             state = animState.jump;
             //Debug.Log("Jump Animation");
         }
-        if(!isGrounded && rb.velocity.y > 0)
+        if (!isGrounded && rb.velocity.y > 0 && animator.GetBool("HasAphid"))
         {
             state2 = animState2.jump;
         }
-        //else
-        //{
-        //    state2 = animState2.jump;
-        //}
 
         //fall
-        if (!isGrounded && rb.velocity.y <= 0 /*&& !animator.GetBool("HasAphid")*/)
+        if (!isGrounded && rb.velocity.y <= 0 && !animator.GetBool("HasAphid"))
         {
             state = animState.fall;
         }
@@ -178,7 +168,7 @@ public class Player : MonoBehaviour
         }
 
         //hover
-        if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.LeftControl) /*Input.GetKey(KeyCode.E)*/ /*&& !animator.GetBool("HasAphid")*/)
+        if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.LeftControl) /*Input.GetKey(KeyCode.E)*/ && !animator.GetBool("HasAphid"))
         {
             state = animState.hover;
         }
@@ -205,24 +195,27 @@ public class Player : MonoBehaviour
     //heilen Funktion
     public void Healing()
     {
-        //Debug.Log("Healing");
-
-        //Debug.Log("If Healing");
         logic.leavesCount--;
         logic.leavesText.text = logic.leavesCount.ToString();
         state2 = animState2.heal;
         currentHealth++;
-        //healthbar.SetHealth(currentHealth);
-        animator.SetFloat("state2", (int)state2);
-        //Debug.Log("Leaves: " + logic.leavesCount);
-
+        animator.SetInteger("state2", (int)state2);
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        //healthbar.SetHealth(currentHealth);
-        animator.SetTrigger("Hit");
+        
+        if(!animator.GetBool("HasAphid"))
+        {
+            animator.SetTrigger("Hit");
+            print("HasAphidTriggerFalse");
+        }
+        else
+        {
+            animator.SetTrigger("Hit");
+            print("HasAphidTriggerTrue");
+        }
         if (currentHealth <= 0)
         {
             Restart();
@@ -252,11 +245,4 @@ public class Player : MonoBehaviour
             isGrounded = false;
         }
     }
-
-
-    /*
-     * Input mit Shift-Taste
-     * Dash mit Rigidbody, Multiplizieren mit dashspeed und deltaTime
-     * Dashspeed muss höher sein als Speed
-     */
 }
