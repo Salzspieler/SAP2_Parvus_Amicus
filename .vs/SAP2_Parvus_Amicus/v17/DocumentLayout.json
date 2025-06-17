@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|c:\\unity\\projects\\sap2_parvus_amicus\\assets\\scripts\\collectablelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectablelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|c:\\unity\\projects\\sap2_parvus_amicus\\assets\\scripts\\crouton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crouton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|c:\\unity\\projects\\sap2_parvus_amicus\\assets\\scripts\\tongue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tongue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\leaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\aphid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\aphid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\rangelaunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,6 +23,18 @@
       "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\collectablelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectablelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\crouton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crouton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\leaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\heavyenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\heavyenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flyingenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\detectionwithcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionwithcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\aphid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\aphid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEFA7040-FFE5-9309-8FC4-7C1774821B36}|Assembly-CSharp.csproj|C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\assets\\scripts\\healthdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,24 +110,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T16:08:03.636Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Tongue.cs",
+              "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Tongue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tongue.cs",
+              "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Tongue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tongue.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T05:24:28.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Crouton.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Crouton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Crouton.cs",
@@ -131,12 +149,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Crouton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T17:46:35.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T17:46:35.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MovingPlatform.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\MovingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovingPlatform.cs",
@@ -154,13 +171,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\RangeLaunch.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\RangeLaunch.cs",
               "RelativeToolTip": "Assets\\Scripts\\RangeLaunch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T12:50:19.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
@@ -178,13 +195,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAuwNwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAmwNwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T07:11:52.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "WayPointFollower.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\WayPointFollower.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WayPointFollower.cs",
@@ -196,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Leaves.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Leaves.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Leaves.cs",
@@ -204,24 +221,23 @@
               "RelativeToolTip": "Assets\\Scripts\\Leaves.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:10:53.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T17:10:53.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Aphid.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Aphid.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Aphid.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Aphid.cs",
               "RelativeToolTip": "Assets\\Scripts\\Aphid.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwEMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T08:54:20.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DetectionWithCollider.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\DetectionWithCollider.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionWithCollider.cs",
@@ -233,20 +249,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "CollectableLogic.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\CollectableLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CollectableLogic.cs",
               "ToolTip": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\CollectableLogic.cs",
               "RelativeToolTip": "Assets\\Scripts\\CollectableLogic.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAArwCcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T20:04:19.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T20:04:19.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "FlyingEnemy.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\FlyingEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FlyingEnemy.cs",
@@ -258,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "HeavyEnemy.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\HeavyEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HeavyEnemy.cs",
@@ -270,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "HealthDisplay.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\HealthDisplay.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthDisplay.cs",
@@ -282,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "HeavyEnemyDetection.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\HeavyEnemyDetection.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HeavyEnemyDetection.cs",
@@ -294,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Water.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Water.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Water.cs",
@@ -306,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "EnemyBullet.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\EnemyBullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBullet.cs",
@@ -318,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "TitleScreen.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\TitleScreen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TitleScreen.cs",
@@ -330,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "EnemyDetection.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\EnemyDetection.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyDetection.cs",
@@ -342,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "BadObject.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BadObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BadObject.cs",
@@ -354,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "End Screen.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\End Screen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\End Screen.cs",
@@ -366,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Goal.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Goal.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Goal.cs",
@@ -378,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "BrokenObject.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\BrokenObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BrokenObject.cs",
@@ -390,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Teleporter.cs",
               "DocumentMoniker": "C:\\Unity\\Projects\\SAP2_Parvus_Amicus\\Assets\\Scripts\\Teleporter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Teleporter.cs",

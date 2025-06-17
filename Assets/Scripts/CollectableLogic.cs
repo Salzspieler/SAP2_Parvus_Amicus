@@ -11,6 +11,7 @@ public class CollectableLogic : MonoBehaviour
     public GameObject[] leaves;
     public TMP_Text leavesText;
     public GameObject[] croutons;
+    public TMP_Text croutonsText;
 
     private void Awake()
     {
@@ -36,6 +37,7 @@ public class CollectableLogic : MonoBehaviour
     public void CountCroutons()
     {
         croutonsCount++;
+        croutonsText.text = croutonsCount.ToString();
     }
     
 }

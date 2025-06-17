@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\TitleScreen.cs" />
     <Compile Include="Assets\Scripts\EnemyDetection.cs" />
     <Compile Include="Assets\Scripts\HeavyEnemyDetection.cs" />
+    <Compile Include="Assets\Scripts\Tongue.cs" />
     <Compile Include="Assets\Scripts\Boss.cs" />
     <Compile Include="Assets\Scripts\EnemyBullet.cs" />
     <Compile Include="Assets\Scripts\DetectionWithCollider.cs" />
