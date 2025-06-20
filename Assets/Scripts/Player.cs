@@ -242,6 +242,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        animator.SetTrigger("Hit");
         /*
         if(!animator.GetBool("HasAphid"))
         {
