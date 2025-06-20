@@ -1,5 +1,6 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using Unity.VisualScripting;
 
 public class Player : MonoBehaviour
 {
@@ -7,12 +8,12 @@ public class Player : MonoBehaviour
     public float speed = 5f;
     public bool isGrounded = false;
     public float jumpHeight = 5f;
-    public int maxHealth = 5;
+    public int maxHealth=3;
     public int currentHealth;
     public Animator animator;
-    private RangeLaunch rangeLaunch;
-    private enum animState {idlewalk,jump, fall, hover }
-    private enum animState2 {idlewalk,jump, hover, fall, heal}
+    [SerializeField] GameObject dashPoint;
+    private enum animState {idle, walk,jump, fall, hover }
+    private enum animState2 {idle,walk,jump, fall, hover, heal, _throw }
     private animState state;
     private animState2 state2;
     public int aphidCounter = 1;
@@ -45,7 +46,6 @@ public class Player : MonoBehaviour
         currentHealth = maxHealth;
         animator = gameObject.GetComponent<Animator>();
         logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
-        rangeLaunch = GetComponent<RangeLaunch>();
 
         rb.gravityScale = normalyGravity;
     }
@@ -86,10 +86,11 @@ public class Player : MonoBehaviour
                 rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
                 canDoubleJump = false;
             }
+
         }
 
         // Gleiten (nur beim Fallen)
-        if (!isGrounded && rb.velocity.y < 0 && Input.GetKey(KeyCode.LeftControl) /*Input.GetKey(KeyCode.E)*/)
+        if (!isGrounded && rb.velocity.y < 0 && Input.GetKey(KeyCode.Space) /*Input.GetKey(KeyCode.E)*/)
         {
             rb.gravityScale = glideGravity;
         }
@@ -111,11 +112,12 @@ public class Player : MonoBehaviour
         }
 
         //Dash
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             //Debug.Log("Dash");
             //dashCounter = dashTime;
-            isDashButtonDown = true;
+            transform.position = Vector2.MoveTowards(transform.position, dashPoint.transform.position, Time.deltaTime * dashspeed);
+            //isDashButtonDown = true;
             //Debug.Log(isDashButtonDown);
         }
         //dashCounter -= Time.deltaTime;
@@ -125,87 +127,122 @@ public class Player : MonoBehaviour
         {
             if (currentHealth < maxHealth)
             {
-                Healing();
+                animator.SetTrigger("Heal");
             }
 
         }
 
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            print("TanzButton");
+        }
+
         //Animations Logic ohne Fifi
 
+        //idle
+        if (isGrounded && !animator.GetBool("HasAphid"))
+        {
+            state = animState.idle;
+            animator.SetFloat("state_1", 0);
+        }
+
         //run
-        if (isGrounded && Input.GetAxis("Horizontal") == 0 && !animator.GetBool("HasAphid"))
+        if (isGrounded && (Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0) &&!animator.GetBool("HasAphid"))
         {
-            state = animState.idlewalk;
-            animator.SetFloat("xVelocity", rb.velocity.x);
+            state = animState.walk;
+            animator.SetFloat("state_1", 1);
         }
-        
-        else 
-        {
-            state2 = animState2.idlewalk;
-            animator.SetFloat("xVelocity", rb.velocity.x);
-        }
-        
 
         //jump
         if (!isGrounded && rb.velocity.y > 0 && !animator.GetBool("HasAphid"))
         {
             state = animState.jump;
+            animator.SetFloat("state_1", 2);
             //Debug.Log("Jump Animation");
-        }
-        if (!isGrounded && rb.velocity.y > 0 && animator.GetBool("HasAphid"))
-        {
-            state2 = animState2.jump;
         }
 
         //fall
         if (!isGrounded && rb.velocity.y <= 0 && !animator.GetBool("HasAphid"))
         {
             state = animState.fall;
-        }
-        if(!isGrounded && rb.velocity.y <= 0)
-        {
-           state2 = animState2.fall;
+            animator.SetFloat("state_1", 3);
         }
 
         //hover
-        if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.LeftControl) /*Input.GetKey(KeyCode.E)*/ && !animator.GetBool("HasAphid"))
+        if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.Space) && !animator.GetBool("HasAphid"))
         {
             state = animState.hover;
+            animator.SetFloat("state_1", 4);
         }
-        if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.LeftControl))
+
+        //Animations Logic mit Fifi
+
+        //idle
+        if (isGrounded && animator.GetBool("HasAphid"))
+        {
+            state2 = animState2.idle;
+            animator.SetFloat("state_2", 0);
+        }
+
+        //run
+        if (isGrounded && (Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0) && animator.GetBool("HasAphid"))
+        {
+            state2 = animState2.walk;
+            animator.SetFloat("state_2", 1);
+        }
+
+        //jumps
+        if (!isGrounded && rb.velocity.y > 0 && animator.GetBool("HasAphid"))
+        {
+            state2 = animState2.jump;
+            animator.SetFloat("state_2", 2);
+        }
+
+        //fall
+        if(!isGrounded && rb.velocity.y <= 0 && animator.GetBool("HasAphid"))
+        {
+           state2 = animState2.fall;
+           animator.SetFloat("state_2", 3);
+        }
+
+        //hover
+        if (!isGrounded && rb.velocity.y <= 0 && animator.GetBool("HasAphid") && Input.GetKey(KeyCode.Space))
         {
             state2 = animState2.hover;
+            animator.SetFloat("state_2", 4);
         }
 
-        animator.SetInteger("state", (int)state);
-        animator.SetInteger("state2", (int)state2);
+        animator.SetFloat("state_1", (float)state);
+        animator.SetFloat("state_2", (float)state2);
 
     }
-
+    /*
     private void FixedUpdate()
     {
         if (isDashButtonDown)
         {
             //Debug.Log("Dash Fixed");
-            rb.velocity = new Vector2(transform.localScale.x * dashspeed * Time.fixedDeltaTime, 0f);
+            //rb.velocity = new Vector2(transform.localScale.x * dashspeed * Time.fixedDeltaTime, 0f);
+            
             isDashButtonDown = false;
         }
     }
-
+    */
     //heilen Funktion
     public void Healing()
     {
         logic.leavesCount--;
         logic.leavesText.text = logic.leavesCount.ToString();
         state2 = animState2.heal;
+        animator.ResetTrigger("Heal");
         currentHealth++;
-        animator.SetInteger("state2", (int)state2);
+        
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        
+        /*
         if(!animator.GetBool("HasAphid"))
         {
             animator.SetTrigger("Hit");
@@ -216,6 +253,7 @@ public class Player : MonoBehaviour
             animator.SetTrigger("Hit");
             print("HasAphidTriggerTrue");
         }
+        */
         if (currentHealth <= 0)
         {
             Restart();
