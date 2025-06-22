@@ -132,6 +132,8 @@ public class Player : MonoBehaviour
 
         }
 
+
+        //tanzen
         if (Input.GetKeyDown(KeyCode.F))
         {
             print("TanzButton");
@@ -211,6 +213,8 @@ public class Player : MonoBehaviour
             state2 = animState2.hover;
             animator.SetFloat("state_2", 4);
         }
+
+        //tanzen
 
         animator.SetFloat("state_1", (float)state);
         animator.SetFloat("state_2", (float)state2);
