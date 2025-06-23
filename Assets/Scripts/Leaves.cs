@@ -6,13 +6,13 @@ using UnityEngine;
 
 public class Leaves : MonoBehaviour
 {
-    private CollectableLogic logic;
+    private Logic logic;
     
 
 
     private void Awake()
     {
-        logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
+        logic = GameObject.Find("CollectableLogic").GetComponent<Logic>();
     }
     void OnTriggerEnter2D(Collider2D other)
     {

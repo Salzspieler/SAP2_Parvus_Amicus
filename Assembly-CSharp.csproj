@@ -59,10 +59,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CollectableLogic.cs" />
     <Compile Include="Assets\Scripts\Water.cs" />
     <Compile Include="Assets\Scripts\HealthDisplay.cs" />
     <Compile Include="Assets\RPGTALK\Scripts\RPGTalkArea.cs" />
+    <Compile Include="Assets\Scripts\WaterSound.cs" />
     <Compile Include="Assets\Scripts\TitleScreen.cs" />
     <Compile Include="Assets\RPGTALK\Scripts\Helpers\RPGTalkLanguage.cs" />
     <Compile Include="Assets\Scripts\EnemyDetection.cs" />
@@ -80,14 +80,18 @@
     <Compile Include="Assets\RPGTALK\Scripts\Helpers\RPGTalkHelper.cs" />
     <Compile Include="Assets\Scripts\WayPointFollower.cs" />
     <Compile Include="Assets\RPGTALK\Scripts\RPGTalkCinematic\RPGTalkCinematicBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Logic.cs" />
+    <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\BadObject.cs" />
     <Compile Include="Assets\Scripts\Aphid.cs" />
+    <Compile Include="Assets\Scripts\CameraShake.cs" />
     <Compile Include="Assets\RPGTALK\Scripts\RPGTalkCinematic\RPGTalkCinematicTrack.cs" />
     <Compile Include="Assets\RPGTALK\Scripts\Helpers\RPGTalkCharacter.cs" />
     <Compile Include="Assets\RPGTALK\Scripts\RPGTalkDubSounds.cs" />
     <Compile Include="Assets\RPGTALK\Scripts\Snippets\RPGTalkSimpleAnimation.cs" />
     <Compile Include="Assets\RPGTALK\Scripts\Snippets\RPGTalkSaveInstance.cs" />
     <Compile Include="Assets\RPGTALK\Scripts\Helpers\TextWithIcon.cs" />
+    <Compile Include="Assets\Scripts\UIBossActivate.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\BrokenObject.cs" />
     <Compile Include="Assets\Scripts\Teleporter.cs" />

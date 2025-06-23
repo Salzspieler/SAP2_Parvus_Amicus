@@ -12,14 +12,12 @@ public class Player : MonoBehaviour
     public int currentHealth;
     public Animator animator;
     [SerializeField] GameObject dashPoint;
+    [SerializeField] NPCs npc;
     private enum animState {idle, walk,jump, fall, hover }
     private enum animState2 {idle,walk,jump, fall, hover, heal, _throw }
     private animState state;
     private animState2 state2;
-    public int aphidCounter = 1;
-    
-
-
+    public int aphidCounter;
 
     private bool canDoubleJump = false;
     public bool facingRight;
@@ -33,7 +31,7 @@ public class Player : MonoBehaviour
 
     public bool KnockFromRight;
 
-    private CollectableLogic logic;
+    private Logic logic;
     [SerializeField] private float dashspeed;
     public bool isDashButtonDown = false;
 
@@ -45,193 +43,183 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         animator = gameObject.GetComponent<Animator>();
-        logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
-
+        logic = GameObject.Find("CollectableLogic").GetComponent<Logic>();
+        npc = GameObject.Find("OldManSprite").GetComponent<NPCs>();
         rb.gravityScale = normalyGravity;
     }
 
     void Update()
     {
-
-        if (KBCounter <= 0)
+        if (!npc.isTalking)
         {
-            // Bewegung
-            rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
-        }
-        else
-        {
-            if (KnockFromRight == true)
+            if (KBCounter <= 0)
             {
-                rb.velocity = new Vector2(-KBForce, KBForce);
+                // Bewegung
+                rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
             }
-            if (KnockFromRight == false)
+            else
             {
-                rb.velocity = new Vector2(KBForce, KBForce);
-            }
-            KBCounter -= Time.deltaTime;
-        }
-
-
-
-        // Sprung & Double Jump
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (isGrounded)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
-                canDoubleJump = true;
-            }
-            else if (canDoubleJump)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
-                canDoubleJump = false;
+                if (KnockFromRight == true)
+                {
+                    rb.velocity = new Vector2(-KBForce, KBForce);
+                }
+                if (KnockFromRight == false)
+                {
+                    rb.velocity = new Vector2(KBForce, KBForce);
+                }
+                KBCounter -= Time.deltaTime;
             }
 
-        }
 
-        // Gleiten (nur beim Fallen)
-        if (!isGrounded && rb.velocity.y < 0 && Input.GetKey(KeyCode.Space) /*Input.GetKey(KeyCode.E)*/)
-        {
-            rb.gravityScale = glideGravity;
-        }
-        else
-        {
-            rb.gravityScale = normalyGravity;
-        }
 
-        // Drehrichtung
-        if (Input.GetAxis("Horizontal") > 0)
-        {
-            facingRight = true;
-            transform.localScale = new Vector3(1, 1, 1);
-        }
-        else if (Input.GetAxis("Horizontal") < 0)
-        {
-            facingRight = false;
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
-
-        //Dash
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            //Debug.Log("Dash");
-            //dashCounter = dashTime;
-            transform.position = Vector2.MoveTowards(transform.position, dashPoint.transform.position, Time.deltaTime * dashspeed);
-            //isDashButtonDown = true;
-            //Debug.Log(isDashButtonDown);
-        }
-        //dashCounter -= Time.deltaTime;
-
-        //heilen
-        if (Input.GetKeyDown(KeyCode.Q) && logic.leavesCount > 0)
-        {
-            if (currentHealth < maxHealth)
+            // Sprung & Double Jump
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                animator.SetTrigger("Heal");
+                if (isGrounded)
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+                    canDoubleJump = true;
+                }
+                else if (canDoubleJump)
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+                    canDoubleJump = false;
+                }
+
             }
 
+            // Gleiten (nur beim Fallen)
+            if (!isGrounded && rb.velocity.y < 0 && Input.GetKey(KeyCode.Space))
+            {
+                rb.gravityScale = glideGravity;
+            }
+            else
+            {
+                rb.gravityScale = normalyGravity;
+            }
+
+            // Drehrichtung
+            if (Input.GetAxis("Horizontal") > 0)
+            {
+                facingRight = true;
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+            else if (Input.GetAxis("Horizontal") < 0)
+            {
+                facingRight = false;
+                transform.localScale = new Vector3(-1, 1, 1);
+            }
+
+            //Dash
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+
+                transform.position = Vector2.MoveTowards(transform.position, dashPoint.transform.position, Time.deltaTime * dashspeed);
+
+            }
+
+            //heilen
+            if (Input.GetKeyDown(KeyCode.Q) && logic.leavesCount > 0)
+            {
+                if (currentHealth < maxHealth)
+                {
+                    animator.SetTrigger("Heal");
+                }
+
+            }
+
+
+            //tanzen
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                print("TanzButton");
+            }
+
+            //Animations Logic ohne Fifi
+
+            //idle
+            if (isGrounded && !animator.GetBool("HasAphid"))
+            {
+                state = animState.idle;
+                animator.SetFloat("state_1", 0);
+            }
+
+            //run
+            if (isGrounded && (Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0) && !animator.GetBool("HasAphid"))
+            {
+                state = animState.walk;
+                animator.SetFloat("state_1", 1);
+            }
+
+            //jump
+            if (!isGrounded && rb.velocity.y > 0 && !animator.GetBool("HasAphid"))
+            {
+                state = animState.jump;
+                animator.SetFloat("state_1", 2);
+                //Debug.Log("Jump Animation");
+            }
+
+            //fall
+            if (!isGrounded && rb.velocity.y <= 0 && !animator.GetBool("HasAphid"))
+            {
+                state = animState.fall;
+                animator.SetFloat("state_1", 3);
+            }
+
+            //hover
+            if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.Space) && !animator.GetBool("HasAphid"))
+            {
+                state = animState.hover;
+                animator.SetFloat("state_1", 4);
+            }
+
+            //Animations Logic mit Fifi
+
+            //idle
+            if (isGrounded && animator.GetBool("HasAphid"))
+            {
+                state2 = animState2.idle;
+                animator.SetFloat("state_2", 0);
+            }
+
+            //run
+            if (isGrounded && (Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0) && animator.GetBool("HasAphid"))
+            {
+                state2 = animState2.walk;
+                animator.SetFloat("state_2", 1);
+            }
+
+            //jumps
+            if (!isGrounded && rb.velocity.y > 0 && animator.GetBool("HasAphid"))
+            {
+                state2 = animState2.jump;
+                animator.SetFloat("state_2", 2);
+            }
+
+            //fall
+            if (!isGrounded && rb.velocity.y <= 0 && animator.GetBool("HasAphid"))
+            {
+                state2 = animState2.fall;
+                animator.SetFloat("state_2", 3);
+            }
+
+            //hover
+            if (!isGrounded && rb.velocity.y <= 0 && animator.GetBool("HasAphid") && Input.GetKey(KeyCode.Space))
+            {
+                state2 = animState2.hover;
+                animator.SetFloat("state_2", 4);
+            }
+
+            //tanzen
+
+            animator.SetFloat("state_1", (float)state);
+            animator.SetFloat("state_2", (float)state2);
+
         }
 
-
-        //tanzen
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            print("TanzButton");
-        }
-
-        //Animations Logic ohne Fifi
-
-        //idle
-        if (isGrounded && !animator.GetBool("HasAphid"))
-        {
-            state = animState.idle;
-            animator.SetFloat("state_1", 0);
-        }
-
-        //run
-        if (isGrounded && (Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0) &&!animator.GetBool("HasAphid"))
-        {
-            state = animState.walk;
-            animator.SetFloat("state_1", 1);
-        }
-
-        //jump
-        if (!isGrounded && rb.velocity.y > 0 && !animator.GetBool("HasAphid"))
-        {
-            state = animState.jump;
-            animator.SetFloat("state_1", 2);
-            //Debug.Log("Jump Animation");
-        }
-
-        //fall
-        if (!isGrounded && rb.velocity.y <= 0 && !animator.GetBool("HasAphid"))
-        {
-            state = animState.fall;
-            animator.SetFloat("state_1", 3);
-        }
-
-        //hover
-        if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.Space) && !animator.GetBool("HasAphid"))
-        {
-            state = animState.hover;
-            animator.SetFloat("state_1", 4);
-        }
-
-        //Animations Logic mit Fifi
-
-        //idle
-        if (isGrounded && animator.GetBool("HasAphid"))
-        {
-            state2 = animState2.idle;
-            animator.SetFloat("state_2", 0);
-        }
-
-        //run
-        if (isGrounded && (Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0) && animator.GetBool("HasAphid"))
-        {
-            state2 = animState2.walk;
-            animator.SetFloat("state_2", 1);
-        }
-
-        //jumps
-        if (!isGrounded && rb.velocity.y > 0 && animator.GetBool("HasAphid"))
-        {
-            state2 = animState2.jump;
-            animator.SetFloat("state_2", 2);
-        }
-
-        //fall
-        if(!isGrounded && rb.velocity.y <= 0 && animator.GetBool("HasAphid"))
-        {
-           state2 = animState2.fall;
-           animator.SetFloat("state_2", 3);
-        }
-
-        //hover
-        if (!isGrounded && rb.velocity.y <= 0 && animator.GetBool("HasAphid") && Input.GetKey(KeyCode.Space))
-        {
-            state2 = animState2.hover;
-            animator.SetFloat("state_2", 4);
-        }
-
-        //tanzen
-
-        animator.SetFloat("state_1", (float)state);
-        animator.SetFloat("state_2", (float)state2);
 
     }
-    /*
-    private void FixedUpdate()
-    {
-        if (isDashButtonDown)
-        {
-            //Debug.Log("Dash Fixed");
-            //rb.velocity = new Vector2(transform.localScale.x * dashspeed * Time.fixedDeltaTime, 0f);
-            
-            isDashButtonDown = false;
-        }
-    }
-    */
+
     //heilen Funktion
     public void Healing()
     {
@@ -247,18 +235,7 @@ public class Player : MonoBehaviour
     {
         currentHealth -= damage;
         animator.SetTrigger("Hit");
-        /*
-        if(!animator.GetBool("HasAphid"))
-        {
-            animator.SetTrigger("Hit");
-            print("HasAphidTriggerFalse");
-        }
-        else
-        {
-            animator.SetTrigger("Hit");
-            print("HasAphidTriggerTrue");
-        }
-        */
+      
         if (currentHealth <= 0)
         {
             Restart();

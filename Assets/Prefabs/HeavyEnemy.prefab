@@ -261,7 +261,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 512000455
+  m_SortingLayerID: -1978102495
   m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
@@ -364,6 +364,8 @@ MonoBehaviour:
   - {fileID: 2278817047351627157}
   - {fileID: 6981214512727358256}
   currentWaypointIndex: 0
+  DieSound: {fileID: 0}
+  ApprocheSound: {fileID: 0}
   speed: 1
   attackDamage: 2
   fastspeed: 5

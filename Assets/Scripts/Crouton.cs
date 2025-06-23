@@ -5,11 +5,11 @@ using UnityEngine;
 public class Crouton : MonoBehaviour
 {
 
-    private CollectableLogic logic;
+    private Logic logic;
 
     private void Start()
     {
-        logic = GameObject.Find("CollectableLogic").GetComponent<CollectableLogic>();
+        logic = GameObject.Find("CollectableLogic").GetComponent<Logic>();
     }
 
 

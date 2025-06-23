@@ -7,8 +7,10 @@ using UnityEngine.UI;  // Für UI-Komponenten
 public class RangeLaunch : MonoBehaviour
 {
     [SerializeField] private GameObject aphidObject;
+    [SerializeField] private Player player;
     public Transform launchPoint;
     private Animator playeranimator;
+    public bool readytoShoot = false;
 
 
     public float shootTime; // Cooldown zwischen den werfen
@@ -19,7 +21,8 @@ public class RangeLaunch : MonoBehaviour
     {
         shootCounter = shootTime;
         playeranimator = GameObject.Find("Player").GetComponent<Animator>();
-
+        player = GameObject.Find("Player").GetComponent<Player>();
+        
     }
 
     
@@ -27,24 +30,32 @@ public class RangeLaunch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (Input.GetKeyDown(KeyCode.Mouse0) && shootCounter < 0)
+        if (player.aphidCounter == 1)
         {
-            playeranimator.SetTrigger("Shoot");
-            shootCounter = shootTime;
+            readytoShoot = true;
         }
-        shootCounter -= Time.deltaTime;
+        if (readytoShoot)
+        {
+            if (Input.GetKeyDown(KeyCode.Mouse0) && shootCounter < 0)
+            {
+                playeranimator.SetTrigger("Shoot");
+                shootCounter = shootTime;
+            }
+            shootCounter -= Time.deltaTime;
 
 
-        if (shootCounter > 0)
-        {
-            playeranimator.SetBool("HasAphid", false);
-        }
-        if (shootCounter < 0)
-        {
-            playeranimator.ResetTrigger("Shoot");
-            playeranimator.SetBool("HasAphid", true);
-        }
+            if (shootCounter > 0)
+            {
+                playeranimator.SetBool("HasAphid", false);
+                readytoShoot = false;
+            }
+            if (shootCounter < 0)
+            {
+                playeranimator.ResetTrigger("Shoot");
+                playeranimator.SetBool("HasAphid", true);
+                readytoShoot = true;
+            }
+        } 
     }
 
 

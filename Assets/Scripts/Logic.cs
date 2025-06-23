@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
+using UnityEngine;
 
-public class CollectableLogic : MonoBehaviour
+public class Logic : MonoBehaviour
 {
     public int leavesCount;
     public int croutonsCount;
@@ -17,7 +16,7 @@ public class CollectableLogic : MonoBehaviour
     {
         leaves = GameObject.FindGameObjectsWithTag("Leaf");
         //croutons = null;
-        if(croutons == null)
+        if (croutons == null)
         {
             return;
         }
@@ -33,11 +32,10 @@ public class CollectableLogic : MonoBehaviour
         leavesText.text = leavesCount.ToString();
     }
 
-    
+
     public void CountCroutons()
     {
         croutonsCount++;
         croutonsText.text = croutonsCount.ToString();
     }
-    
 }
