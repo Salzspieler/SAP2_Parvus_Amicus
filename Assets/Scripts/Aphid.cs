@@ -68,6 +68,11 @@ public class Aphid : MonoBehaviour
         {
             collision.gameObject.GetComponent<HeavyEnemy>().TakeDamage(damage);
         }
+
+        if (collision.gameObject.CompareTag("Boss") == true)
+        {
+            collision.gameObject.GetComponent<Boss>().TakeDamage(damage);
+        }
         Destroy(gameObject);
     }
 

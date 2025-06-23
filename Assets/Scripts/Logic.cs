@@ -11,6 +11,10 @@ public class Logic : MonoBehaviour
     public TMP_Text leavesText;
     public GameObject[] croutons;
     public TMP_Text croutonsText;
+    public TMP_Text tutorialText1;
+    public TMP_Text tutorialText2;
+    public TMP_Text tutorialText3;
+
 
     private void Awake()
     {

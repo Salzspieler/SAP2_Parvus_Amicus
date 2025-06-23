@@ -29,9 +29,7 @@ public class NPCs : MonoBehaviour
 
     private void Awake()
     {
-        //_talkText1 = GetComponent<RPGTalk>();
-        //_talkText2 = GetComponent<RPGTalk>();
-        //_talkText3 = GetComponent<RPGTalk>();
+
         player = GameObject.Find("Player");
         rangeLaunch = GameObject.Find("Player").GetComponent<RangeLaunch>();
         target = wayPoints[currentWaypointIndex];
@@ -41,42 +39,26 @@ public class NPCs : MonoBehaviour
 
     private void Update()
     {
-        //if(rb.velocity.x < 0)
-        //{
-        //    transform.localScale = new Vector3(-1,1,1);
-        //}
 
-        //if (rb.velocity.x > 0)
-        //{
-        //    transform.localScale = new Vector3(1,1,1);
-        //}
         if (!isPaused)
         {
             //next Waypoint logic
             MoveToNextWaypoint();
-            //print("WaypointIndex: "+currentWaypointIndex);
 
 
             if (currentWaypointIndex == 13 && !talkTextBool2)
             {
                 isPaused = true;
                 MoveToNextWaypoint();
-                //print("13" + isPaused);
-                print("MiddlePoint");
+
+
             }
 
             if (currentWaypointIndex == 28 && !talkTextBool3)
             {
                 isPaused = true;
-                //MoveToNextWaypoint();
-                print("EndPoint");
             }
-
-            
         }
-
-        
-
     }
 
 
@@ -87,9 +69,10 @@ public class NPCs : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-
+            
             switch (currentWaypointIndex)
             {
+                //erster Dialog starten
                 case 0:
                     print("TalkText1");
                     _talkText1.enabled = true;
@@ -99,6 +82,7 @@ public class NPCs : MonoBehaviour
                     isTalking = true;
                     other.gameObject.GetComponent<Rigidbody2D>().simulated = false;
                     break;
+                //zweiter Dialog starten
                 case 13:
                     talkTextBool2 = true;
                     _talkText2.enabled = true;
@@ -108,6 +92,7 @@ public class NPCs : MonoBehaviour
                     other.gameObject.GetComponent<Rigidbody2D>().simulated = false;
                     print("MiddlePoint");
                     break;
+                //dritter Dialog starten
                 case 28:
                     talkTextBool3 = true;
                     _talkText3.enabled = true;
@@ -124,7 +109,7 @@ public class NPCs : MonoBehaviour
     }
 
 
-
+    //erster Dialog 
     public void FirstConversation()
     {
         alreadyTalked = true;
@@ -135,6 +120,7 @@ public class NPCs : MonoBehaviour
         player.GetComponent<Rigidbody2D>().simulated = true;
     }
 
+    //zweiter Dialog
     public void SecondConversation()
     {
         alreadyTalked = true;
@@ -145,6 +131,7 @@ public class NPCs : MonoBehaviour
         player.GetComponent<Rigidbody2D>().simulated = true;
     }
 
+    //dritter Dialog
     public void ThirdConversation()
     {
         alreadyTalked = true;
@@ -159,6 +146,7 @@ public class NPCs : MonoBehaviour
         Destroy(gameObject);
     }
 
+    //zum nächsten Waypoint
     private void MoveToNextWaypoint()
     {
        

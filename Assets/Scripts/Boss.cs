@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
@@ -12,10 +13,12 @@ public class Boss : MonoBehaviour
     public float fastspeed;
     public bool playerDetected = false;
     [SerializeField]private GameObject goal;
+    public Slider slider;
 
     private void Start()
     {
         currentHealth = maxHealth;
+        SetMaxHealth(maxHealth);
         player = GameObject.Find("Player");
         if (goal == null)
         {
@@ -36,6 +39,7 @@ public class Boss : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        SetHealth(currentHealth);
 
         if (currentHealth <= 0)
         {
@@ -52,7 +56,17 @@ public class Boss : MonoBehaviour
         Destroy(transform.parent.gameObject);
     }
 
+    public void SetMaxHealth(int health)
+    {
+        slider.maxValue = health;
+        slider.value = health;
+    }
 
+
+    public void SetHealth(int health)
+    {
+        slider.value = health;
+    }
 
     public void MoveToPlayer()
     {

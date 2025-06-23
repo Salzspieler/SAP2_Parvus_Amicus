@@ -15,6 +15,7 @@ TagManager:
   - FlyingEnemy
   - HardEnemy
   - Croutons
+  - Boss
   layers:
   - Default
   - TransparentFX

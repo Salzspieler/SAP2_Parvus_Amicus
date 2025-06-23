@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class HeavyEnemyDetection : MonoBehaviour
 {
-    [SerializeField]private GameObject boss;
+    [SerializeField]private GameObject bigEnemy;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             //Debug.Log("Spieler Gefunden");
-            boss.GetComponent<Boss>().playerDetected = true;
+            bigEnemy.GetComponent<Boss>().playerDetected = true;
         }
     }
 
@@ -20,7 +20,7 @@ public class HeavyEnemyDetection : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             //Debug.Log("Spieler verloren");
-            boss.GetComponent<Boss>().playerDetected = false;
+            bigEnemy.GetComponent<Boss>().playerDetected = false;
         }
     }
 }

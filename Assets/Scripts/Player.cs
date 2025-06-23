@@ -11,8 +11,8 @@ public class Player : MonoBehaviour
     public int maxHealth=3;
     public int currentHealth;
     public Animator animator;
-    [SerializeField] GameObject dashPoint;
-    [SerializeField] NPCs npc;
+    [SerializeField]private GameObject dashPoint;
+    [SerializeField]private GameObject npc;
     private enum animState {idle, walk,jump, fall, hover }
     private enum animState2 {idle,walk,jump, fall, hover, heal, _throw }
     private animState state;
@@ -44,13 +44,17 @@ public class Player : MonoBehaviour
         currentHealth = maxHealth;
         animator = gameObject.GetComponent<Animator>();
         logic = GameObject.Find("CollectableLogic").GetComponent<Logic>();
-        npc = GameObject.Find("OldManSprite").GetComponent<NPCs>();
+        npc = GameObject.Find("OldManSprite");
         rb.gravityScale = normalyGravity;
+        if(npc == null)
+        {
+            return;
+        }
     }
 
     void Update()
     {
-        if (!npc.isTalking)
+        if ( npc == null || !npc.GetComponent<NPCs>().isTalking)
         {
             if (KBCounter <= 0)
             {

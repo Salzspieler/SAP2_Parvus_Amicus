@@ -11,7 +11,8 @@ public class Tongue : MonoBehaviour
     {
         player = GameObject.Find("Player");
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
