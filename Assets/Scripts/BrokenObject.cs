@@ -11,6 +11,10 @@ public class BrokenObject : MonoBehaviour
     {
         if (other.CompareTag("Player") == true)
         {
+            // Kamera wackeln lassen
+            //StartCoroutine(CameraShake.instance.Shake(0.3f, 0.2f));
+
+            // Objekt zerstören
             Destroy(gameObject);
         }
         

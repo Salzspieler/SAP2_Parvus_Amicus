@@ -9,11 +9,14 @@ public class HeavyEnemy : MonoBehaviour
     private int currentHealth;
     [SerializeField] GameObject[] wayPoints;
     [SerializeField] private int currentWaypointIndex = 0;
+    [SerializeField] private AudioClip DieSound;
+    [SerializeField] private AudioClip ApprocheSound;
     public float speed = 3f;
     private GameObject player;
     public int attackDamage;
     public float fastspeed;
     public bool playerDetected = false;
+    float volume = 1f;
 
     private void Start()
     {
@@ -27,6 +30,7 @@ public class HeavyEnemy : MonoBehaviour
         if (playerDetected)
         {
             MoveToPlayer();
+            SoundManager.instance.PlaySound(ApprocheSound, volume = 0.08f);
         }
         else
         {
@@ -56,6 +60,7 @@ public class HeavyEnemy : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+            SoundManager.instance.PlaySound(DieSound, volume = 0.08f);
         }
     }
 

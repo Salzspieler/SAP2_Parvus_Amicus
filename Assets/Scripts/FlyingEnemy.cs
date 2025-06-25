@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class FlyingEnemy : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class FlyingEnemy : MonoBehaviour
     public bool playerDetected = false;
     [SerializeField]private GameObject projectile;
     [SerializeField]private Transform launchPoint;
+    [SerializeField]private AudioClip ApprocheSound;
+    float volume = 1f;
 
     private float timer;
 
@@ -37,12 +40,14 @@ public class FlyingEnemy : MonoBehaviour
             if (timer <= 2)
             {
                 AttackPlayer();
+                SoundManager.instance.PlaySound(ApprocheSound, volume = 0.08f);
             }
             //schießen und mit Zeit, zwischen den Schüssen
             else if(timer > 2)
             {
                 timer = 0;
                 ShootPlayer();
+                SoundManager.instance.PlaySound(ApprocheSound, volume = 0.08f);
             }
 
 

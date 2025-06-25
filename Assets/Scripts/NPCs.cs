@@ -142,8 +142,10 @@ public class NPCs : MonoBehaviour
         player.GetComponent<Rigidbody2D>().simulated = true;
         player.GetComponent<Player>().aphidCounter = 1;
         logic.leavesCount += 2;
+        //logic.fifiCutScene.SetActive(true);
         logic.leavesText.text = logic.leavesCount.ToString();
         Destroy(gameObject);
+        //logic.fifiCutScene.SetActive(false);
     }
 
     //zum nächsten Waypoint

@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     public Animator animator;
     [SerializeField]private GameObject dashPoint;
     [SerializeField]private GameObject npc;
-    private enum animState {idle, walk,jump, fall, hover }
+    private enum animState {cutScene, idle, walk,jump, fall, hover }
     private enum animState2 {idle,walk,jump, fall, hover, heal, _throw }
     private animState state;
     private animState2 state2;
@@ -34,6 +34,9 @@ public class Player : MonoBehaviour
     private Logic logic;
     [SerializeField] private float dashspeed;
     public bool isDashButtonDown = false;
+    [SerializeField] private AudioClip HealSound;
+    [SerializeField] private AudioClip JumpSound;
+    [SerializeField] private AudioClip DanceSound;
 
 
 
@@ -46,10 +49,13 @@ public class Player : MonoBehaviour
         logic = GameObject.Find("CollectableLogic").GetComponent<Logic>();
         npc = GameObject.Find("OldManSprite");
         rb.gravityScale = normalyGravity;
-        if(npc == null)
+        //CutScene
+        state = animState.cutScene;
+        if (npc == null)
         {
             return;
         }
+        
     }
 
     void Update()
@@ -89,7 +95,7 @@ public class Player : MonoBehaviour
                     rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
                     canDoubleJump = false;
                 }
-
+             //   SoundManager.instance.PlaySound(JumpSound, 0.08f);
             }
 
             // Gleiten (nur beim Fallen)
@@ -129,6 +135,7 @@ public class Player : MonoBehaviour
                 {
                     animator.SetTrigger("Heal");
                 }
+                SoundManager.instance.PlaySound(HealSound,0.08f);
 
             }
 
@@ -136,7 +143,9 @@ public class Player : MonoBehaviour
             //tanzen
             if (Input.GetKeyDown(KeyCode.T))
             {
-                print("TanzButton");
+                //print("TanzButton");
+                SoundManager.instance.PlaySound(DanceSound, 0.08f);
+                animator.SetTrigger("Dance");
             }
 
             //Animations Logic ohne Fifi
@@ -145,21 +154,21 @@ public class Player : MonoBehaviour
             if (isGrounded && !animator.GetBool("HasAphid"))
             {
                 state = animState.idle;
-                animator.SetFloat("state_1", 0);
+                animator.SetFloat("state_1", 1);
             }
 
             //run
             if (isGrounded && (Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0) && !animator.GetBool("HasAphid"))
             {
                 state = animState.walk;
-                animator.SetFloat("state_1", 1);
+                animator.SetFloat("state_1", 2);
             }
 
             //jump
             if (!isGrounded && rb.velocity.y > 0 && !animator.GetBool("HasAphid"))
             {
                 state = animState.jump;
-                animator.SetFloat("state_1", 2);
+                animator.SetFloat("state_1", 3);
                 //Debug.Log("Jump Animation");
             }
 
@@ -167,14 +176,14 @@ public class Player : MonoBehaviour
             if (!isGrounded && rb.velocity.y <= 0 && !animator.GetBool("HasAphid"))
             {
                 state = animState.fall;
-                animator.SetFloat("state_1", 3);
+                animator.SetFloat("state_1", 4);
             }
 
             //hover
             if (!isGrounded && rb.velocity.y <= 0 && Input.GetKey(KeyCode.Space) && !animator.GetBool("HasAphid"))
             {
                 state = animState.hover;
-                animator.SetFloat("state_1", 4);
+                animator.SetFloat("state_1", 5);
             }
 
             //Animations Logic mit Fifi
@@ -244,6 +253,11 @@ public class Player : MonoBehaviour
         {
             Restart();
         }
+    }
+
+    public void EndDance()
+    {
+        DanceSound.UnloadAudioData();
     }
 
 

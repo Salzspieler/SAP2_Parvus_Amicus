@@ -7,6 +7,7 @@ using UnityEngine.UI;  // Für UI-Komponenten
 public class RangeLaunch : MonoBehaviour
 {
     [SerializeField] private GameObject aphidObject;
+    [SerializeField] private AudioClip ThrowSound;
     [SerializeField] private Player player;
     public Transform launchPoint;
     private Animator playeranimator;
@@ -40,6 +41,7 @@ public class RangeLaunch : MonoBehaviour
             {
                 playeranimator.SetTrigger("Shoot");
                 shootCounter = shootTime;
+               // SoundManager.instance.PlaySound(ThrowSound, 0.08f);
             }
             shootCounter -= Time.deltaTime;
 

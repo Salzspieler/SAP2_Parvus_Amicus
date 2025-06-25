@@ -12,6 +12,7 @@ public class Aphid : MonoBehaviour
     public float aphidLife; // wie lange die Blattlaus lebt
     public float aphidCount; //zählt runter wann die Blattlaus zerstört wird
     public bool facingRight;
+    [SerializeField] private AudioClip TrefferSound;
 
 
 
@@ -57,27 +58,26 @@ public class Aphid : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy") == true)
         {
             collision.gameObject.GetComponent<Enemy>().TakeDamage(damage);
+            SoundManager.instance.PlaySound(TrefferSound);
         }
 
         if (collision.gameObject.CompareTag("FlyingEnemy") == true)
         {
             collision.gameObject.GetComponent<FlyingEnemy>().TakeDamage(damage);
+            SoundManager.instance.PlaySound(TrefferSound);
         }
 
         if (collision.gameObject.CompareTag("HardEnemy") == true)
         {
             collision.gameObject.GetComponent<HeavyEnemy>().TakeDamage(damage);
+            SoundManager.instance.PlaySound(TrefferSound);
         }
 
         if (collision.gameObject.CompareTag("Boss") == true)
         {
             collision.gameObject.GetComponent<Boss>().TakeDamage(damage);
+            SoundManager.instance.PlaySound(TrefferSound);
         }
         Destroy(gameObject);
     }
-
-
-
-    
-
 }

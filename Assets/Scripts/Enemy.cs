@@ -11,10 +11,13 @@ public class Enemy : MonoBehaviour
     //SerializeField macht das "privat" Variablen angzeigt werden, bei anderen Scripten oder Unity
     [SerializeField] private GameObject[] wayPoints;
     [SerializeField] private int currentWaypointIndex = 0;
+    [SerializeField] private AudioClip ApprocheSound;
+    [SerializeField] private AudioClip DieSound;
     public float speed = 3f;
     private GameObject player;
     public int attackDamage;
     private float distance;
+    float volume = 1f;
 
 
     private void Start()
@@ -34,6 +37,7 @@ public class Enemy : MonoBehaviour
         {
             //Debug.Log("Spieler gefunden");
             MoveToPlayer();
+            SoundManager.instance.PlaySound(ApprocheSound, volume = 0.08f);
         }
         else
         {
@@ -49,6 +53,7 @@ public class Enemy : MonoBehaviour
         if(currentHealth <= 0)
         {
             Die();
+            SoundManager.instance.PlaySound(DieSound, volume = 0.08f);
         }
     }
     
